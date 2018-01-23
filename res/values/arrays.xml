@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="appwidget_contacts_clickActions">
+        <item>@string/action_viewQuickContactBadge</item>
+        <item>@string/action_viewContactDetails</item>
+        <item>@string/action_viewContactHistory</item>
+        <item>@string/action_selectNumberToCall</item>
+        <item>@string/action_callDefaultNumber</item>
+        <item>@string/menu_sendMessage</item>
+        <item>@string/menu_sendMail</item>
+    </string-array>
+    <string-array name="callFilterActions">
+        <item>Intercept</item>
+        <item>Allows</item>
+        <item>Silence</item>
+    </string-array>
+    <string-array name="callFilterActions2">
+        <item>@string/callFilterActionIntercept</item>
+        <item>@string/callFilterActionInterceptAndNotify</item>
+        <item>@string/callFilterActionAllows</item>
+        <item>@string/callFilterActionSilence</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Group filter</item>
+        <item>Number filter</item>
+        <item>Recently contacted phone number</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Select groups for filter</item>
+        <item>Input number for filter</item>
+        <item>Select the valid duration</item>
+    </string-array>
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
+    </integer-array>
+    <integer-array name="contact_sort_order_transform">
+        <item>2</item>
+        <item>7</item>
+        <item>1</item>
+        <item>9</item>
+        <item>6</item>
+        <item>5</item>
+        <item>11</item>
+        <item>3</item>
+        <item>4</item>
+        <item>8</item>
+        <item>10</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="efp__size_units">
+        <item>B</item>
+        <item>kB</item>
+        <item>mB</item>
+        <item>gB</item>
+        <item>tB</item>
+        <item>pB</item>
+    </string-array>
+    <string-array name="efp__sorting_types">
+        <item>By name, ascending</item>
+        <item>By name, descending</item>
+        <item>By size, ascending</item>
+        <item>By size, descending</item>
+        <item>By date, ascending</item>
+        <item>By date, descending</item>
+    </string-array>
+    <array name="letter_tile_colors">
+        <item>#ffdb4437</item>
+        <item>#ffe91e63</item>
+        <item>#ff9c27b0</item>
+        <item>#ff673ab7</item>
+        <item>#ff3f51b5</item>
+        <item>#ff4285f4</item>
+        <item>#ff039be5</item>
+        <item>#ff0097a7</item>
+        <item>#ff009688</item>
+        <item>#ff0f9d58</item>
+        <item>#ff689f38</item>
+        <item>#ffef6c00</item>
+        <item>#ffff5722</item>
+        <item>#ff757575</item>
+    </array>
+    <integer-array name="name_display_order_transform">
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="prefEntries_email_to">
+        <item>Default Email Address</item>
+        <item>All Email Addresses</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Default or First Mobile Number</item>
+        <item>All Mobile Numbers</item>
+        <item>All Numbers</item>
+    </string-array>
+    <string-array name="prefValues_send_to">
+        <item>pri</item>
+        <item>all</item>
+    </string-array>
+    <string-array name="prefValues_sms_mms_send_to">
+        <item>pri</item>
+        <item>all_mobile</item>
+        <item>all</item>
+    </string-array>
+    <string-array name="pref_entriesInformationNeedShowInInCall">
+        <item>@string/full_name</item>
+        <item>@string/nicknameLabelsGroup</item>
+        <item>@string/organizationLabelsGroup</item>
+        <item>@string/groupsLabel</item>
+        <item>@string/relationLabelsGroup</item>
+        <item>@string/phoneNumberLabel</item>
+        <item>@string/header_phone_entry</item>
+        <item>@string/postal_address</item>
+        <item>@string/label_notes</item>
+        <item>@string/contact_pictures</item>
+        <item>@string/last_contact_time</item>
+        <item>@string/positionInQuickDial</item>
+        <item>@string/text_message</item>
+        <item>@string/recentCallsIconLabel</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Organization</item>
+        <item>Address</item>
+        <item>Phone</item>
+        <item>Email</item>
+        <item>Notes</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>Every day</item>
+        <item>Every two days</item>
+        <item>Every three days</item>
+        <item>Every four days</item>
+        <item>Every five days</item>
+        <item>Every six days</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+    <string-array name="pref_entries_byThemeOnOff">
+        <item>@string/byTheme</item>
+        <item>@string/on</item>
+        <item>@string/off</item>
+    </string-array>
+    <string-array name="pref_entries_clickTheActions">
+        <item>@string/action_viewItemAuto</item>
+        <item>@string/action_viewContactDetails</item>
+        <item>@string/action_viewContactHistory</item>
+        <item>@string/action_viewQuickContactBadge</item>
+        <item>@string/action_callCurrentNumber</item>
+        <item>@string/action_callDefaultNumber</item>
+        <item>@string/action_callUsingSIP</item>
+        <item>@string/action_sendMessageToCurrentNumber</item>
+        <item>@string/action_sendMessageToDefaultNumber</item>
+        <item>@string/menu_sendMail</item>
+        <item>@string/menu_editContact</item>
+        <item>@string/menu_editNotes</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Search all fields</item>
+        <item>Search all contacts</item>
+        <item>Search in Global Address List</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Center</item>
+        <item>Center crop</item>
+        <item>Center inside</item>
+        <item>Fit center</item>
+        <item>Fit XY</item>
+    </string-array>
+    <string-array name="pref_entries_contact_sort_order">
+        <item>@string/name_given</item>
+        <item>@string/name_phonetic_given</item>
+        <item>@string/name_family</item>
+        <item>@string/contact_sort_order_FamilynameAlternate</item>
+        <item>@string/name_phonetic_family</item>
+        <item>@string/nicknameLabelsGroup</item>
+        <item>@string/contact_sort_order_LongTimeNotContacted</item>
+        <item>@string/contact_sort_order_RecentContacted</item>
+        <item>@string/favoritesFrequentContacted</item>
+        <item>@string/contact_sort_order_CreationTime</item>
+        <item>@string/contact_sort_order_DefaultAlternate</item>
+        <item>@string/Default</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF Tone</item>
+        <item>Click Tone</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Dial/Input/Delete</item>
+        <item>Delete/Input/Dial</item>
+        <item>Input/Delete/Dial</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>On</item>
+        <item>Off</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="pref_entries_language">
+        <item>@string/Default</item>
+        <item>English</item>
+        <item>Český</item>
+        <item>Deutsch</item>
+        <item>Español</item>
+        <item>Française</item>
+        <item>Indonesia</item>
+        <item>Italiano</item>
+        <item>Magyar</item>
+        <item>Nederlands</item>
+        <item>Polska</item>
+        <item>Português</item>
+        <item>Portugués de Brasil</item>
+        <item>Român</item>
+        <item>Slovenčina</item>
+        <item>Slovenščina</item>
+        <item>Svenska</item>
+        <item>Türk</item>
+        <item>Ελληνικά</item>
+        <item>Български</item>
+        <item>Русский</item>
+        <item>Српски језик</item>
+        <item>Українське</item>
+        <item>עברית</item>
+        <item>العربية</item>
+        <item>हिंदी</item>
+        <item>한국어</item>
+        <item>日本語</item>
+        <item>中文(繁體)</item>
+        <item>中文(简体)</item>
+    </string-array>
+    <string-array name="pref_entries_mergeCallLogBy">
+        <item>@string/off</item>
+        <item>@string/byContact</item>
+        <item>@string/byNumber</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Given name</item>
+        <item>Family name</item>
+        <item>Middle name</item>
+        <item>Name prefix</item>
+        <item>Name suffix</item>
+        <item>Phonetic given name</item>
+        <item>Phonetic family name</item>
+        <item>Phonetic middle name</item>
+    </string-array>
+    <string-array name="pref_entries_name_display_order">
+        <item>@string/display_options_view_given_name_first</item>
+        <item>@string/display_options_view_family_name_first</item>
+        <item>@string/nicknameLabelsGroup</item>
+        <item>@string/Default</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+        <item>2 days</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Top</item>
+        <item>Center</item>
+        <item>Bottom</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Bcc</item>
+        <item>Cc</item>
+        <item>To</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Numbers</item>
+        <item>Company</item>
+        <item>Title</item>
+        <item>Groups</item>
+        <item>Account icon</item>
+        <item>Contact pictures</item>
+        <item>Email button</item>
+        <item>SMS button</item>
+        <item>Dial button</item>
+        <item>Notes</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Groups</item>
+        <item>Companies</item>
+        <item>Titles</item>
+    </string-array>
+    <string-array name="pref_entries_t9_language">
+        <item>System default</item>
+        <item>English</item>
+        <item>Český</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Español</item>
+        <item>Française</item>
+        <item>Íslenska</item>
+        <item>Italiano</item>
+        <item>Latviešu</item>
+        <item>Magyar</item>
+        <item>Nederlands</item>
+        <item>Polska</item>
+        <item>Português do Brasil</item>
+        <item>Român</item>
+        <item>Slovenčina</item>
+        <item>Slovenščina</item>
+        <item>Svenska</item>
+        <item>Türk</item>
+        <item>Ελληνικά</item>
+        <item>Български</item>
+        <item>Русский</item>
+        <item>Српски језик</item>
+        <item>Українське</item>
+        <item>עברית</item>
+        <item>العربية</item>
+        <item>فارسی</item>
+        <item>한국어</item>
+        <item>日本語(カタカナ)</item>
+        <item>日本語(ひらがな)</item>
+        <item>中文(注音1)</item>
+        <item>中文(注音2)</item>
+        <item>中文(拼音)</item>
+    </string-array>
+    <string-array name="pref_entryValuesInformationNeedShowInInCall">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>2048</item>
+        <item>8192</item>
+        <item>16</item>
+        <item>32</item>
+        <item>64</item>
+        <item>128</item>
+        <item>256</item>
+        <item>4096</item>
+        <item>512</item>
+        <item>1024</item>
+    </string-array>
+    <string-array name="pref_values_backupCycle">
+        <item>86400000</item>
+        <item>172800000</item>
+        <item>259200000</item>
+        <item>345600000</item>
+        <item>432000000</item>
+        <item>518400000</item>
+        <item>604800000</item>
+        <item>2592000000</item>
+    </string-array>
+    <string-array name="pref_values_byThemeOnOff">
+        <item>DEFAULT</item>
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_values_clickTheActions">
+        <item>VIEW</item>
+        <item>VIEW_CONTACT</item>
+        <item>VIEW_HISTORY</item>
+        <item>VIEW_QUICK_CONTACT_BADGE</item>
+        <item>CALL_CURRENT_NUMBER</item>
+        <item>CALL_DEFAULT_NUMBER</item>
+        <item>CALL_USING_SIP</item>
+        <item>SMS_TO_CURRENT_NUMBER</item>
+        <item>SMS_TO_DEFAULT_NUMBER</item>
+        <item>SEND_EMAIL</item>
+        <item>EDIT_CONTACT</item>
+        <item>EDIT_NOTES</item>
+    </string-array>
+    <string-array name="pref_values_contactPictureZoomMode">
+        <item>CENTER</item>
+        <item>CENTER_CROP</item>
+        <item>CENTER_INSIDE</item>
+        <item>FIT_CENTER</item>
+        <item>FIT_XY</item>
+    </string-array>
+    <string-array name="pref_values_contact_sort_order">
+        <item>2</item>
+        <item>7</item>
+        <item>1</item>
+        <item>9</item>
+        <item>6</item>
+        <item>5</item>
+        <item>11</item>
+        <item>3</item>
+        <item>4</item>
+        <item>8</item>
+        <item>10</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="pref_values_dialerPadTone">
+        <item>DTMF</item>
+        <item>MONO</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_values_dialpadIconsArrangement">
+        <item>DIAL_INPUT_DELETE</item>
+        <item>DELETE_INPUT_DIAL</item>
+        <item>INPUT_DELETE_DIAL</item>
+    </string-array>
+    <string-array name="pref_values_hideTab">
+        <item>on</item>
+        <item>off</item>
+        <item>auto</item>
+    </string-array>
+    <string-array name="pref_values_ints">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="pref_values_language">
+        <item>default</item>
+        <item>en</item>
+        <item>cs</item>
+        <item>de</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>in</item>
+        <item>it</item>
+        <item>hu</item>
+        <item>nl</item>
+        <item>pl</item>
+        <item>pt_PT</item>
+        <item>pt_BR</item>
+        <item>ro</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>sv</item>
+        <item>tr</item>
+        <item>el</item>
+        <item>bg</item>
+        <item>ru</item>
+        <item>sr</item>
+        <item>uk</item>
+        <item>iw</item>
+        <item>ar</item>
+        <item>hi</item>
+        <item>ko</item>
+        <item>ja</item>
+        <item>zh_TW</item>
+        <item>zh_CN</item>
+    </string-array>
+    <string-array name="pref_values_mark">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+        <item>64</item>
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>16384</item>
+        <item>32768</item>
+        <item>65536</item>
+        <item>131072</item>
+        <item>262144</item>
+        <item>524288</item>
+        <item>1048576</item>
+        <item>2097152</item>
+        <item>4194304</item>
+        <item>8388608</item>
+        <item>16777216</item>
+        <item>33554432</item>
+        <item>67108864</item>
+        <item>134217728</item>
+        <item>268435456</item>
+        <item>536870912</item>
+        <item>1073741824</item>
+        <item>2147483648</item>
+    </string-array>
+    <string-array name="pref_values_mergeCallLogBy">
+        <item>OFF</item>
+        <item>BY_CONTACT</item>
+        <item>BY_NUMBER</item>
+    </string-array>
+    <string-array name="pref_values_name_display_order">
+        <item>given_name_first</item>
+        <item>family_name_first</item>
+        <item>nickname</item>
+        <item>default</item>
+    </string-array>
+    <string-array name="pref_values_notificationTime">
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1500000</item>
+        <item>1800000</item>
+        <item>2700000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+        <item>172800000</item>
+        <item>604800000</item>
+    </string-array>
+    <string-array name="pref_values_quickJumpAlignment">
+        <item>TOP</item>
+        <item>CENTER</item>
+        <item>BOTTOM</item>
+    </string-array>
+    <string-array name="pref_values_recipients_location">
+        <item>bcc</item>
+        <item>cc</item>
+        <item>to</item>
+    </string-array>
+    <string-array name="pref_values_t9_language">
+        <item>default</item>
+        <item>en</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>de</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>is</item>
+        <item>it</item>
+        <item>lv</item>
+        <item>hu</item>
+        <item>nl</item>
+        <item>pl</item>
+        <item>pt_BR</item>
+        <item>ro</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>sv</item>
+        <item>tr</item>
+        <item>el</item>
+        <item>bg</item>
+        <item>ru</item>
+        <item>sr</item>
+        <item>uk</item>
+        <item>iw</item>
+        <item>ar</item>
+        <item>fa</item>
+        <item>ko</item>
+        <item>ja_KA</item>
+        <item>ja</item>
+        <item>zh_TW</item>
+        <item>zh_TW2</item>
+        <item>zh</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal or Credit Card</item>
+        <item>Recommend to friends</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Register this software to your google account (buy and install the Pro version via Google Play). After installing Pro version, please uninstall the Free version.</item>
+        <item>Register this software to device serial number: %s. After payment process, you will get a confirmation email with your registration code. Afterwards check registration via single-click on [Online registration check].</item>
+        <item>Get a free registration code</item>
+    </string-array>
+    <string-array name="snooze_dismiss_descriptions">
+        <item>@string/alarm_alert_dismiss_text</item>
+        <item>@null</item>
+        <item>@string/alarm_alert_snooze_text</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="snooze_dismiss_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </string-array>
+    <array name="snooze_dismiss_drawables">
+        <item>@drawable/ic_alarm_alert_dismiss</item>
+        <item>@null</item>
+        <item>@drawable/ic_alarm_alert_snooze</item>
+        <item>@null</item>
+    </array>
+    <string-array name="t9_keyboard">
+        <item>+</item>
+        <item>"' . ,"</item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+    </string-array>
+    <string-array name="t9_keyboard_ar">
+        <item>+</item>
+        <item>"' . ,"</item>
+        <item>ب ت ة ث</item>
+        <item>ا أ إ آ ى ء</item>
+        <item>س ش ص ض</item>
+        <item>د ذ ر ز</item>
+        <item>ج ح خ</item>
+        <item>ن ه و ي ؤ ئ</item>
+        <item>ف ق ك ل م</item>
+        <item>ط ظ ع غ</item>
+    </string-array>
+    <string-array name="t9_keyboard_bg">
+        <item>+</item>
+        <item>"' . ,"</item>
+        <item>АБВГ</item>
+        <item>ДЕЖЗ</item>
+        <item>ИЙКЛ</item>
+        <item>МНОП</item>
+        <item>РСТУ</item>
+        <item>ФХЦЧ</item>
+        <item>ШЩЬЪ</item>
+        <item>ЮЯ</item>
+    </string-array>
+    <string-array name="t9_keyboard_de">
+        <item>+</item>
+        <item>"' . ,"</item>
+        <item>AÄBC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNOÖ</item>
+        <item>PQRS</item>
+        <item>TUÜV</item>
+        <item>WXYZ</item>
+    </string-array>
+    <string-array name="t9_keyboard_el">
+        <item>+</item>
+        <item>"' . ,"</item>
+        <item>ΑΒΓ</item>
+        <item>ΔΕΖΈ</item>
+        <item>ΗΘΙ</item>
+        <item>ΚΛΜ</item>
+        <item>ΝΞΟ</item>
+        <item>ΠΡΣ</item>
+        <item>ΤΥΦ</item>
+        <item>ΧΨΩ</item>
+    </string-array>
+    <string-array name="t9_keyboard_fa">
+        <item>+</item>
+        <item>.،</item>
+        <item>ب‌پ‌ت‌ث</item>
+        <item>اآ</item>
+        <item>س‌ش‌ص‌ض</item>
+        <item>دذرزژ</item>
+        <item>ج‌چ‌ح‌خ</item>
+        <item>ن‌و‌ه‌ی</item>
+        <item>ف‌ق‌ک‌گ‌ل‌م</item>
+        <item>ط‌ظ‌ع‌غ</item>
+    </string-array>
+    <string-array name="t9_keyboard_is">
+        <item>+</item>
+        <item>"' . ,"</item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZÞ</item>
+    </string-array>
+    <string-array name="t9_keyboard_iw">
+        <item>+</item>
+        <item>"' . ,"</item>
+        <item>דהו</item>
+        <item>אבג</item>
+        <item>מנ</item>
+        <item>יכל</item>
+        <item>זחט</item>
+        <item>רשת</item>
+        <item>צק</item>
+        <item>סעפ</item>
+    </string-array>
+    <string-array name="t9_keyboard_ja">
+        <item>+わ-</item>
+        <item>"'.,あ"</item>
+        <item>ABCか</item>
+        <item>DEFさ</item>
+        <item>GHIた</item>
+        <item>JKLな</item>
+        <item>MNOは</item>
+        <item>PQRSま</item>
+        <item>TUVや</item>
+        <item>WXYZら</item>
+    </string-array>
+    <string-array name="t9_keyboard_ja_ka">
+        <item>+ワ-</item>
+        <item>"'.,ア"</item>
+        <item>ABCカ</item>
+        <item>DEFサ</item>
+        <item>GHIタ</item>
+        <item>JKLナ</item>
+        <item>MNOハ</item>
+        <item>PQRSマ</item>
+        <item>TUVヤ</item>
+        <item>WXYZラ</item>
+    </string-array>
+    <string-array name="t9_keyboard_ko">
+        <item>+ㅇㅁ</item>
+        <item>"'., ㅣ"</item>
+        <item>ㅏ</item>
+        <item>ㅡ</item>
+        <item>ㄱㅋ</item>
+        <item>ㄴㄹ</item>
+        <item>ㄷㅌ</item>
+        <item>ㅂㅍ</item>
+        <item>ㅅㅎ</item>
+        <item>ㅈㅊ</item>
+    </string-array>
+    <string-array name="t9_keyboard_ru">
+        <item>+</item>
+        <item>"' . ,"</item>
+        <item>АБВГ</item>
+        <item>ДЕЁЖЗ</item>
+        <item>ИЙКЛ</item>
+        <item>МНОП</item>
+        <item>РСТУ</item>
+        <item>ФХЦЧ</item>
+        <item>ШЩЪЫ</item>
+        <item>ЬЭЮЯ</item>
+    </string-array>
+    <string-array name="t9_keyboard_sr">
+        <item>+</item>
+        <item>"' . ,"</item>
+        <item>АБВГ</item>
+        <item>ДЂЕЖ</item>
+        <item>ЗИЈК</item>
+        <item>ЛЉМН</item>
+        <item>ЊОПР</item>
+        <item>СТЋУ</item>
+        <item>ФХЦ</item>
+        <item>ЧЏШ</item>
+    </string-array>
+    <string-array name="t9_keyboard_tw_mp">
+        <item>ㄧㄨㄩ</item>
+        <item>ㄅㄆㄇㄈ</item>
+        <item>ㄉㄊㄋㄌ</item>
+        <item>ㄍㄎㄏ</item>
+        <item>ㄐㄑㄒ</item>
+        <item>ㄓㄔㄕㄖ</item>
+        <item>ㄗㄘㄙ</item>
+        <item>ㄚㄛㄜㄝ</item>
+        <item>ㄞㄟㄠㄡ</item>
+        <item>ㄢㄣㄤㄥㄦ</item>
+    </string-array>
+    <string-array name="t9_keyboard_tw_mp2">
+        <item>+ㄖㄥㄩ</item>
+        <item>ㄅㄉㄚ</item>
+        <item>ㄍㄐㄞ</item>
+        <item>ㄓㄗㄢㄦ</item>
+        <item>ㄆㄊㄛ</item>
+        <item>ㄎㄑㄟ</item>
+        <item>ㄔㄘㄣㄧ</item>
+        <item>ㄇㄋㄜ</item>
+        <item>ㄏㄒㄠㄡ</item>
+        <item>ㄕㄙㄤㄨ</item>
+        <item>ㄈㄌㄝ</item>
+        <item></item>
+    </string-array>
+    <string-array name="t9_keyboard_uk">
+        <item>+</item>
+        <item>"' . ,"</item>
+        <item>АБВГҐ</item>
+        <item>ДЕЄЖЗ</item>
+        <item>ІЇИЙКЛ</item>
+        <item>МНОП</item>
+        <item>РСТУ</item>
+        <item>ФХЦЧ</item>
+        <item>ШЩ</item>
+        <item>ЬЮЯ</item>
+    </string-array>
+    <string-array name="t9_search">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABC</item>
+        <item>3DEF</item>
+        <item>4GHI</item>
+        <item>5JKL</item>
+        <item>6MNO</item>
+        <item>7PQRS</item>
+        <item>8TUV</item>
+        <item>9WXYZ</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="t9_search_ar">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>ب ت ة ث2</item>
+        <item>ا أ إ آ ى ء3</item>
+        <item>س ش ص ض4</item>
+        <item>د ذ ر ز5</item>
+        <item>ج ح خ6</item>
+        <item>ن ه و ي ؤ ئ7</item>
+        <item>ف ق ك ل م8</item>
+        <item>ط ظ ع غ9</item>
+    </string-array>
+    <string-array name="t9_search_bg">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2АБВГ</item>
+        <item>3ДЕЖЗ</item>
+        <item>4ИЙКЛ</item>
+        <item>5МНОП</item>
+        <item>6РСТУ</item>
+        <item>7ФХЦЧ</item>
+        <item>8ШЩЬЪ</item>
+        <item>9ЮЯ</item>
+    </string-array>
+    <string-array name="t9_search_cs">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABCÁČ</item>
+        <item>3DEFĎÉĚ</item>
+        <item>4GHIÍ</item>
+        <item>5JKL</item>
+        <item>6MNOÓŇ</item>
+        <item>7PQRSŘŠ</item>
+        <item>8TUVÚŮŤ</item>
+        <item>9WXYZÝŽ</item>
+    </string-array>
+    <string-array name="t9_search_da">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABCÀÁÂÃĂĄÅÄČĆÇÆ</item>
+        <item>3DEFĎÐÉÈÊËĖĘĚÆ</item>
+        <item>4GHIĞÏÍÌÎ</item>
+        <item>5JKLŁĽĹ</item>
+        <item>6MNOŇŃÑŌÕÔÓÒÖØ</item>
+        <item>7PQRSŘŚŞŠȘ</item>
+        <item>8TUVȚŤŰÜÚÙÛŮ</item>
+        <item>9WXYZÝŻŹŽ</item>
+    </string-array>
+    <string-array name="t9_search_de">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2AÄBC</item>
+        <item>3DEF</item>
+        <item>4GHI</item>
+        <item>5JKL</item>
+        <item>6MNOÖ</item>
+        <item>7PQRSß</item>
+        <item>8TUÜV</item>
+        <item>9WXYZ</item>
+    </string-array>
+    <string-array name="t9_search_el">
+        <item>0</item>
+        <item>"1'\".,"</item>
+        <item>2ΑΒΓΆ</item>
+        <item>3ΔΕΖΈ</item>
+        <item>4ΗΘΙΉΊ</item>
+        <item>5ΚΛΜ</item>
+        <item>6ΝΞΟΌ</item>
+        <item>7ΠΡΣς</item>
+        <item>8ΤΥΦΎ</item>
+        <item>9ΧΨΩΏ</item>
+    </string-array>
+    <string-array name="t9_search_es">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABCÁ</item>
+        <item>3DEFÉ</item>
+        <item>4GHIÍ</item>
+        <item>5JKL</item>
+        <item>6MNOÑÓ</item>
+        <item>7PQRS</item>
+        <item>8TUVÚÜ</item>
+        <item>9WXYZ</item>
+    </string-array>
+    <string-array name="t9_search_fa">
+        <item>0</item>
+        <item>"1'.,،"</item>
+        <item>2ب پ ت ث</item>
+        <item>3اآ</item>
+        <item>4س‌ش‌ص‌ض</item>
+        <item>5دذرزژ</item>
+        <item>6ج‌چ‌ح‌خ</item>
+        <item>7ن‌و‌ه‌ی</item>
+        <item>8ف‌ق‌ک‌گ‌ل‌م</item>
+        <item>9ط‌ظ‌ع‌غ</item>
+    </string-array>
+    <string-array name="t9_search_fr">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABCÀÂÇ</item>
+        <item>3DEFÉÈÊË</item>
+        <item>4GHIÎÏ</item>
+        <item>5JKL</item>
+        <item>6MNOÔ</item>
+        <item>7PQRS</item>
+        <item>8TUVÛÙÜ</item>
+        <item>9WXYZŸ</item>
+    </string-array>
+    <string-array name="t9_search_hr">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABCČĆ</item>
+        <item>3DĐEF</item>
+        <item>4GHI</item>
+        <item>5JKL</item>
+        <item>6MNO</item>
+        <item>7PQRSŠ</item>
+        <item>8TUV</item>
+        <item>9WXYZŽ</item>
+    </string-array>
+    <string-array name="t9_search_hu">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2AÁBC</item>
+        <item>3DEÉF</item>
+        <item>4GHIÍ</item>
+        <item>5JKL</item>
+        <item>6MNOÓÖŐ</item>
+        <item>7PQRS</item>
+        <item>8TUÚÜŰV</item>
+        <item>9WXYZ</item>
+    </string-array>
+    <string-array name="t9_search_is">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABCÁÆ</item>
+        <item>3DEFÐÉÆ</item>
+        <item>4GHIÍ</item>
+        <item>5JKL</item>
+        <item>6MNOÓÖ</item>
+        <item>7PQRS</item>
+        <item>8TUVÚ</item>
+        <item>9WXYZÝÞ</item>
+    </string-array>
+    <string-array name="t9_search_it">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABC</item>
+        <item>3DEFÈÉ</item>
+        <item>4GHI</item>
+        <item>5JKL</item>
+        <item>6MNOÒÓ</item>
+        <item>7PQRS</item>
+        <item>8TUV</item>
+        <item>9WXYZ</item>
+    </string-array>
+    <string-array name="t9_search_iw">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2דהו</item>
+        <item>3אבג</item>
+        <item>4מםנן</item>
+        <item>5יכךל</item>
+        <item>6זחט</item>
+        <item>7רשת</item>
+        <item>8צץק</item>
+        <item>9סעפף</item>
+    </string-array>
+    <string-array name="t9_search_ja">
+        <item>0０わゐゑをんゎー－―</item>
+        <item>"1１'.,あいうえおぁぃぅぇぉ"</item>
+        <item>2２ABCかきくけこがぎぐげごヵヶ</item>
+        <item>3３DEFさしすせそざじずぜぞ</item>
+        <item>4４GHIたちつてとだぢづでどっ</item>
+        <item>5５JKLなにぬねの</item>
+        <item>6６MNOはひふへほばびぶべぼぱぴぷぺぽヴ</item>
+        <item>7７PQRSまみむめも</item>
+        <item>8８TUVやゆよゃゅょ</item>
+        <item>9９WXYZらりるれろ</item>
+    </string-array>
+    <string-array name="t9_search_ja_ka">
+        <item>0０ワヰヱヲンヮー－―</item>
+        <item>"1１'.,アイウエオァィゥェォ"</item>
+        <item>2２ABCカキクケコガギグゲゴヵヶ</item>
+        <item>3３DEFサシスセソザジズゼゾ</item>
+        <item>4４GHIタチツテトダヂヅデドッ</item>
+        <item>5５JKLナニヌネノ</item>
+        <item>6６MNOハヒフヘホバビブベボパピプペポヴ</item>
+        <item>7７PQRSマミムメモ</item>
+        <item>8８TUVヤユヨャュョ</item>
+        <item>9９WXYZラリルレロ</item>
+    </string-array>
+    <string-array name="t9_search_ko">
+        <item>0ㅇㅁ</item>
+        <item>"1'.,ㅣ"</item>
+        <item>2ㅏ</item>
+        <item>3ㅡ</item>
+        <item>4ㄱㅋ</item>
+        <item>5ㄴㄹ</item>
+        <item>6ㄷㅌ</item>
+        <item>7ㅂㅍ</item>
+        <item>8ㅅㅎ</item>
+        <item>9ㅈㅊ</item>
+    </string-array>
+    <string-array name="t9_search_lv">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2AĀBCČ</item>
+        <item>3DEĒF</item>
+        <item>4GĢHIĪ</item>
+        <item>5JKĶLĻ</item>
+        <item>6MNŅO</item>
+        <item>7PQRSŠ</item>
+        <item>8TUŪV</item>
+        <item>9WXYZŽ</item>
+    </string-array>
+    <string-array name="t9_search_pl">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2AĄBCĆ</item>
+        <item>3DEĘF</item>
+        <item>4GHI</item>
+        <item>5JKLŁ</item>
+        <item>6MNŃOÓ</item>
+        <item>7PQRSŚ</item>
+        <item>8TUV</item>
+        <item>9WXYZŹŻ</item>
+    </string-array>
+    <string-array name="t9_search_pt_br">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABCÁÂÃÀÇ</item>
+        <item>3DEFÉÊ</item>
+        <item>4GHI</item>
+        <item>5JKL</item>
+        <item>6MNOÓÔÕ</item>
+        <item>7PQRS</item>
+        <item>8TUVÚÜ</item>
+        <item>9WXYZ</item>
+    </string-array>
+    <string-array name="t9_search_ro">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2AĂÂBC</item>
+        <item>3DEF</item>
+        <item>4GHIÎ</item>
+        <item>5JKL</item>
+        <item>6MNO</item>
+        <item>7PQRSȘ</item>
+        <item>8TȚUV</item>
+        <item>9WXYZ</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="t9_search_ru">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2АБВГ</item>
+        <item>3ДЕЁЖЗ</item>
+        <item>4ИЙКЛ</item>
+        <item>5МНОП</item>
+        <item>6РСТУ</item>
+        <item>7ФХЦЧ</item>
+        <item>8ШЩЪЫ</item>
+        <item>9ЬЭЮЯ</item>
+    </string-array>
+    <string-array name="t9_search_sk">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABCÁÄČ</item>
+        <item>3DEFĎÉ</item>
+        <item>4GHIÍ</item>
+        <item>5JKLĹĽ</item>
+        <item>6MNOŇÓÔ</item>
+        <item>7PQRSŔŠ</item>
+        <item>8TUVŤÚ</item>
+        <item>9WXYZÝŽ</item>
+    </string-array>
+    <string-array name="t9_search_sl">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABCČ</item>
+        <item>3DEF</item>
+        <item>4GHI</item>
+        <item>5JKL</item>
+        <item>6MNO</item>
+        <item>7PQRSŠ</item>
+        <item>8TUV</item>
+        <item>9WXYZŽ</item>
+    </string-array>
+    <string-array name="t9_search_sr">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2АБВГABCČĆ</item>
+        <item>3ДЂЕЖDĐEF</item>
+        <item>4ЗИЈКGHI</item>
+        <item>5ЛЉМНJKL</item>
+        <item>6ЊОПРMNO</item>
+        <item>7СТЋУPQRSŠ</item>
+        <item>8ФХЦTUV</item>
+        <item>9ЧЏШWXYZŽ</item>
+    </string-array>
+    <string-array name="t9_search_sv">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABCÅÄ</item>
+        <item>3DEF</item>
+        <item>4GHI</item>
+        <item>5JKL</item>
+        <item>6MNOÖ</item>
+        <item>7PQRS</item>
+        <item>8TUV</item>
+        <item>9WXYZ</item>
+    </string-array>
+    <string-array name="t9_search_tr">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2ABCÇ</item>
+        <item>3DEF</item>
+        <item>4GĞHIİ</item>
+        <item>5JKL</item>
+        <item>6MNOÖ</item>
+        <item>7PQRSŞ</item>
+        <item>8TUÜV</item>
+        <item>9WXYZ</item>
+    </string-array>
+    <string-array name="t9_search_tw_mp">
+        <item>0ㄧㄨㄩ</item>
+        <item>"1'.,ㄅㄆㄇㄈ"</item>
+        <item>2ABCㄉㄊㄋㄌ</item>
+        <item>3DEFㄍㄎㄏ</item>
+        <item>4GHIㄐㄑㄒ</item>
+        <item>5JKLㄓㄔㄕㄖ</item>
+        <item>6MNOㄗㄘㄙ</item>
+        <item>7PQRSㄚㄛㄜㄝ</item>
+        <item>8TUVㄞㄟㄠㄡ</item>
+        <item>9WXYZㄢㄣㄤㄥㄦ</item>
+    </string-array>
+    <string-array name="t9_search_tw_mp2">
+        <item>0ㄖㄥㄩ</item>
+        <item>"1'.,ㄅㄉㄚ"</item>
+        <item>2ABCㄍㄐㄞ</item>
+        <item>3DEFㄓㄗㄢㄦ</item>
+        <item>4GHIㄆㄊㄛ</item>
+        <item>5JKLㄎㄑㄟ</item>
+        <item>6MNOㄔㄘㄣㄧ</item>
+        <item>7PQRSㄇㄋㄜ</item>
+        <item>8TUVㄏㄒㄠㄡ</item>
+        <item>9WXYZㄕㄙㄤㄨ</item>
+        <item>ㄈㄌㄝ</item>
+        <item></item>
+    </string-array>
+    <string-array name="t9_search_uk">
+        <item>0</item>
+        <item>"1'.,"</item>
+        <item>2АБВГҐ</item>
+        <item>3ДЕЄЖЗ</item>
+        <item>4ІЇИЙКЛ</item>
+        <item>5МНОП</item>
+        <item>6РСТУ</item>
+        <item>7ФХЦЧ</item>
+        <item>8ШЩ</item>
+        <item>9ЬЮЯ</item>
+    </string-array>
+    <integer-array name="transform_callFilterActions">
+        <item>0</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+</resources>

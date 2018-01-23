@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/contact_card" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center_vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <com.dw.android.widget.CSImageView n1:id="@id/icon" n1:layout_width="96.0dip" n1:layout_height="96.0dip" n1:layout_marginRight="6.0dip" n1:scaleType="fitXY" n2:cornerRadius="1.0dip" n2:rising="3.0dip" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <TextView n1:textAppearance="?android:textAppearanceLarge" n1:id="@id/name" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/texts" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View n1:id="@id/list_divider" n1:background="?dividerVertical" n1:layout_width="wrap_content" n1:layout_height="1.0dip" />
+    <com.dw.InCall.ListView n1:id="@id/list" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+</LinearLayout>

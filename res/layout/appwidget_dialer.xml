@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/background" n1:background="@drawable/bg_aw_hide_title" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:gravity="center" n1:id="@id/button_line" n1:layout_width="fill_parent" n1:layout_height="70.0dip" n1:minHeight="46.0dip">
+        <ImageButton n1:id="@id/btn_delete_l" n1:visibility="gone" n1:layout_width="48.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="-2.0dip" n1:layout_marginRight="-2.0dip" n1:src="@drawable/aw_ic_dialpad_backspace" n1:scaleType="center" n1:layout_weight="0.0" n1:contentDescription="@string/description_delete_button" style="@style/appwidget_dialer.Button" />
+        <TextView n1:textSize="30.0dip" n1:textColor="#ffffffff" n1:gravity="bottom|center" n1:id="@id/digits" n1:background="#00000000" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pleaseWait" n1:freezesText="true" n1:layout_weight="1.0" />
+        <ImageButton n1:id="@id/btn_delete" n1:layout_width="48.0dip" n1:layout_height="fill_parent" n1:layout_marginLeft="-2.0dip" n1:layout_marginRight="-2.0dip" n1:src="@drawable/aw_ic_dialpad_backspace" n1:scaleType="center" n1:layout_weight="0.0" n1:contentDescription="@string/description_delete_button" style="@style/appwidget_dialer.Button" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:id="@id/dialpad" n1:paddingLeft="0.0dip" n1:paddingTop="0.0dip" n1:paddingRight="0.0dip" n1:paddingBottom="0.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <FrameLayout n1:id="@id/d1" n1:background="#ff565656" n1:layout_width="fill_parent" n1:layout_height="1.0px" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+            <TextView n1:id="@id/one" n1:text="1" style="@style/appwidget_dialer.Button.Digital.Text" />
+            <FrameLayout n1:id="@id/d2" n1:background="#ff565656" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <TextView n1:id="@id/two" n1:text="2" style="@style/appwidget_dialer.Button.Digital.Text" />
+            <FrameLayout n1:id="@id/d3" n1:background="#ff565656" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <TextView n1:id="@id/three" n1:text="3" style="@style/appwidget_dialer.Button.Digital.Text" />
+        </LinearLayout>
+        <FrameLayout n1:id="@id/d4" n1:background="#ff565656" n1:layout_width="fill_parent" n1:layout_height="1.0px" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+            <TextView n1:id="@id/four" n1:text="4" style="@style/appwidget_dialer.Button.Digital.Text" />
+            <FrameLayout n1:id="@id/d5" n1:background="#ff565656" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <TextView n1:id="@id/five" n1:text="5" style="@style/appwidget_dialer.Button.Digital.Text" />
+            <FrameLayout n1:id="@id/d6" n1:background="#ff565656" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <TextView n1:id="@id/six" n1:text="6" style="@style/appwidget_dialer.Button.Digital.Text" />
+        </LinearLayout>
+        <FrameLayout n1:id="@id/d7" n1:background="#ff565656" n1:layout_width="fill_parent" n1:layout_height="1.0px" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+            <TextView n1:id="@id/seven" n1:text="7" style="@style/appwidget_dialer.Button.Digital.Text" />
+            <FrameLayout n1:id="@id/d8" n1:background="#ff565656" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <TextView n1:id="@id/eight" n1:text="8" style="@style/appwidget_dialer.Button.Digital.Text" />
+            <FrameLayout n1:id="@id/d9" n1:background="#ff565656" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <TextView n1:id="@id/nine" n1:text="9" style="@style/appwidget_dialer.Button.Digital.Text" />
+        </LinearLayout>
+        <FrameLayout n1:id="@id/d10" n1:background="#ff565656" n1:layout_width="fill_parent" n1:layout_height="1.0px" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+            <TextView n1:id="@id/star" n1:text="*" style="@style/appwidget_dialer.Button.Digital.Text" />
+            <FrameLayout n1:id="@id/d11" n1:background="#ff565656" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <TextView n1:id="@id/zero" n1:text="0" style="@style/appwidget_dialer.Button.Digital.Text" />
+            <FrameLayout n1:id="@id/d12" n1:background="#ff565656" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <TextView n1:id="@id/pound" n1:text="\#" style="@style/appwidget_dialer.Button.Digital.Text" />
+        </LinearLayout>
+        <FrameLayout n1:id="@id/d13" n1:background="#ff565656" n1:layout_width="fill_parent" n1:layout_height="1.0px" />
+        <LinearLayout n1:id="@id/bottom_bar" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+            <ImageButton n1:id="@id/btn_dial_1" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@drawable/ic_action_call" n1:scaleType="center" n1:layout_weight="1.0" n1:contentDescription="@string/description_dial_button" style="@style/appwidget_dialer.Button" />
+            <ImageButton n1:id="@id/btn_dial_2" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="center" n1:layout_weight="1.0" n1:contentDescription="@string/description_dial_button" style="@style/appwidget_dialer.Button" />
+            <ImageButton n1:id="@id/btn_contact" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@drawable/aw_ic_personal" n1:scaleType="center" n1:layout_weight="1.0" n1:contentDescription="@string/contactsList" style="@style/appwidget_dialer.Button" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

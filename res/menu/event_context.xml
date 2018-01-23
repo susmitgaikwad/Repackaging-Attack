@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/view_contact" n1:title="@string/menu_viewContact"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:id="@id/send_greeting_sms" n2:title="@string/menu_sendGreetingSMSToContact"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:id="@id/send_greeting_mail" n3:title="@string/menu_sendGreetingEmailToContact"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:id="@id/add_to_calendar" n4:title="@string/menu_add_to_calendar"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:id="@id/goto_calendar" n5:title="@string/menu_goToCalendar"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:id="@id/edit_event" n6:title="@string/menu_edit_event"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:id="@id/edit_contact" n7:title="@string/menu_editContactFromEvent"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:id="@id/delete" n8:title="@string/menu_delete_event"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+</menu>

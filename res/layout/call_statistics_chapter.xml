@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dw.widget.LinearLayoutEx n1:orientation="vertical" n1:id="@id/root" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView n1:id="@id/free_time" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="@dimen/card_margin">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <com.dw.android.widget.CardHeaderView n1:id="@id/title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:divider="?android:listDivider" n2:showDividers="end" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/free_time_content" n1:background="?selectableItemBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <ProgressBar n1:id="@id/progressBar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="6.0dip" style="?android:progressBarStyleHorizontal" />
+                <TextView n1:gravity="left" n1:id="@id/message" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="6.0dip" style="@style/call_statistics_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <include n1:id="@id/last_billing_cycle" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/card_margin" layout="@layout/call_statistics_item" />
+    <include n1:id="@id/this_week" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/card_margin" layout="@layout/call_statistics_item" />
+    <include n1:id="@id/this_month" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/card_margin" layout="@layout/call_statistics_item" />
+    <include n1:id="@id/all_time" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/card_margin" layout="@layout/call_statistics_item" />
+</com.dw.widget.LinearLayoutEx>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/pref_title_tabSettings" n1:key="tabSettings"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen n1:title="@string/pref_tabs_title" n1:key="hide_and_sort_tabs" n1:summary="@string/pref_tabs_summary" />
+    <com.dw.preference.MyListPreference n1:title="@string/pref_title_default_view" n1:key="default_view" n1:summary="@string/pref_default_view_summary" n1:defaultValue="3" />
+    <CheckBoxPreference n1:title="@string/pref_title_alwaysToDefTab" n1:key="alwaysToDefTab" n1:summary="@string/pref_summary_alwaysToDefTab" />
+    <CheckBoxPreference n1:title="@string/pref_title_disableSlideSwitchingTabs" n1:key="disableSlideSwitchingTabs" n1:defaultValue="false" />
+    <CheckBoxPreference n1:title="@string/pref_title_showTabAtTop" n1:key="tabOnTop" />
+    <com.dw.preference.ReverseDependencyListPreference n1:entries="@array/pref_entries_hideTab" n1:title="@string/pref_title_autoHideTab" n1:key="hideTab" n1:summary="@string/pref_summary_autoHideTab" n1:defaultValue="off" n1:entryValues="@array/pref_values_hideTab" />
+    <CheckBoxPreference n1:title="@string/pref_title_hideTabLabel" n1:key="hideTabLabel" n1:defaultValue="false" />
+</PreferenceScreen>

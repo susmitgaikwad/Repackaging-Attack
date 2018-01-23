@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d ደቂቃዎች</item>
+        <item quantity="one">1 ደቂቃ</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d ሰከንዶች</item>
+        <item quantity="one">1 ሴኮንድ</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d እውቅያዎች</item>
+        <item quantity="one">1 እውቅያ</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ተገኝተዋል</item>
+        <item quantity="one">%d ተገኝቷል</item>
+    </plurals>
+</resources>

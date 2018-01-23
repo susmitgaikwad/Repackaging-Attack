@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d នាទី</item>
+        <item quantity="one">១ នាទី</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d វិនាទី</item>
+        <item quantity="one">1 វិនាទី</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">បានរកឃើញ %d</item>
+        <item quantity="one">បានរកឃើញ 1</item>
+    </plurals>
+</resources>

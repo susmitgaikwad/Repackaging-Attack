@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group n1:id="@id/group_call" n1:visible="false" n1:menuCategory="container"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_using" n1:id="@id/call_using" n1:title="@string/menu_callUsing" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_prefix" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_prefix1" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_prefix2" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_suffix" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_infix" n1:title="" />
+        <item n1:icon="@drawable/ic_action_with_number" n1:id="@id/edit_number_before_call" n1:title="@string/recentCalls_editNumberBeforeCall" />
+    </group>
+    <group n2:menuCategory="container"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <item n2:icon="@drawable/ic_action_text" n2:id="@id/send_message" n2:title="@string/send_message" />
+        <item n2:icon="@drawable/ic_action_email" n2:id="@id/send_email" n2:title="@string/menu_sendEmail" />
+        <item n2:icon="@drawable/ic_action_new_event" n2:id="@id/create_event" n2:title="@string/menu_createEvent" />
+        <item n2:icon="@drawable/ic_action_add_alarm" n2:id="@id/add_reminder" n2:title="@string/menu_add_reminder" />
+        <item n2:icon="@drawable/ic_add_circle_outline_24dp" n2:id="@id/add_todo" n2:title="@string/menu_add_todo" />
+        <item n2:icon="@drawable/ic_action_note_add" n2:id="@id/edit_notes" n2:title="@string/menu_editNotes" />
+        <item n2:icon="@drawable/ic_action_edit" n2:id="@id/edit_contact" n2:title="@string/menu_editContact" />
+        <item n2:icon="@drawable/ic_action_personal" n2:id="@id/view_contact" n2:title="@string/menu_viewContact" />
+        <item n2:icon="@drawable/ic_action_share" n2:id="@id/share" n2:menuCategory="container" n2:title="@string/menu_share">
+            <menu>
+                <item n2:icon="@drawable/ic_action_with_text" n2:id="@id/shareWithText" n2:title="@string/menu_shareAsText" />
+                <item n2:icon="@drawable/ic_action_with_vcard" n2:id="@id/shareWithvCard" n2:title="@string/menu_shareAsvCard" />
+                <item n2:icon="@drawable/ic_action_with_number" n2:id="@id/share_number" n2:title="@string/menu_shareNumber" />
+                <item n2:icon="@drawable/ic_action_copy" n2:id="@id/copy" n2:title="@string/menu_copyToClipboard" />
+            </menu>
+        </item>
+        <item n2:icon="@drawable/ic_tab_tool" n2:id="@id/more" n2:menuCategory="container" n2:title="@string/more">
+            <menu>
+                <item n2:icon="@drawable/ic_action_new_person_group" n2:id="@id/edit_group" n2:title="@string/menu_setGroupForContact" />
+                <item n2:icon="@drawable/ic_dialpad_twelve_keyboard" n2:id="@id/add_to_quick_dial_list" n2:title="@string/menu_addToQuickdialList" />
+                <item n2:icon="@drawable/ic_action_star_on" n2:id="@id/add_star" n2:visible="false" n2:title="@string/menu_addStar" />
+                <item n2:icon="@drawable/ic_action_star_off" n2:id="@id/remove_star" n2:visible="false" n2:title="@string/menu_removeStar" />
+                <item n2:icon="@drawable/ic_list_action_allow" n2:id="@id/remove_from_blocklist" n2:visible="false" n2:title="@string/menu_removeFromBlockList" />
+                <item n2:icon="@drawable/ic_list_call_type_blocked" n2:id="@id/add_to_blocklist" n2:visible="false" n2:title="@string/menu_addToBlockList" />
+                <item n2:icon="@drawable/ic_action_copy" n2:id="@id/duplicate_contact" n2:title="@string/menu_duplicate_contact" />
+                <item n2:icon="@drawable/ic_action_music_note" n2:id="@id/edit_ringtone" n2:title="@string/menu_setRingtone" />
+                <item n2:icon="@drawable/ic_action_launch" n2:id="@id/create_shortcut" n2:title="@string/create_shortcut" />
+            </menu>
+        </item>
+        <item n2:icon="@drawable/ic_action_discard" n2:id="@id/delete" n2:title="@string/menu_deleteContact" />
+        <item n2:icon="@drawable/ic_action_discard" n2:id="@id/delete_call_log" n2:visible="false" n2:title="@string/recentCalls_removeFromRecentList" />
+    </group>
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_cancel" n1:id="@id/cancel" n1:title="@android:string/cancel" n2:showAsAction="always|withText"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?ic_action_save" n3:id="@id/save" n3:title="@string/save" n4:showAsAction="always|withText"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/search" n1:key="search"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <SwitchPreference n1:title="@string/pref_title_searchHistory" n1:key="search.history" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_restoreStateWhenRestarted" n1:key="global.restore_state_when_restarted" />
+</PreferenceScreen>

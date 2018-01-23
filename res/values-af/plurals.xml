@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">1 minuut</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d sekondes</item>
+        <item quantity="one">1 sekonde</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kontakte</item>
+        <item quantity="one">1 kontak</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d gevind</item>
+        <item quantity="one">1 gevind</item>
+    </plurals>
+</resources>

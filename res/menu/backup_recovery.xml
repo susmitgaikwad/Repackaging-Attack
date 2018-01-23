@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/restore" n1:title="@string/menu_restoreFrom"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:id="@id/backupAllSettings" n2:title="@string/pref_title_backupAllSettings"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:id="@id/restoreAllSettings" n3:title="@string/pref_title_restoreAllSettings"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:id="@id/backupTheme" n4:title="@string/pref_title_backupTheme"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:id="@id/restoreTheme" n5:title="@string/pref_title_restoreTheme"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+</menu>

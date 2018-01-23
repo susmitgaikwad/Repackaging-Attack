@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dw.widget.LinearLayoutEx n1:orientation="vertical" n1:id="@id/contact_detail_view" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+        <com.dw.android.widget.ScrollHeaderLayout n1:orientation="vertical" n1:id="@id/scroll_header" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:content="@id/pager" n2:keep_show="@id/keep_show" n2:sink="?sinkSizePrimary" n2:sinkGravity="bottom" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <view n1:id="@id/contact_detail_header" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:direction="widthToHeight" n2:ratio="0.9" class="com.android.contacts.widget.ProportionalLayout">
+                <FrameLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+                    <ImageView n1:id="@id/photo" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="centerCrop" />
+                    <ImageView n1:id="@id/photo_touch_intercept_overlay" n1:background="?selectableItemBackground" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="centerCrop" n1:contentDescription="@string/contact_detail_picture_description" n1:nextFocusForward="@id/action_up" />
+                    <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                        <com.dw.widget.TextClock n1:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle" n1:textColor="#eeffffff" n1:gravity="center" n1:layout_gravity="end" n1:id="@id/time" n1:paddingLeft="6.0dip" n1:paddingRight="6.0dip" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:shadowColor="#88000000" n1:shadowRadius="3.0" n2:drawableStart="@drawable/ic_local_time" />
+                        <FrameLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                            <View n1:layout_gravity="bottom" n1:id="@id/keep_show" n1:layout_width="1.0dip" n1:layout_height="?actionBarSize" />
+                            <include n1:id="@id/titles2" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/contact_title_bar" />
+                        </FrameLayout>
+                        <com.dw.contacts.ui.widget.ScrollingTabContainerView n1:id="@id/tabs" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="?topScrollingTabBarStyle" />
+                    </LinearLayout>
+                </FrameLayout>
+            </view>
+            <android.support.v4.view.CSViewPager n1:id="@id/pager" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:sink="?sinkSizePrimary" n2:sinkGravity="top" />
+        </com.dw.android.widget.ScrollHeaderLayout>
+        <View n1:id="@id/toolbarBackground" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" />
+        <include n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" layout="@layout/custom_action_bar" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/fragment1" n1:visibility="gone" n1:layout_width="0.0dip" n1:layout_height="0.0dip" />
+</com.dw.widget.LinearLayoutEx>

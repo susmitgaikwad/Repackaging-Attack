@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s položek bylo označeno za vyřízené</item>
+        <item quantity="one">%s položka byla označena za vyřízenou</item>
+        <item quantity="few">%s položky byly označeny za vyřízené</item>
+        <item quantity="many">%s položky bylo označeno za vyřízené</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s položek bylo smazáno</item>
+        <item quantity="one">%1$s položka byla smazána</item>
+        <item quantity="few">%1$s položky byly smazány</item>
+        <item quantity="many">%1$s položky bylo smazáno</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 minuta</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Kontakty: %d</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Nalezeno: %d</item>
+        <item quantity="one">Nalezeno: 1</item>
+        <item quantity="few">Nalezeno: %d</item>
+        <item quantity="many">Nalezeno: %d</item>
+    </plurals>
+</resources>

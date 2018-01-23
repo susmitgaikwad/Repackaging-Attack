@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">已将 %s 项内容标为处理完毕</item>
+        <item quantity="one">已将 %s 项内容标为处理完毕</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">已删除 %1$s 项内容</item>
+        <item quantity="one">已删除 %1$s 项内容</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d 分钟</item>
+        <item quantity="one">1 分钟</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d 秒</item>
+        <item quantity="one">1 秒</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d 位联系人</item>
+        <item quantity="one">1 位联系人</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">找到 %d 位联系人</item>
+        <item quantity="one">找到 1 位联系人</item>
+    </plurals>
+</resources>

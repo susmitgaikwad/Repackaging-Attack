@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <view n1:id="@id/proportionalLayout" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:direction="widthToHeight" n2:ratio="0.7" class="com.android.contacts.widget.ProportionalLayout" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <include layout="@layout/photo_selector_view" />
+        </view>
+        <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <com.dw.widget.TextClock n1:textAppearance="@style/TextAppearance.Subtitle.Covering" n1:gravity="center" n1:layout_gravity="end" n1:id="@id/time" n1:paddingLeft="6.0dip" n1:paddingRight="6.0dip" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:shadowColor="#88000000" n1:shadowRadius="3.0" n3:drawableStart="@drawable/ic_local_time" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <TextView n1:textAppearance="@style/TextAppearance.Title.Covering" n1:layout_gravity="bottom" n1:id="@id/name" n1:background="@drawable/bg_bottom_pic_covering" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="2" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat n1:id="@id/title_bar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/Widget.Sidebar.Title"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:id="@id/title" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/groupsLabel" n1:layout_weight="1.0" style="@style/Widget.Sidebar.Title.TextView" />
+    <RelativeLayout n1:id="@id/btn" n1:layout_width="wrap_content" n1:layout_height="fill_parent">
+        <TextView n1:textAppearance="@style/TextAppearance.Sidebar.Count" n1:id="@id/count" n1:paddingLeft="28.0dip" n1:paddingTop="24.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        <com.dw.widget.CheckableActionButton n1:id="@id/btn_filter" n1:background="?selectableItemBackground" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:minWidth="@dimen/recommended_touch_area_size" n1:contentDescription="@string/filterMode" n2:srcCompat="?ic_action_filter" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:id="@id/message" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+    <WebView n1:id="@id/webView" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/button_bar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/ButtonBar">
+        <Button n1:id="@id/btn_sms" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/SMS" n1:layout_weight="1.0" />
+        <Button n1:id="@id/btn_email" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/Email" n1:layout_weight="1.0" />
+        <Button n1:id="@id/btn_more" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/more" n1:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

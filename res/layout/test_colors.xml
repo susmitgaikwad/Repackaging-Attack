@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textColor="?android:colorForeground" n1:gravity="center" n1:background="?colorPrimaryDark" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:text="colorPrimaryDark" n1:layout_weight="1.0" />
+    <TextView n1:textColor="?android:colorForeground" n1:gravity="center" n1:background="?colorPrimary" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:text="colorPrimary" n1:layout_weight="1.0" />
+    <TextView n1:textColor="?android:colorForeground" n1:gravity="center" n1:background="?colorAccent" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:text="colorAccent" n1:layout_weight="1.0" />
+    <TextView n1:textColor="?android:colorForeground" n1:gravity="center" n1:background="?colorControlNormal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:text="colorControlNormal" n1:layout_weight="1.0" />
+    <TextView n1:textColor="?android:colorForeground" n1:gravity="center" n1:background="?colorControlActivated" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:text="colorControlActivated" n1:layout_weight="1.0" />
+    <TextView n1:textColor="?android:colorForeground" n1:gravity="center" n1:background="?colorControlHighlight" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:text="colorControlHighlight" n1:layout_weight="1.0" />
+    <TextView n1:textColor="?android:colorForeground" n1:gravity="center" n1:background="?colorSwitchThumbNormal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:text="colorSwitchThumbNormal" n1:layout_weight="1.0" />
+    <TextView n1:textColor="?android:colorForeground" n1:gravity="center" n1:background="?android:colorForegroundInverse" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:text="colorForegroundInverse" n1:layout_weight="1.0" />
+    <TextView n1:textColor="?android:colorForeground" n1:gravity="center" n1:background="?android:colorBackground" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:text="colorBackground" n1:layout_weight="1.0" />
+    <TextView n1:textColor="?android:colorForeground" n1:gravity="center" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:text="Transparent" n1:layout_weight="1.0" />
+    <TextView n1:textColor="?android:textColorPrimary" n1:gravity="center" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:text="textColorPrimary" n1:layout_weight="1.0" />
+    <TextView n1:textColor="?android:textColorSecondary" n1:gravity="center" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:text="textColorSecondary" n1:layout_weight="1.0" />
+</LinearLayout>

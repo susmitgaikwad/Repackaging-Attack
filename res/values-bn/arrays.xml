@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days">
+        <item>রবিবার</item>
+        <item>সোমবার</item>
+        <item>মঙ্গলবার</item>
+        <item>বুধবার</item>
+        <item>বৃহস্পতিবার</item>
+        <item>শুক্রবার</item>
+        <item>শনিবার</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>রবি</item>
+        <item>সোম</item>
+        <item>মঙ্গল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুক্র</item>
+        <item>শনি</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>পূর্ব-নির্ধারিত ই-মেইল ঠিকানা</item>
+        <item>সব ই-মেইল ঠিকানা</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>পূর্ব-নির্ধারিত বা প্রথম মোবাইল নম্বর</item>
+        <item>সকল মোবাইল নম্বর</item>
+        <item>সকল সংখ্যা</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>Every day</item>
+        <item>Every two days</item>
+        <item>প্রতি তিন দিন</item>
+        <item>প্রতি চার দিন</item>
+        <item>প্রতি পাঁচ দিন</item>
+        <item>প্রতি ছয় দিন</item>
+        <item>সাপ্তাহিক</item>
+        <item>মাসিক</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>১ মিনিট</item>
+        <item>৫ মিনিট</item>
+        <item>১০ মিনিট</item>
+        <item>১৫ মিনিট</item>
+        <item>২০ মিনিট</item>
+        <item>25 মিনিট</item>
+        <item>৩০ মিনিট</item>
+        <item>৪৫ মিনিট</item>
+        <item>১ ঘণ্টা</item>
+        <item>2 ঘন্টা</item>
+        <item>3 ঘন্টা</item>
+        <item>12 ঘন্টা</item>
+        <item>24 ঘন্টা</item>
+        <item>2 দিন</item>
+        <item>1 সপ্তাহ</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>অন্ধ অবিকল অনুলিপি</item>
+        <item>Cc</item>
+        <item>করুন</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>সংখ্যা</item>
+        <item>প্রতিষ্ঠান</item>
+        <item>শীর্ষক</item>
+        <item>দল</item>
+        <item>হিসাব আইকন</item>
+        <item>যোগাযোগের ছবি</item>
+        <item>ই-মেইল বোতাম</item>
+        <item>এসএমএস বোতাম</item>
+        <item>ডায়াল বোতাম</item>
+        <item>নোট</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>গুগল নাটক</item>
+        <item>ক্রেডিট কার্ড বা পে</item>
+        <item>বন্ধু প্রস্তাব</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>নিবন্ধন করুন আপনার গুগল একাউন্ট (ক্রয় এবং গুগল নাটকের মাধ্যমে ্প্রো সংস্করণ সংস্থাপন করুন) এই সফটওয়্যারটি। ্প্রো সংস্করণটি সংস্থাপন করার পর, অনুগ্রহ করে ফ্রি সংস্করণ আনইনস্টল করুন।</item>
+        <item>এই সফ্টওয়্যারটি ডিভাইসের ক্রমিক নম্বর রেজিস্টার করুন: %s. পেমেন্ট পদ্ধতি পর আপনার নিশ্চিতকরণ ই-মেইল আপনার রেজিস্ট্রেশন কোড পাবেন। এরপর একবার-ক্লিক করুন [অনলাইন নিবন্ধন পরীক্ষা] মাধ্যমে নিবন্ধন পরীক্ষা করুন।</item>
+        <item>ফ্রি রেজিস্ট্রেশন কোড চান</item>
+    </string-array>
+</resources>

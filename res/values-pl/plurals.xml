@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s elementu oznaczono jako gotowy</item>
+        <item quantity="one">%s element oznaczono jako gotowy</item>
+        <item quantity="few">%s elementy oznaczono jako gotowe</item>
+        <item quantity="many">%s elementów oznaczono jako gotowe</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">Usunięto: %1$s</item>
+        <item quantity="one">Usunięto: %1$s</item>
+        <item quantity="few">Usunięto: %1$s</item>
+        <item quantity="many">Usunięto: %1$s</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 minuta</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Liczba kontaktów: %d</item>
+        <item quantity="one">Liczba kontaktów: 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Znaleziono %d</item>
+        <item quantity="one">Znaleziono 1</item>
+        <item quantity="few">Znaleziono %d</item>
+        <item quantity="many">Znaleziono %d</item>
+    </plurals>
+</resources>

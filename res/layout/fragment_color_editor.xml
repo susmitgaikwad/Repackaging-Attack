@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:id="@id/background2" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/background" n1:paddingBottom="64.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:gravity="center_vertical" n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:id="@id/bg_title" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="@dimen/action_bar_default_height" style="?actionBarStyle" />
+        <android.support.v7.widget.CardView style="@style/color_editor_card">
+            <LinearLayout n1:orientation="vertical" n1:padding="@dimen/color_editor_card_padding" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <com.dw.android.widget.CardHeaderView n2:left_text="@string/font_size" style="@style/color_editor_card_header" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/font_size_l1" n1:paddingLeft="6.0dip" n1:paddingRight="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pref_font_size_title" />
+                <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/font_size_l2" n1:paddingLeft="6.0dip" n1:paddingRight="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pref_title_fontSize2" />
+                <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/font_size_l3" n1:paddingLeft="6.0dip" n1:paddingRight="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pref_title_fontSize3" />
+                <View style="@style/color_editor_div" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/font_size_sidebar" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/min_touch_area_size" n1:text="@string/pref_title_fontSizeSidebar" />
+                <View style="@style/color_editor_div" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/font_size_section" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/min_touch_area_size" n1:text="@string/section_header" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView style="@style/color_editor_card">
+            <LinearLayout n1:orientation="vertical" n1:padding="@dimen/color_editor_card_padding" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <com.dw.android.widget.CardHeaderView n3:left_text="@string/pref_title_globalSettings" style="@style/color_editor_card_header" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+                <TextView n1:orientation="vertical" n1:id="@id/list_section1" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pref_title_textListSectionColor" style="?android:listSeparatorTextViewStyle" />
+                <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/text_color_primary" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pref_title_textColor" />
+                    <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/text_color_secondary" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pref_title_textColorSecond" />
+                </LinearLayout>
+                <View style="@style/color_editor_div" />
+                <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/text_color_marked" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/min_touch_area_size" n1:text="@string/pref_title_textColorMarked" />
+                    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                        <com.dw.widget.LabelView n1:id="@id/label_company" n1:padding="1.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="1.0dip" n1:text="@string/company" style="@style/label" />
+                        <com.dw.widget.LabelView n1:id="@id/label_title" n1:padding="1.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="1.0dip" n1:text="@string/titlesList" style="@style/label" />
+                        <com.dw.widget.LabelView n1:id="@id/label_group" n1:padding="1.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="1.0dip" n1:text="@string/groupsLabel" style="@style/label" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View style="@style/color_editor_div" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/divider_line_color" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/min_touch_area_size" n1:text="@string/pref_title_dividerLineColor" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView style="@style/color_editor_card">
+            <LinearLayout n1:orientation="vertical" n1:padding="@dimen/color_editor_card_padding" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <com.dw.android.widget.CardHeaderView n4:left_text="@string/pref_title_historyViewSettings" style="@style/color_editor_card_header" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+                <LinearLayout n1:gravity="center_vertical" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <ImageView n1:layout_width="48.0dip" n1:layout_height="48.0dip" n5:srcCompat="@drawable/icon" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+                    <RelativeLayout n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="3.0dip" n1:layout_weight="1.0">
+                        <com.dw.android.widget.TintTextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/fg_missed_call" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pref_title_missedCallsTextColor" n6:drawableRight="@drawable/ic_list_call_type_missed" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+                        <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/text_color_secondary2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="8:00 AM" n1:layout_below="@id/fg_missed_call" />
+                        <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/text_color_secondary3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="00:10" n1:layout_below="@id/fg_missed_call" n1:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <View style="@style/color_editor_div" />
+                <LinearLayout n1:gravity="center_vertical" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <ImageView n1:layout_width="48.0dip" n1:layout_height="48.0dip" n7:srcCompat="@drawable/icon" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+                    <RelativeLayout n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="3.0dip" n1:layout_weight="1.0">
+                        <com.dw.android.widget.TintTextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/fg_unanswered_outgoing_call" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pref_summary_unansweredOutgoingCallsTextColor" n8:drawableRight="@drawable/ic_list_call_type_outgoing" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+                        <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/text_color_secondary4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="9:00 AM" n1:layout_below="@id/fg_unanswered_outgoing_call" />
+                        <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/text_color_secondary5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="00:00" n1:layout_below="@id/fg_unanswered_outgoing_call" n1:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <View style="@style/color_editor_div" />
+                <LinearLayout n1:gravity="center_vertical" n1:id="@id/flag_sms" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <ImageView n1:layout_width="48.0dip" n1:layout_height="48.0dip" n9:srcCompat="@drawable/icon" xmlns:n9="http://schemas.android.com/apk/res-auto" />
+                    <View n1:background="#ffff0000" n1:layout_width="2.0dip" n1:layout_height="fill_parent" />
+                    <com.dw.android.widget.TintTextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/text_color_p1" n1:paddingLeft="2.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/text_message" n10:drawableRight="@drawable/ic_text_sent_24dp" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+                </LinearLayout>
+                <View style="@style/color_editor_div" />
+                <LinearLayout n1:gravity="center_vertical" n1:id="@id/flag_note" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <ImageView n1:layout_width="48.0dip" n1:layout_height="48.0dip" n11:srcCompat="@drawable/icon" xmlns:n11="http://schemas.android.com/apk/res-auto" />
+                    <View n1:background="#ffff0000" n1:layout_width="2.0dip" n1:layout_height="fill_parent" />
+                    <com.dw.android.widget.TintTextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/text_color_p2" n1:paddingLeft="2.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/label_notes" n12:drawableRight="@drawable/ic_tab_notes" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+                </LinearLayout>
+                <View style="@style/color_editor_div" />
+                <LinearLayout n1:gravity="center_vertical" n1:id="@id/flag_voice_tag" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <ImageView n1:layout_width="48.0dip" n1:layout_height="48.0dip" n13:srcCompat="@drawable/icon" xmlns:n13="http://schemas.android.com/apk/res-auto" />
+                    <View n1:background="#ffff0000" n1:layout_width="2.0dip" n1:layout_height="fill_parent" />
+                    <com.dw.android.widget.TintTextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/text_color_p3" n1:paddingLeft="2.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/voice_tag" n14:drawableRight="@drawable/ic_mic_24dp" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+                </LinearLayout>
+                <include n1:id="@id/call_type_filter_bar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/call_type_filter_bar" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView style="@style/color_editor_card">
+            <LinearLayout n1:orientation="vertical" n1:padding="@dimen/color_editor_card_padding" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <com.dw.android.widget.CardHeaderView n15:left_text="@string/pref_title_dialpadThemeSettings" style="@style/color_editor_card_header" xmlns:n15="http://schemas.android.com/apk/res-auto" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="center_vertical" n1:id="@id/font_size_dialpad_digits" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/min_touch_area_size" n1:text="@string/pref_title_fontSizeforDigits" />
+                <View style="@style/color_editor_div" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="center_vertical" n1:id="@id/font_size_dialpad_letters" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/min_touch_area_size" n1:text="@string/pref_title_fontSizeforLetters" />
+                <View style="@style/color_editor_div" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/bg_dp" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/min_touch_area_size" n1:text="@string/pref_title_backgroundColor" />
+                <View style="@style/color_editor_div" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/dp_divider_line" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/min_touch_area_size" n1:text="@string/pref_title_dividerLineColor" />
+                <View style="@style/color_editor_div" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/bg_dp_selected" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/min_touch_area_size" n1:text="@string/pref_title_selectedBackgroundColor" />
+                <View style="@style/color_editor_div" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/fg_dp_second_text" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/min_touch_area_size" n1:text="@string/pref_summary_textColorForSecondT9Languare" />
+                <LinearLayout n1:orientation="horizontal" n1:id="@id/bg_phone" n1:background="?bg_dp" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="6.0dip">
+                    <com.dw.contacts.ui.widget.DialpadKeyButton n1:gravity="center" n1:id="@id/one" n1:layout_width="fill_parent" n1:layout_height="fill_parent" style="@style/DialButton.Digital">
+                        <TextView n1:textAppearance="?textAppearanceDialPadDigit" n1:textSize="50.0dip" n1:gravity="center" n1:id="@id/dp_1" n1:paddingLeft="8.0dip" n1:paddingRight="8.0dip" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:text="1" n1:shadowDx="0.0" n1:shadowDy="0.0" n1:layout_centerVertical="true" />
+                        <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/dp_1" n1:layout_centerVertical="true">
+                            <TextView n1:textAppearance="?textAppearanceDialPadDigit" n1:textSize="16.0dip" n1:textStyle="bold" n1:id="@id/dp_xxx" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="' . ," n1:maxLines="1" n1:shadowDx="0.0" n1:shadowDy="0.0" n1:shadowRadius="2.0" />
+                            <ImageView n1:id="@id/dp_voice_mail" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n16:srcCompat="@drawable/ic_w_voice_mail" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+                        </LinearLayout>
+                    </com.dw.contacts.ui.widget.DialpadKeyButton>
+                    <View n1:id="@id/dp_d1" n1:background="#22888888" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+                    <com.dw.contacts.ui.widget.DialpadKeyButton n1:gravity="center" n1:id="@id/two" n1:layout_width="fill_parent" n1:layout_height="fill_parent" style="@style/DialButton.Digital">
+                        <TextView n1:textAppearance="?textAppearanceDialPadDigit" n1:textSize="50.0dip" n1:gravity="center" n1:id="@id/dp_2" n1:paddingLeft="8.0dip" n1:paddingRight="8.0dip" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:text="2" n1:shadowDx="0.0" n1:shadowDy="0.0" n1:layout_centerVertical="true" />
+                        <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/dp_2" n1:layout_centerVertical="true">
+                            <TextView n1:textAppearance="?textAppearanceDialPadDigit" n1:textSize="16.0dip" n1:textStyle="bold" n1:id="@id/dp_l1_abc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="ABC" n1:maxLines="1" n1:shadowDx="0.0" n1:shadowDy="0.0" n1:shadowRadius="2.0" />
+                            <TextView n1:textAppearance="?textAppearanceDialPadDigit" n1:textSize="16.0dip" n1:textStyle="bold" n1:id="@id/dp_l2_abc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="-3.0dip" n1:text="АБВГ" n1:maxLines="1" n1:shadowDx="0.0" n1:shadowDy="0.0" n1:shadowRadius="2.0" />
+                        </LinearLayout>
+                    </com.dw.contacts.ui.widget.DialpadKeyButton>
+                    <View n1:id="@id/dp_d2" n1:background="#22888888" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+                    <com.dw.contacts.ui.widget.DialpadKeyButton n1:gravity="center" n1:id="@id/there" n1:layout_width="fill_parent" n1:layout_height="fill_parent" style="@style/DialButton.Digital">
+                        <TextView n1:textAppearance="?textAppearanceDialPadDigit" n1:textSize="50.0dip" n1:gravity="center" n1:id="@id/dp_3" n1:paddingLeft="8.0dip" n1:paddingRight="8.0dip" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:text="3" n1:shadowDx="0.0" n1:shadowDy="0.0" n1:layout_centerVertical="true" />
+                        <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/dp_3" n1:layout_centerVertical="true">
+                            <TextView n1:textAppearance="?textAppearanceDialPadDigit" n1:textSize="16.0dip" n1:textStyle="bold" n1:id="@id/dp_l1_def" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="DEF" n1:maxLines="1" n1:shadowDx="0.0" n1:shadowDy="0.0" n1:shadowRadius="2.0" />
+                            <TextView n1:textAppearance="?textAppearanceDialPadDigit" n1:textSize="16.0dip" n1:textStyle="bold" n1:id="@id/dp_l2_def" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="-3.0dip" n1:text="ДЕЁЖЗ" n1:maxLines="1" n1:shadowDx="0.0" n1:shadowDy="0.0" n1:shadowRadius="2.0" />
+                        </LinearLayout>
+                    </com.dw.contacts.ui.widget.DialpadKeyButton>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView style="@style/color_editor_card">
+            <LinearLayout n1:orientation="vertical" n1:padding="@dimen/color_editor_card_padding" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <com.dw.android.widget.CardHeaderView n17:left_text="@string/SMS" style="@style/color_editor_card_header" xmlns:n17="http://schemas.android.com/apk/res-auto" />
+                <ViewStub n1:id="@id/sms_recv" n1:layout="@layout/contact_detail_sms_list_item_recv" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+                <ViewStub n1:id="@id/sms_send" n1:layout="@layout/contact_detail_sms_list_item_send" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView style="@style/color_editor_card">
+            <LinearLayout n1:orientation="vertical" n1:padding="@dimen/color_editor_card_padding" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <com.dw.android.widget.CardHeaderView n18:left_text="@string/menu_quickJump" style="@style/color_editor_card_header" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+                <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:id="@id/bg_alphabet_index" n1:background="?colorPrimary" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <TextView n1:textAppearance="@style/TextAppearance.AlphabetIndex.Item" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/qj1" n1:layout_width="64.0dip" n1:layout_height="64.0dip" n1:text="A" />
+                    <TextView n1:textAppearance="@style/TextAppearance.AlphabetIndex.Item" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/qj2" n1:layout_width="64.0dip" n1:layout_height="64.0dip" n1:text="B" />
+                    <TextView n1:textAppearance="@style/TextAppearance.AlphabetIndex.Item" n1:gravity="center" n1:layout_gravity="center" n1:id="@id/qj3" n1:layout_width="64.0dip" n1:layout_height="64.0dip" n1:text="C" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <TextView n1:gravity="center" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/recommended_touch_area_size" n1:text="@string/pref_title_backgroundColor" />
+    </LinearLayout>
+</ScrollView>

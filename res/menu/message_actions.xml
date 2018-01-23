@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_share" n1:id="@id/share" n1:title="@string/menu_share" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?actionModeCopyDrawable" n3:id="@id/copy_text" n3:title="@string/copy_text" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="@drawable/ic_info_24dp" n5:id="@id/details" n5:title="@string/view_message_details" n6:showAsAction="always"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="?ic_action_delete" n7:id="@id/delete" n7:title="@string/delete"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:icon="?ic_action_select_all" n8:id="@id/select_all" n8:title="@string/selectAll"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:icon="?ic_action_inverse_select" n9:id="@id/inverse_select" n9:title="@string/menu_inverse_select"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+</menu>

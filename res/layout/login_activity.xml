@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+        <LinearLayout n1:orientation="vertical" n1:paddingLeft="20.0dip" n1:paddingTop="5.0dip" n1:paddingRight="20.0dip" n1:paddingBottom="13.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/message" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dip" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:textStyle="bold" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/username" />
+            <EditText n1:id="@id/username_edit" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minWidth="250.0dip" n1:text="@string/phoneLabelsGroup" n1:maxLines="1" n1:scrollHorizontally="true" n1:capitalize="none" n1:autoText="false" n1:inputType="textEmailAddress" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/username_fixed" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="2.0dip" n1:maxLines="1" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/message_bottom" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="5.0dip" n1:text="@string/message_createLocalContactAccount" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout n1:background="#ffc6c3c6" n1:paddingLeft="2.0dip" n1:paddingTop="4.0dip" n1:paddingRight="2.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="54.0dip">
+        <Button n1:layout_gravity="center_horizontal" n1:id="@id/ok_button" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="100.0dip" n1:text="@string/signIn" n1:onClick="handleLogin" />
+    </FrameLayout>
+</LinearLayout>

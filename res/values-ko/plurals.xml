@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s개 항목을 완료로 표시함</item>
+        <item quantity="one">%s개 항목을 완료로 표시함</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s 삭제됨</item>
+        <item quantity="one">%1$s 삭제됨</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d분</item>
+        <item quantity="one">1분</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d초</item>
+        <item quantity="one">1초</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">연락처 %d개</item>
+        <item quantity="one">연락처 1개</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d개 찾음</item>
+        <item quantity="one">1개 찾음</item>
+    </plurals>
+</resources>

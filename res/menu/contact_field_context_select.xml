@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_text" n1:id="@id/send_sms" n1:title="@string/menu_sendMessage"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:icon="?ic_action_email" n2:id="@id/send_email" n2:title="@string/menu_sendMail"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:icon="@drawable/ic_tab_recent" n3:id="@id/view_history" n3:title="@string/menu_showHistory"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:icon="@drawable/ic_action_personal" n4:id="@id/view_contacts" n4:title="@string/menu_viewRelatedContacts"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:icon="@drawable/ic_action_discard" n5:id="@id/delete_select" n5:title="@string/delete"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:icon="@drawable/ic_action_music_note" n6:id="@id/set_ringtone" n6:title="@string/menu_setRingtone"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <group n7:id="@id/other" n7:visible="false"
+      xmlns:n7="http://schemas.android.com/apk/res/android">
+        <item n7:enabled="false" n7:id="@id/menu_section" n7:title="" />
+        <item n7:icon="?ic_action_select_all" n7:id="@id/select_all" n7:title="@string/selectAll" />
+        <item n7:icon="?ic_action_unselect_all" n7:id="@id/unselect_all" n7:title="@string/menu_unselectAll" />
+        <item n7:icon="?ic_action_inverse_select" n7:id="@id/inverse_select" n7:title="@string/menu_inverse_select" />
+        <item n7:enabled="false" n7:id="@id/menu_section" n7:title="" />
+        <item n7:icon="?ic_action_search" n7:id="@id/search" n7:title="@string/search" />
+    </group>
+</menu>

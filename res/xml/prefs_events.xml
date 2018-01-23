@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/eventsList" n1:key="events"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.dw.preference.ContactGroupsPreference n1:title="@string/pref_title_eventsToDisplay" n1:key="events.show_contact_groups" n1:defaultValue="AUTO_GROUP_-1" />
+    <CheckBoxPreference n1:title="@string/pref_title_showEventsFromToday" n1:key="showEventsFromToday" n1:defaultValue="false" />
+    <CheckBoxPreference n1:title="@string/pref_show_account_name_title" n1:key="showAccountNameInEvent" n1:defaultValue="false" />
+    <PreferenceCategory n1:title="@string/pref_title_eventNotification" n1:key="notification">
+        <CheckBoxPreference n1:title="@string/pref_title_enableEventNotification" n1:key="event_notification" n1:defaultValue="true" />
+        <com.dw.preference.TextNumberPreference n1:title="@string/pref_title_notificationBeforeHappen" n1:key="notificationBeforeDays" n1:summary="@string/pref_summary_notificationBeforeHappen" n1:dependency="event_notification" n1:defaultValue="0" n1:positiveButtonText="@string/save" n1:negativeButtonText="@android:string/cancel" n2:maxValue="365" n2:minValue="0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.dw.preference.TimePreference n1:title="@string/pref_title_notificationTime" n1:key="notification_time" n1:summary="@string/pref_summary_notificationTime" n1:dependency="event_notification" n1:defaultValue="09:00:00" />
+        <com.dw.preference.MyRingtonePreference n1:title="@string/pref_title_notificationRingtone" n1:key="event_notification_ringtone" n1:summary="%s" n1:dependency="event_notification" n1:ringtoneType="notification" n1:showDefault="true" n1:showSilent="false" />
+        <CheckBoxPreference n1:title="@string/pref_title_automaticallySendGreetingsSMS" n1:key="event_notification.automaticallySendGreetingsSMS" n1:summary="@string/pref_summary_automaticallySendGreetingsSMS" n1:dependency="event_notification" n1:defaultValue="false" />
+        <EditTextPreference n1:title="@string/pref_title_eventGreetingText" n1:key="eventGreetingText" n1:defaultValue="@string/pref_default_eventGreetingText" n1:dialogMessage="@string/pref_message_eventGreetingText" />
+        <EditTextPreference n1:title="@string/pref_title_eventGreetingSubject" n1:key="eventGreetingSubject" n1:summary="@string/pref_summary_eventGreetingSubject" n1:defaultValue="@string/pref_default_eventGreetingSubject" n1:dialogMessage="@string/pref_message_eventGreetingText" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/pref_title_appointmentSettings" n1:key="appointmentSettings">
+        <EditTextPreference n1:title="@string/pref_title_defaultAppointmentText" n1:key="defaultAppointmentText" n1:summary="@string/pref_summary_defaultAppointmentText" n1:defaultValue="@string/pref_default_defaultAppointmentText" />
+        <com.dw.preference.MultiSelectListPreference n1:entries="@array/pref_entriesNeedSendToCalendar" n1:title="@string/pref_title_contactFields" n1:key="informationNeedSendToCalendar" n1:summary="@string/pref_summary_informationNeedSendToCalendar" n1:defaultValue="@string/pref_default_entriesNeedSendToCalendar" n1:entryValues="@array/pref_values_mark" />
+        <CheckBoxPreference n1:title="@string/pref_title_sendInvitation" n1:key="appointment.send_invitation" n1:summary="@string/pref_summary_sendInvitation" n1:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

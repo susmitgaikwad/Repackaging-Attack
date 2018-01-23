@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s elementų, pažymėta kaip atlikta</item>
+        <item quantity="one">%s elementas, pažymėtas kaip atliktas</item>
+        <item quantity="few">%s elementai, pažymėti kaip atlikti</item>
+        <item quantity="many">%s elemento, pažymėta kaip atlikta</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">Ištrinta %1$s elementų</item>
+        <item quantity="one">Ištrintas %1$s elementas</item>
+        <item quantity="few">Ištrinti %1$s elementai</item>
+        <item quantity="many">Ištrinta %1$s elemento</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">1 sek.</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Kontaktai: %d</item>
+        <item quantity="one">1 kontaktas</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Rasta %d kontaktų</item>
+        <item quantity="one">Rastas %d kontaktas</item>
+        <item quantity="few">Rasti %d kontaktai</item>
+        <item quantity="many">Rasta %d kontakto</item>
+    </plurals>
+</resources>

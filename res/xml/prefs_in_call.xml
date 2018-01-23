@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/pref_in_call_widget_title" n1:key="in_call"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory n1:title="@string/pref_title_speakCallerID" n1:key="speak_caller_id">
+        <CheckBoxPreference n1:title="@string/pref_title_speakCallerID" n1:key="speakCallerID" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/pref_title_speakOrganization" n1:key="speak_caller_id.speakOrganization" n1:dependency="speakCallerID" n1:defaultValue="true" />
+        <CheckBoxPreference n1:title="@string/pref_title_speakNumber" n1:key="speak_caller_id.speakNumber" n1:summary="@string/pref_summary_speakNumber" n1:dependency="speakCallerID" n1:defaultValue="false" />
+        <com.dw.preference.NumberPreference n1:title="@string/pref_title_repeatCount" n1:key="speak_caller_id.repeatCount" n1:summary="%s" n1:dependency="speakCallerID" n1:defaultValue="3" n2:maxValue="60" n2:minValue="1" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.dw.preference.NumberPreference n1:title="@string/pref_title_repeatInterval" n1:key="speak_caller_id.repeatInterval" n1:dependency="speakCallerID" n1:defaultValue="5" n3:maxValue="60" n3:minValue="0" n3:quantitySummary="@plurals/duration_seconds" n3:rightText="@string/seconds" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <CheckBoxPreference n1:title="@string/pref_title_reduceRingerVolume" n1:key="speak_caller_id.reduceRingerVol" n1:summary="@string/pref_summary_reduceRingerVolume" n1:dependency="speakCallerID" n1:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/pref_in_call_widget_title" n1:key="in_call.category">
+        <CheckBoxPreference n1:title="@string/pref_title_enableInCallWidget" n1:key="in_call.enable" n1:defaultValue="true" />
+        <CheckBoxPreference n1:title="@string/pref_title_displayWhenDialing" n1:key="in_call.displayWhenDialing" n1:dependency="in_call.enable" n1:defaultValue="true" />
+        <com.dw.preference.NumberPreference n1:title="@string/pref_title_delayToClose" n1:key="in_call.delayToClose" n1:summary="@string/pref_summary_delayToCloseInCallWidget" n1:dependency="in_call.enable" n1:defaultValue="10" n4:maxValue="60" n4:minValue="0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <CheckBoxPreference n1:title="@string/pref_title_closeWhenOffhook" n1:key="in_call.closeWhenOffhook" n1:summary="@string/pref_summary_closeWhenOffhook" n1:dependency="in_call.enable" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/pref_title_hideTheTitle" n1:key="in_call.hide_title" n1:dependency="in_call.enable" />
+        <CheckBoxPreference n1:title="@string/pref_title_saveNotesToContacts" n1:key="in_call.save_notes_to_contacts" n1:dependency="in_call.enable" />
+        <com.dw.preference.MultiSelectListPreference n1:entries="@array/pref_entriesInformationNeedShowInInCall" n1:title="@string/pref_title_contactFields" n1:key="in_call.informationNeedShow" n1:summary="@string/pref_summary_informationNeedShowInInCallWidget" n1:dependency="in_call.enable" n1:defaultValue="@string/pref_default_informationNeedShowInInCall" n1:entryValues="@array/pref_entryValuesInformationNeedShowInInCall" />
+        <com.dw.preference.MultiSelectListPreference n1:entries="@array/pref_entries_nameField" n1:title="@string/pref_title_nameFieldToShow" n1:key="in_call.nameFieldToShow" n1:dependency="in_call.enable" n1:defaultValue="@string/pref_def_nameFieldToShow" n1:entryValues="@array/pref_values_mark" />
+        <CheckBoxPreference n1:title="@string/pref_title_showCallerLocation" n1:key="in_call.showCallerLocation" n1:dependency="in_call.enable" n1:defaultValue="true" />
+        <Preference n1:title="@string/pref_title_downloadGeocoderPlugin" n1:key="in_call.downloadGeocoderPlugin" />
+        <CheckBoxPreference n1:title="@string/fixedHeight" n1:key="in_call.fixedHeight" n1:dependency="in_call.enable" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/pref_title_lockWindowPosition" n1:key="in_call.lockWindowPosition" n1:summary="@string/pref_summary_lockWindowPosition" n1:dependency="in_call.enable" n1:defaultValue="false" />
+        <com.dw.preference.NumberPreference n1:title="@string/pref_title_YPositionOfInfoWindow" n1:key="in_call.yPosition" n1:summary="@string/pref_summary_YPositionOfInfoWindow" n1:dependency="in_call.enable" n1:defaultValue="0" />
+        <com.dw.preference.TextNumberPreference n1:title="@string/pref_title_showNotesLines" n1:key="showNotesLinesInCall" n1:summary="@string/tips_clickToSeeAllText" n1:dependency="in_call.enable" n1:defaultValue="3" n5:maxValue="1000" n5:minValue="0" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/pref_title_themeCustomize" n1:key="in_call.theme">
+        <com.dw.preference.ColorPreference n1:title="@string/pref_title_backgroundColor" n1:key="theme.color.bg_in_call" n1:defaultValue="0xAA272727" />
+        <com.dw.preference.ColorPreference n1:title="@string/pref_title_textColor" n1:key="theme.color.fg_in_call" n1:defaultValue="0xFFFFFFFE" />
+        <com.dw.preference.FontSizePreference n1:title="@string/font_size" n1:key="theme.font.size.incoming_v2" n1:summary="@string/pref_font_size_summary" n1:defaultValue="14" n6:maxValue="@integer/pref_max_fontSize" n6:minValue="1" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    </PreferenceCategory>
+</PreferenceScreen>

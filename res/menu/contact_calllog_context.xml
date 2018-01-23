@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/contact_calllog_editNotes" n1:title="@string/menu_editNotes"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:id="@id/call_using" n2:visible="false" n2:title=""
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:id="@id/call_with_prefix" n3:visible="false" n3:title=""
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:id="@id/call_with_prefix1" n4:visible="false" n4:title=""
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:id="@id/call_with_prefix2" n5:visible="false" n5:title=""
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:id="@id/call_with_suffix" n6:visible="false" n6:title=""
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:id="@id/call_with_infix" n7:visible="false" n7:title=""
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:id="@id/edit_number_before_call" n8:visible="false" n8:title="@string/recentCalls_editNumberBeforeCall"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <group n9:id="@id/need_number"
+      xmlns:n9="http://schemas.android.com/apk/res/android">
+        <item n9:id="@id/contact_calllog_sendMessage" n9:title="@string/menu_sendMessage" />
+        <item n9:id="@id/contact_calllog_addToQuickdialList" n9:title="@string/menu_addToQuickdialList" />
+    </group>
+    <item n10:id="@id/add_to_blocklist" n10:visible="false" n10:title="@string/menu_addToBlockList"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:id="@id/remove_from_blocklist" n11:visible="false" n11:title="@string/menu_removeFromBlockList"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <item n12:id="@id/contact_calllog_delete" n12:title="@string/delete"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+</menu>

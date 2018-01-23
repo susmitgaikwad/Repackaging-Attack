@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape n1:shape="oval"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <size n1:height="@dimen/glowpadview_outerring_diameter" n1:width="@dimen/glowpadview_outerring_diameter" />
+    <solid n1:color="#00000000" />
+    <stroke n1:width="2.0dip" n1:color="#1affffff" />
+</shape>

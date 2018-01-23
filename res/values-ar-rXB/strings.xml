@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="agenda_view">‏‮Agenda‬‏</string>
+    <string name="event_info_reminders_label">‏‮Reminders‬‏</string>
+    <string name="event_not_found">‏‮Event‬‏ ‏‮not‬‏ ‏‮found‬‏.</string>
+    <string name="hint_description">‏‮Description‬‏</string>
+    <string name="hint_what">‏‮Event‬‏ ‏‮name‬‏</string>
+    <string name="show_newer_events">‏‮Touch‬‏ ‏‮to‬‏ ‏‮view‬‏ ‏‮events‬‏ ‏‮after‬‏ %1$s</string>
+    <string name="show_older_events">‏‮Touch‬‏ ‏‮to‬‏ ‏‮view‬‏ ‏‮events‬‏ ‏‮before‬‏ %1$s</string>
+</resources>

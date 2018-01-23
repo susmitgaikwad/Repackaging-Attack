@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/alert" n1:title="@string/pref_title_notification"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:id="@id/alarm" n2:title="@string/pref_title_alarm"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</menu>

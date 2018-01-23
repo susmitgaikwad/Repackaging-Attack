@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/pref_services_title" n1:key="services"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference n1:title="@string/pref_title_enableBackgroundDataLoading" n1:key="enableBackgroundDataLoading" n1:summary="@string/pref_summary_enableBackgroundDataLoading" n1:defaultValue="false" />
+    <PreferenceCategory n1:title="@string/pref_firewall_title" n1:key="firewall">
+        <CheckBoxPreference n1:title="@string/pref_title_firewall_enable" n1:key="pref_key_firewall_enable" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/pref_title_firewall_allways_show_stat_notify" n1:key="pref_key_firewall_allways_show_notify" n1:summary="@string/pref_firewall_allways_show_stat_notify_summary" n1:dependency="pref_key_firewall_enable" n1:defaultValue="true" />
+        <CheckBoxPreference n1:title="@string/pref_title_interceptCallsEvenDuringCall" n1:key="callfilter.interceptDuringCall" n1:summary="@string/pref_summary_interceptCallsEvenDuringCall" n1:dependency="pref_key_firewall_enable" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/pref_title_displayPromptWhenCallBlocked" n1:key="callfilter.displayPrompt" n1:summary="@string/pref_title_displayPromptWhenCallBlocked" n1:dependency="pref_key_firewall_enable" n1:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

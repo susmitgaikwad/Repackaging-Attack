@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Перехоплення</item>
+        <item>Дозволяє</item>
+        <item>Тишина</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Фільтр груп</item>
+        <item>Фільтр номерів</item>
+        <item>"Недавно зв'язався за номером телефону"</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Виберіть групи для фільтра</item>
+        <item>Введіть номер для фільтра</item>
+        <item>Виберіть допустиму тривалість</item>
+    </string-array>
+    <string-array name="days">
+        <item>Неділя</item>
+        <item>Понеділок</item>
+        <item>Вівторок</item>
+        <item>Середа</item>
+        <item>Четвер</item>
+        <item>"П'ятниця"</item>
+        <item>Субота</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Sun</item>
+        <item>Пн</item>
+        <item>Вт.</item>
+        <item>Ср</item>
+        <item>Чт.</item>
+        <item>Пт.</item>
+        <item>Сб.</item>
+    </string-array>
+    <string-array name="efp__size_units">
+        <item>Б</item>
+        <item>кБ</item>
+        <item>мБ</item>
+        <item>гБ</item>
+        <item>тБ</item>
+        <item>пБ</item>
+    </string-array>
+    <string-array name="efp__sorting_types">
+        <item>По імені, по зростанню</item>
+        <item>По імені, по убуванню</item>
+        <item>По розміру, по зростанню</item>
+        <item>По розміру, по убуванню</item>
+        <item>За датою, по зростанню</item>
+        <item>За датою, по убуванню</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Адреса електронної пошти за замовчуванням</item>
+        <item>Всі адреси електронної пошти</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>За замовчуванням або перший номер мобільного телефону</item>
+        <item>Всі мобільні номери</item>
+        <item>Всі номери</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Організація</item>
+        <item>Адреса</item>
+        <item>Телефон</item>
+        <item>Електронна пошта</item>
+        <item>Нотатки</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>Щодня</item>
+        <item>Кожні два дні</item>
+        <item>Кожні три дні</item>
+        <item>Кожні чотири дні</item>
+        <item>"Кожні п'ять днів"</item>
+        <item>Кожні шість днів</item>
+        <item>Щотижня</item>
+        <item>Щомісяця</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Пошук у всіх полях</item>
+        <item>Пошук у всіх контактах</item>
+        <item>Пошук у глобальному списку адрес</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Центр</item>
+        <item>Обрізати в центрі</item>
+        <item>Центр всередині</item>
+        <item>Встановити в центрі</item>
+        <item>Розтягнути</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF тон</item>
+        <item>Тон натискання</item>
+        <item>Вимкнено</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Набір/Ввід/Видалення</item>
+        <item>Видалити/Вхід/Набір</item>
+        <item>Вхід/Видалити/Набір</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Увімкнути</item>
+        <item>Вимкнути</item>
+        <item>Автоматично</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>"Ім'я"</item>
+        <item>Прізвище</item>
+        <item>По-батькові</item>
+        <item>Почесний префікс</item>
+        <item>Почесний суфікс</item>
+        <item>"Фонетичне ім'я"</item>
+        <item>Фонетичне прізвище</item>
+        <item>Фонетичне по-батькові</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 хвилина</item>
+        <item>5 хвилин</item>
+        <item>10 хвилин</item>
+        <item>15 хвилин</item>
+        <item>20 хвилин</item>
+        <item>25 хвилин</item>
+        <item>30 хвилин</item>
+        <item>45 хвилин</item>
+        <item>1 година</item>
+        <item>2 години</item>
+        <item>3 години</item>
+        <item>12 годин</item>
+        <item>24 години</item>
+        <item>2 дні</item>
+        <item>1 тиждень</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Зверху</item>
+        <item>По центру</item>
+        <item>Знизу</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Прихована копія</item>
+        <item>Копія</item>
+        <item>Кому</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Номери</item>
+        <item>Організація</item>
+        <item>Назва</item>
+        <item>Групи</item>
+        <item>Значок облікового запису</item>
+        <item>Зображення контакта</item>
+        <item>Email кнопка</item>
+        <item>Кнопка SMS</item>
+        <item>Кнопка виклику</item>
+        <item>Нотатки</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Групи</item>
+        <item>Організації</item>
+        <item>Заголовки</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal чи кредитною карткою</item>
+        <item>Рекомендувати друзям</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Зареєструйте це програмне забезпечення для облікового запису google (купіть та встановіть через Google Play версію Pro). Після інсталяції версії Pro, будь ласка, вилучіть безкоштовну версію.</item>
+        <item>Зареєструйте це програмне забезпечення на серійний номер пристрою: %s. Після процесу оплати ви отримаєте підтвердження електронною поштою з реєстраційним кодом. Потім перевірте реєстрацію одним натисканням на [Онлайн перевірка реєстрації].</item>
+        <item>Отримати безкоштовний реєстраційний код</item>
+    </string-array>
+</resources>

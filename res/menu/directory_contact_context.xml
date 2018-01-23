@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/call" n1:visible="false" n1:title=""
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:id="@id/call_using" n2:visible="false" n2:title=""
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:id="@id/call_with_prefix" n3:visible="false" n3:title=""
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:id="@id/call_with_prefix1" n4:visible="false" n4:title=""
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:id="@id/call_with_prefix2" n5:visible="false" n5:title=""
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:id="@id/call_with_suffix" n6:visible="false" n6:title=""
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:id="@id/call_with_infix" n7:visible="false" n7:title=""
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:id="@id/edit_number_before_call" n8:visible="false" n8:title="@string/recentCalls_editNumberBeforeCall"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:id="@id/create_event" n9:visible="false" n9:title="@string/menu_createEvent"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:id="@id/view_contact" n10:title="@string/menu_viewContact"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:id="@id/send_message" n11:title="@string/send_message"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <item n12:id="@id/send_email" n12:title="@string/menu_sendEmail"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+    <item n13:id="@id/share_number" n13:visible="false" n13:title="@string/menu_shareNumber"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+    <item n14:id="@id/copy" n14:visible="false" n14:title="@string/menu_copyToClipboard"
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+    <item n15:id="@id/duplicate_contact" n15:title="@string/menu_duplicate_contact"
+      xmlns:n15="http://schemas.android.com/apk/res/android" />
+</menu>

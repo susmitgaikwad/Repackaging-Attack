@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Intercetta</item>
+        <item>Permette</item>
+        <item>Silenzio</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Filtro gruppo</item>
+        <item>Filtro numero</item>
+        <item>Numeri di telefono contattati di recente</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Scegli gruppi per filtro</item>
+        <item>Inserisci numero per filtro</item>
+        <item>Selezionare la validità della durata</item>
+    </string-array>
+    <string-array name="days">
+        <item>Domenica</item>
+        <item>Lunedì</item>
+        <item>Martedì</item>
+        <item>Mercoledì</item>
+        <item>Giovedì</item>
+        <item>Venerdì</item>
+        <item>Sabato</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Dom</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mer</item>
+        <item>Gio</item>
+        <item>Ven</item>
+        <item>Sab</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Email primaria</item>
+        <item>Tutte le Email</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Cellulare primario o Primo cellulare</item>
+        <item>Tutti i numeri cellulari</item>
+        <item>Tutti i numeri</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Organizzazione</item>
+        <item>Indirizzo</item>
+        <item>Telefono</item>
+        <item>Email</item>
+        <item>Note</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>Ogni giorno</item>
+        <item>Ogni due giorni</item>
+        <item>Ogni tre giorni</item>
+        <item>Ogni quattro giorni</item>
+        <item>Ogni cinque giorni</item>
+        <item>Ogni sei giorni</item>
+        <item>Settimanalmente</item>
+        <item>Mensilmente</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Cerca in tutti i campi</item>
+        <item>Cerca tutti i contatti</item>
+        <item>"Ricerca nell'elenco indirizzi globale"</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Centro</item>
+        <item>Ritaglia centro</item>
+        <item>"Centra all'interno"</item>
+        <item>Centrata</item>
+        <item>Zoom</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>Tono DTMF</item>
+        <item>Tono del click</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Componi/Inserisci/Cancella</item>
+        <item>Cancella/Inserisci/Componi</item>
+        <item>Inserisci/Cancella/Componi</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Acceso</item>
+        <item>Spento</item>
+        <item>Automatico</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Nome</item>
+        <item>Cognome</item>
+        <item>Secondo nome</item>
+        <item>Prefisso onorifico</item>
+        <item>Suffisso onorifico</item>
+        <item>Nome fonetico</item>
+        <item>Cognome fonetico</item>
+        <item>Secondo nome fonetico</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 minuto</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>15 minuti</item>
+        <item>20 minuti</item>
+        <item>25 minuti</item>
+        <item>30 minuti</item>
+        <item>45 minuti</item>
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+        <item>12 ore</item>
+        <item>24 ore</item>
+        <item>2 giorni</item>
+        <item>1 settimana</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>In cima</item>
+        <item>Centro</item>
+        <item>In fondo</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>CCN</item>
+        <item>Cc</item>
+        <item>A</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Numeri</item>
+        <item>Organizzazione</item>
+        <item>Titolo</item>
+        <item>Gruppi</item>
+        <item>"Icona dell'account"</item>
+        <item>Immagini del contatto</item>
+        <item>Pulsante e-mail</item>
+        <item>Pulsante SMS</item>
+        <item>Pulsante Componi</item>
+        <item>Note</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Gruppi</item>
+        <item>Organizzazioni</item>
+        <item>Titoli</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal o carta di credito</item>
+        <item>Raccomanda agli amici</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Registrare questo software col tuo account google (acquistare e installare la versione Pro tramite Google Play). Dopo aver installato la versione Pro, disinstallare la versione gratuita.</item>
+        <item>Registrare questo software con il numero di serie del dispositivo: %s. Dopo il pagamento, si riceverà una email di conferma con il codice di registrazione. In seguito controllare la registrazione tramite clic su [Verifica Registrazione Online].</item>
+        <item>Ottieni un codice di registrazione gratuito</item>
+    </string-array>
+</resources>

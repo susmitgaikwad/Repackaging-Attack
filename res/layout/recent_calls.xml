@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/search_bar" n1:layout="@layout/search_bar_stub" n1:inflatedId="@id/search_bar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <com.dw.android.widget.CSRelativeLayout n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" n2:sink="?sinkSizePrimary" n2:sinkGravity="top" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/content" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <LinearLayout n1:id="@id/header" n1:background="?selectableItemBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="?android:listSeparatorTextViewStyle">
+                <TextView n1:id="@id/header_text" n1:background="@null" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:minHeight="@dimen/recommended_touch_area_size" n1:lines="1" n1:layout_weight="1.0" style="?android:listSeparatorTextViewStyle" />
+                <com.dw.android.widget.TintImageView n1:layout_width="wrap_content" n1:layout_height="fill_parent" n2:srcCompat="?ic_action_navigation_expand" n2:tint="?listButtonTint" />
+            </LinearLayout>
+            <FrameLayout n1:id="@id/call_logs" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="5.0" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/call_statistics" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <FrameLayout n1:id="@id/statistics" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+            <com.dw.android.widget.TintImageView n1:id="@id/collapse" n1:background="?selectableItemBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:scaleType="center" n1:minHeight="@dimen/recommended_touch_area_size" n2:srcCompat="?ic_action_navigation_collapse" n2:tint="?listButtonTint" />
+        </LinearLayout>
+    </com.dw.android.widget.CSRelativeLayout>
+</LinearLayout>

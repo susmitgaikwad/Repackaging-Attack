@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">(%d kontakt)</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d tapıldı</item>
+        <item quantity="one">1 tapıldı</item>
+    </plurals>
+</resources>

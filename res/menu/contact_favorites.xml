@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_alphabet" n1:id="@id/quick_Jump" n1:title="@string/menu_quickJump" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?ic_action_new_person" n3:id="@id/new_contact" n3:title="@string/menu_newContact" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="?ic_action_sort" n5:id="@id/sort" n5:title="@string/menu_sort" n6:showAsAction="ifRoom"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="?ic_action_search" n7:id="@id/search" n7:title="@string/search" n8:showAsAction="always"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:id="@id/arrange_mode" n9:title="@string/menu_arrangeMode"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:icon="?ic_action_select" n10:id="@id/select_mode" n10:title="@string/menu_select_mode"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:id="@id/grid_view" n11:title="@string/menu_gridView"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <item n12:id="@id/list_view" n12:title="@string/menu_listView"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+    <item n13:id="@id/showMostContacted" n13:title="@string/pref_title_showMostContactedBelowFavorites" n13:checkable="true"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+    <item n14:id="@id/clear_frequents" n14:title="@string/menu_clear_frequents"
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+    <item n15:id="@id/show_field" n15:visible="false" n15:title="@string/pref_title_showInContactList"
+      xmlns:n15="http://schemas.android.com/apk/res/android" />
+    <item n16:id="@id/settings" n16:menuCategory="system" n16:orderInCategory="100" n16:title="@string/menu_preferences"
+      xmlns:n16="http://schemas.android.com/apk/res/android" />
+</menu>

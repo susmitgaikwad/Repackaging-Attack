@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d ນາທີ</item>
+        <item quantity="one">1 ນາ​ທີ</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d ວິນາທີ</item>
+        <item quantity="one">1 ວິນາທີ</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ພົບແລ້ວ</item>
+        <item quantity="one">1 ພົບແລ້ວ</item>
+    </plurals>
+</resources>

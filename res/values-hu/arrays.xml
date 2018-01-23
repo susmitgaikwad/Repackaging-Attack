@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Hívásszűrés</item>
+        <item>Engedélyez</item>
+        <item>Csend</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Csoport szűrő</item>
+        <item>Telefonszám szűrő</item>
+        <item>Mostanában hívott telefonszám</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Szűréshez válasszon csoportot</item>
+        <item>Szűrni kívánt hívószám bevitele</item>
+        <item>Válassza ki az érvényes időtartamot!</item>
+    </string-array>
+    <string-array name="days">
+        <item>Vasárnap</item>
+        <item>Hétfő</item>
+        <item>Kedd</item>
+        <item>Szerda</item>
+        <item>Csütörtök</item>
+        <item>Péntek</item>
+        <item>Szombat</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Vas</item>
+        <item>Hét</item>
+        <item>Ked</item>
+        <item>Sze</item>
+        <item>Csü</item>
+        <item>Pén</item>
+        <item>Szo</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Alapértelmezett email cím</item>
+        <item>Minden email cím</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Alapértelmezett mobil szám</item>
+        <item>Minden mobil szám</item>
+        <item>Minden telefonszám</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Szervezet</item>
+        <item>Cím</item>
+        <item>Telefon</item>
+        <item>E-mail</item>
+        <item>Megjegyzések</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Keresés valamennyi mezőben</item>
+        <item>Keresés valamennyi kapcsolat között</item>
+        <item>Keresés az általános címlistában</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Középen</item>
+        <item>Középre igazítás (vágással)</item>
+        <item>Teljes középre igazítás</item>
+        <item>Középre állítás</item>
+        <item>Igazítás X.Y.</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF hang</item>
+        <item>Kattanás</item>
+        <item>Ki</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Hívás/Bevitel/Törlés</item>
+        <item>Törlés/Bevitel/Hívás</item>
+        <item>Bevitel/Törlés/Hívás</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Bekapcsolás</item>
+        <item>Kikapcsolás</item>
+        <item>Automatikus mód</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Keresztnév</item>
+        <item>Családi név</item>
+        <item>Középső név</item>
+        <item>Különleges előnév</item>
+        <item>Különleges utónév/rag</item>
+        <item>Keresztnév fonetikus írása</item>
+        <item>Vezetéknév (fonetikus)</item>
+        <item>Középső név (fonetikus)</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 perc</item>
+        <item>5 perc</item>
+        <item>10 perc</item>
+        <item>15 perc</item>
+        <item>20 perc</item>
+        <item>20 perc</item>
+        <item>30 perc</item>
+        <item>45 perc</item>
+        <item>1 óra</item>
+        <item>2 óra</item>
+        <item>3 óra</item>
+        <item>12 óra</item>
+        <item>24 óra</item>
+        <item>2 nap</item>
+        <item>1 hét</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Fel</item>
+        <item>Középre</item>
+        <item>Le</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Titkos másolat</item>
+        <item>Másolat</item>
+        <item>Címzett</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Számok</item>
+        <item>Szervezet</item>
+        <item>Munkakör</item>
+        <item>Csoportok</item>
+        <item>Fiók ikon</item>
+        <item>Kapcsolat képek</item>
+        <item>E-mail gomb</item>
+        <item>SMS gomb</item>
+        <item>Tárcsázó gomb</item>
+        <item>Megjegyzések</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Csoportok</item>
+        <item>Szervezetek</item>
+        <item>Munkakörök</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal vagy hitelkártya fizetés</item>
+        <item>Ajánlja ismerőseinek a programot!</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Regisztrálja a szoftvert meglévő Google fiókjához. (vásárolja és telepítse fel a PRO verziót) Ha megtette a FRE verziót távolítsa el.</item>
+        <item>Regisztrálja a szoftvert készüléke szériaszámával: %s. A fizetési folyamat végén egy megerősítő e-mailt kap melyben megtalálja a regisztrációs kódját Ellenőrizze a regisztráció sikerességét. (beállítások menüpont, on line regisztráció ellenőrzése)</item>
+        <item>Szerezze be az ingyenes regisztrációs kódot!</item>
+    </string-array>
+</resources>

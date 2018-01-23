@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dw.android.widget.CSFrameLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:cornerRadius="3.0dip" n2:rising="6.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/background" n1:background="?android:windowBackground" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <com.dw.widget.LinearLayoutEx n1:id="@id/title" n1:background="?colorPrimary" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <com.dw.android.widget.ActionBar n1:id="@id/actionbar" n1:layout_width="0.0dip" n1:layout_height="42.0dip" n1:minWidth="195.0dip" n1:layout_weight="1.0" n2:itemSize="39.0dip" />
+            <com.dw.widget.ActionButton n1:id="@id/btn_close" n1:contentDescription="@string/close" n2:srcCompat="@drawable/ic_action_cancel" style="@style/inCallViewActionButton" />
+        </com.dw.widget.LinearLayoutEx>
+        <com.dw.android.widget.CSFrameLayout n1:orientation="vertical" n1:id="@id/content" n1:layout_width="312.0dip" n1:layout_height="200.0dip" n2:sink="?sinkSizePrimary" n2:sinkGravity="top">
+            <ViewStub n1:id="@id/note_edit_content" n1:layout="@layout/note_edit_content" n1:inflatedId="@id/note_edit_content" n1:layout_width="fill_parent" n1:layout_height="200.0dip" />
+            <include n1:id="@id/contact_card" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="6.0dip" layout="@layout/in_call_contact_card" />
+            <com.dw.android.widget.CSImageView n1:layout_gravity="bottom|center|right" n1:id="@id/resize" n1:layout_width="24.0dip" n1:layout_height="24.0dip" n2:srcCompat="@drawable/ic_action_resize" />
+        </com.dw.android.widget.CSFrameLayout>
+    </LinearLayout>
+</com.dw.android.widget.CSFrameLayout>

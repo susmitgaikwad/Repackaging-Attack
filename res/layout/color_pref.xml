@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingLeft="3.0dip" n1:paddingRight="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="?android:listPreferredItemHeight"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <EditText n1:id="@id/editText1" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="3.0dip" n1:maxLines="1" n1:maxLength="8" n1:layout_weight="0.0" n1:inputType="textCapCharacters|textNoSuggestions">
+        <requestFocus />
+    </EditText>
+    <com.dw.widget.ColorPickerView n1:id="@id/color_picker" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0" />
+</LinearLayout>

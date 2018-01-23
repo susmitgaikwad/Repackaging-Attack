@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/ic_action_minimize" n1:id="@id/minimize" n1:title="@string/minimize"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:icon="@drawable/ic_action_maximize" n2:id="@id/maximize" n2:visible="false" n2:title="@string/maximize"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:icon="@drawable/ic_action_note_add" n3:id="@id/edit_notes" n3:title="@string/menu_editNotes"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:icon="@drawable/ic_action_save" n4:id="@id/save" n4:visible="false" n4:title="@string/save"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:icon="@drawable/ic_action_new_event" n5:id="@id/add_event" n5:title="@string/menu_createEvent"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:icon="@drawable/ic_action_new_person" n6:id="@id/add_person" n6:visible="false" n6:title="@string/menu_newContact"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:icon="@drawable/ic_action_personal" n7:id="@id/show_person" n7:visible="false" n7:title="@string/menu_viewContact"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:icon="@drawable/ic_action_text" n8:id="@id/sms" n8:title="@string/sms"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:icon="@drawable/ic_action_call_s" n9:id="@id/re_call" n9:visible="false" n9:title="@string/description_dial_button"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:icon="@drawable/ic_call_end_24dp" n10:id="@id/end_call" n10:title="@string/notification_action_end_call"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:icon="@drawable/ic_action_share" n11:id="@id/share_number" n11:title="@string/menu_shareNumber"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <item n12:icon="@drawable/ic_list_action_allow" n12:id="@id/remove_from_blocklist" n12:title="@string/menu_removeFromBlockList"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+    <item n13:icon="@drawable/ic_call_type_blocked" n13:id="@id/add_to_blocklist" n13:title="@string/menu_addToBlockList"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+    <item n14:icon="@drawable/ic_action_settings" n14:id="@id/settings" n14:title="@string/menu_preferences"
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+</menu>

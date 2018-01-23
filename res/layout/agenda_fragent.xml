@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <FrameLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <com.dw.widget.ListViewEx n1:id="@android:id/list" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+        <android.support.design.widget.FloatingActionButton n1:layout_gravity="bottom|center|right" n1:id="@id/add" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="@dimen/floating_action_button_margin" n2:srcCompat="@drawable/ic_action_new" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <LinearLayout n1:id="@android:id/empty" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+        <TextView n1:textAppearance="@style/TextAppearance.EmptyText" n1:gravity="center" n1:id="@id/emptyText" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/no_item_to_display" />
+    </LinearLayout>
+</LinearLayout>

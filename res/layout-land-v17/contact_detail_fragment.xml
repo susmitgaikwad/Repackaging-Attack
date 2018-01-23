@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:id="@id/contact_detail" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <Button n1:id="@id/contact_quick_fix" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dip" n1:layout_marginRight="40.0dip" n1:layout_marginBottom="10.0dip" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" n1:layout_marginEnd="40.0dip" n1:layout_alignParentEnd="true" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:baselineAligned="false" n1:layout_above="@id/contact_quick_fix">
+        <include n1:id="@id/static_photo_container" n1:layout_width="@dimen/detail_contact_photo_size" n1:layout_height="@dimen/detail_contact_photo_size" n1:layout_marginLeft="@dimen/detail_contact_photo_margin" n1:layout_marginTop="@dimen/detail_contact_photo_margin" n1:layout_marginStart="@dimen/detail_contact_photo_margin" layout="@layout/photo_selector_view" />
+        <com.dw.widget.ListViewEx n1:id="@android:id/list" n1:fadingEdge="none" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:divider="@null" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <ScrollView n1:id="@android:id/empty" n1:visibility="gone" n1:fadingEdge="none" n1:layout_width="fill_parent" n1:layout_height="0.0px">
+        <TextView n1:textSize="20.0sp" n1:textColor="?android:textColorSecondary" n1:id="@id/emptyText" n1:paddingLeft="10.0dip" n1:paddingTop="10.0dip" n1:paddingRight="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/no_contact_details" n1:lineSpacingMultiplier="0.92" />
+    </ScrollView>
+</RelativeLayout>

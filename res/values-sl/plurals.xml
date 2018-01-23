@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s elementov je bilo označenih kot dokončanih</item>
+        <item quantity="one">%s element je bil označen kot dokončan</item>
+        <item quantity="two">%s elementa sta bila označena kot dokončana</item>
+        <item quantity="few">%s elementi so bili označeni kot dokončani</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s elementov je izbrisanih</item>
+        <item quantity="one">%1$s element je izbrisan</item>
+        <item quantity="two">%1$s element sta izbrisana</item>
+        <item quantity="few">%1$s elementi so izbrisani</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 minuta</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d stikov</item>
+        <item quantity="one">1 stik</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d najdenih</item>
+        <item quantity="one">%d najden</item>
+        <item quantity="two">%d najdena</item>
+        <item quantity="few">%d najdeni</item>
+    </plurals>
+</resources>

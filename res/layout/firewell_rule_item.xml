@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="1.0dip" n1:layout_weight="1.0"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/action" n1:padding="3.0dip" n1:layout_width="40.0dip" n1:layout_height="fill_parent" n2:srcCompat="@drawable/ic_list_action_allow" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginBottom="1.0dip" n1:layout_weight="1.0">
+        <TextView n1:textAppearance="?android:textAppearanceLarge" n1:ellipsize="marquee" n1:id="@id/label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" />
+        <TextView n1:id="@id/week" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/Text.small" />
+        <TextView n1:id="@id/message" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/Text.small" />
+        <com.dw.widget.ZebraBar n1:id="@id/time" n1:background="#88888888" n1:layout_width="wrap_content" n1:layout_height="5.0dip" n3:drawable_zebra="@drawable/bg_call_filter_block_time" n3:max="86340" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <android.support.v7.widget.SwitchCompat n1:id="@id/checkbox" n1:focusable="false" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:minWidth="@dimen/recommended_touch_area_size" n1:minHeight="@dimen/recommended_touch_area_size" />
+</LinearLayout>

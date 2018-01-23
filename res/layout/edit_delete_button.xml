@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:layout_gravity="bottom" n1:layout_width="wrap_content" n1:layout_height="@dimen/editor_min_line_item_height" n1:layout_marginRight="2.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:layout_gravity="center" n1:id="@id/delete_button" n1:background="?selectableItemBackground" n1:paddingLeft="@dimen/editor_round_button_padding_left" n1:paddingTop="@dimen/editor_round_button_padding_top" n1:paddingRight="@dimen/editor_round_button_padding_right" n1:paddingBottom="@dimen/editor_round_button_padding_bottom" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/ic_menu_remove_field_holo_light" />
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_alphabet" n1:id="@id/quick_Jump" n1:title="@string/menu_quickJump" n2:showAsAction="ifRoom"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?ic_action_group_by" n3:id="@id/group_by" n3:title="@string/menu_groupBy" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <menu>
+            <item n3:id="@id/group_by_country" n3:title="@string/postal_country" />
+            <item n3:id="@id/group_by_region" n3:title="@string/postal_region" />
+            <item n3:id="@id/group_by_city" n3:title="@string/postal_city" />
+            <item n3:id="@id/group_by_street" n3:title="@string/postal_street" />
+            <item n3:id="@id/group_by_address" n3:title="@string/postal_address" />
+            <item n3:id="@id/group_by_postcode" n3:title="@string/postal_postcode" />
+        </menu>
+    </item>
+    <item n5:icon="?ic_action_new" n5:id="@id/_new" n5:visible="false" n6:showAsAction="ifRoom"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="?ic_action_search" n7:id="@id/search" n7:title="@string/search" n8:showAsAction="always"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:icon="?ic_action_select" n9:id="@id/select_mode" n9:menuCategory="alternative" n9:title="@string/menu_select_mode"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <group n10:id="@id/other" n10:visible="false"
+      xmlns:n10="http://schemas.android.com/apk/res/android">
+        <item n10:id="@id/select_all" n10:title="@string/selectAll" />
+        <item n10:id="@id/unselect_all" n10:title="@string/menu_unselectAll" />
+        <item n10:id="@id/inverse_select" n10:title="@string/menu_inverse_select" />
+    </group>
+</menu>

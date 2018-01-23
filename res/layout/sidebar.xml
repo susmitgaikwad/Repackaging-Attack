@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/sidebar" n1:layout_width="fill_parent" n1:layout_height="fill_parent" style="@style/Widget.Sidebar"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/title_groups" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/sidebar_title_bar" />
+    <com.dw.android.widget.CSFrameLayout n1:id="@id/groups_list" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0" n2:sink="?sinkSizePrimary" n2:sinkGravity="bottom|top" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <include n1:id="@id/title_orgs" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/sidebar_title_bar" />
+    <com.dw.android.widget.CSFrameLayout n1:id="@id/orgs_list" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0" n3:sink="?sinkSizePrimary" n3:sinkGravity="bottom|top" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <include n1:id="@id/title_titles" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/sidebar_title_bar" />
+    <com.dw.android.widget.CSFrameLayout n1:id="@id/titles_list" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0" n4:sink="?sinkSizePrimary" n4:sinkGravity="bottom|top" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

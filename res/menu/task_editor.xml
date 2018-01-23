@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group n1:id="@id/edit"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <item n1:icon="?ic_action_delete" n1:id="@id/delete" n1:title="@string/delete" n2:showAsAction="always|withText" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <item n1:icon="?ic_action_select" n1:id="@id/done" n1:title="@string/menu_done" n3:showAsAction="always|withText" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    </group>
+    <group n4:id="@id/_new"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <item n4:icon="?ic_action_save" n4:id="@id/save" n4:title="@string/save" n5:showAsAction="always|withText" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    </group>
+</menu>

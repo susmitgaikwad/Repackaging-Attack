@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_SAPPS_BODY_WAITING_ING">მოცდა...</string>
+    <string name="IDS_SAPPS_HEADER_ITEM_PURCHASED">ელემენტი შეძენილია</string>
+    <string name="IDS_SAPPS_POP_ALREADY_PURCHASED">უკვე შეძენილია</string>
+    <string name="IDS_SAPPS_POP_AN_ERROR_OCCURRED_WHILE_RESETTING_SAMSUNG_IN_APP_PURCHASE">შეცდომა მოხდა Samsung In-App Purchase-ის გადატვირთვის დროს</string>
+    <string name="IDS_SAPPS_POP_AN_INVALID_VALUE_HAS_BEEN_PROVIDED_FOR_SAMSUNG_IN_APP_PURCHASE">არასწორი მნიშვნელობაა მითითებული Samsung In-App Purchase სისტემაში</string>
+    <string name="IDS_SAPPS_POP_AN_UNEXPECTED_ERROR_HAS_OCCURRED_SAMSUNG_ACCOUNT_AUTHENTICATION_HAS_BEEN_CANCELLED">მოხდა მოულოდნელი შეცდომა. Samsung ანგარიშის ავტორიზაცია გაუქმდა</string>
+    <string name="IDS_SAPPS_POP_A_NEW_VERSION_OF_SAMSUNG_IN_APP_PURCHASE_IS_AVAILABLE_UPDATE_Q">გამოვიდა Samsung In-App Purchase-ს ახალი ვერსია. განაახლებთ?</string>
+    <string name="IDS_SAPPS_POP_NETWORK_UNAVAILABLE">ქსელი მიუწვდომელია</string>
+    <string name="IDS_SAPPS_POP_PAYMENT_CANCELLED">გადახდა გაუქმდა</string>
+    <string name="IDS_SAPPS_POP_PRODUCT_DOES_NOT_EXIST_IN_THIS_STORE">პროდუქტი არ არის გაყიდვაში</string>
+    <string name="IDS_SAPPS_POP_SAMSUNG_IN_APP_PURCHASE">Samsung In-App Purchase</string>
+    <string name="IDS_SAPPS_POP_SAMSUNG_IN_APP_PURCHASE_NEEDS_TO_BE_UPDATED">Samsung In-App Purchase საჭიროებს გადაღებას</string>
+    <string name="IDS_SAPPS_POP_TO_PURCHASE_ITEMS_YOU_NEED_TO_INSTALL_SAMSUNG_IN_APP_PURCHASE_INSTALL_Q">ელემენტების შესაძენად უნდა დააინსტალიროთ Samsung In-App Purchase. დაინსტალირდეს?</string>
+    <string name="IDS_SAPPS_POP_UNKNOWN_ERROR_OCCURRED">მოხდა უცნობი შეცდომა</string>
+    <string name="IDS_SAPPS_POP_YOUR_PURCHASE_VIA_SAMSUNG_IN_APP_PURCHASE_IS_INVALID_A_FAKE_APPLICATION_HAS_BEEN_DETECTED_CHECK_THE_APP_MSG">თქვენი შეძენის ოპერაცია Samsung In-App Purchase სისტემით არასწორია. ამოცნობილია ცრუ პროგრამა. შეამოწმეთ პროგრამა, რომლის შეძენასაც ცდილობთ და ისევ სცადეთ</string>
+    <string name="abc_action_bar_home_description">მთავარზე ნავიგაცია</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">ზემოთ ნავიგაცია</string>
+    <string name="abc_action_menu_overflow_description">მეტი ვარიანტები</string>
+    <string name="abc_action_mode_done">დასრულდა</string>
+    <string name="abc_activity_chooser_view_see_all">ყველას ნახვა</string>
+    <string name="abc_activitychooserview_choose_application">აპის არჩევა</string>
+    <string name="abc_capital_off">გამორთულია</string>
+    <string name="abc_capital_on">ჩართულია</string>
+    <string name="abc_search_hint">ძიება...</string>
+    <string name="abc_searchview_description_clear">მოთხოვნის გასუფთავება</string>
+    <string name="abc_searchview_description_query">ძიების მოთხოვნა</string>
+    <string name="abc_searchview_description_search">ძიება</string>
+    <string name="abc_searchview_description_submit">მოთხოვნის გადაგზავნა</string>
+    <string name="abc_searchview_description_voice">ხმოვანი ძიება</string>
+    <string name="abc_shareactionprovider_share_with">გაზიარება:</string>
+    <string name="abc_shareactionprovider_share_with_application">%s-თან გაზიარება</string>
+    <string name="abc_toolbar_collapse_description">აკეცვა</string>
+    <string name="common_google_play_services_unknown_issue">%1$s-ს Google Play Services-თან პრობლემა შეექმნა. გთხოვთ, ცადოთ ხელახლა.</string>
+    <string name="s1">სურათის შენახვა</string>
+    <string name="s2">აძლევთ ნებას რეკლამას, შეინახოს სურათი გალერეაში?</string>
+    <string name="s3">მიღება</string>
+    <string name="s4">უარყოფა</string>
+    <string name="s5">კალენდარში მოვლენის შექმნა</string>
+    <string name="s6">აძლევთ ნებას რეკლამას, შექმნას მოვლენა კალენდარში?</string>
+    <string name="search_menu_title">ძიება</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

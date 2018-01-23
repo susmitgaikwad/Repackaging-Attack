@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s markerade som klara</item>
+        <item quantity="one">%s markerad som klar</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s har raderats</item>
+        <item quantity="one">%1$s har raderats</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">1 sekund</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kontakter</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d hittades</item>
+        <item quantity="one">1 hittades</item>
+    </plurals>
+</resources>

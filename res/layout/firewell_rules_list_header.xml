@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.SwitchCompat n1:id="@id/enable" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pref_title_firewall_enable" style="@style/call_filter_text" />
+    <Spinner n1:id="@id/auto_close" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <com.dw.widget.LinearLayoutEx n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:sink="3.0dip" n2:sinkGravity="top" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/btn_editBlockList" n1:background="?selectableItemBackground" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <TextView n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:text="@string/blockList" n1:layout_weight="1.0" style="@style/call_filter_text" />
+            <com.dw.android.widget.TintImageView n1:layout_width="wrap_content" n1:layout_height="fill_parent" n2:srcCompat="?ic_action_edit" n2:tint="?listButtonTint" />
+        </LinearLayout>
+        <View n1:background="?android:listDivider" n1:layout_width="1.0dip" n1:layout_height="fill_parent" n1:layout_marginTop="6.0dip" n1:layout_marginBottom="6.0dip" />
+        <android.support.v7.widget.SwitchCompat n1:id="@id/checkBoxBlockList" n1:focusable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="@dimen/recommended_touch_area_size" n1:minHeight="@dimen/recommended_touch_area_size" />
+    </com.dw.widget.LinearLayoutEx>
+</LinearLayout>

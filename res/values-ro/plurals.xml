@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s marcate ca terminate</item>
+        <item quantity="one">%s marcat ca terminat</item>
+        <item quantity="few">%s marcate ca terminate</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">S-au șters %1$s de elemente</item>
+        <item quantity="one">S-a șters %1$s element</item>
+        <item quantity="few">S-au șters %1$s elemente</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d (de) minute</item>
+        <item quantity="one">Un minut</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d (de) secunde</item>
+        <item quantity="one">O secundă</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d (de) persoane din Agendă</item>
+        <item quantity="one">1 persoană din Agendă</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d găsite</item>
+        <item quantity="one">Una găsită</item>
+        <item quantity="few">%d găsite</item>
+    </plurals>
+</resources>

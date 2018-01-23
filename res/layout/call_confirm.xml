@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat n1:gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:divider="?dividerHorizontal" n2:showDividers="middle"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/contact_card" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_margin="6.0dip" n1:layout_weight="1.0">
+        <LinearLayout n1:gravity="center_vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <com.dw.widget.QuickContactBadge n1:id="@id/icon" n1:visibility="gone" n1:layout_width="96.0dip" n1:layout_height="96.0dip" n1:scaleType="fitXY" />
+            <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dip">
+                <TextView n1:textAppearance="?android:textAppearanceLarge" n1:id="@id/name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/organization" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/number" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/loc" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <HorizontalScrollView n1:scrollbars="none" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <LinearLayout n1:orientation="horizontal" n1:id="@id/groups" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/note_group" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <View n1:background="?android:listDivider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <LinearLayout n1:gravity="center_vertical" n1:id="@id/edit_note" n1:background="?selectableItemBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/min_touch_area_size">
+                <TextView n1:textAppearance="?android:textAppearanceMedium" n1:padding="3.0dip" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/label_notes" n1:maxLines="1" n1:layout_weight="1.0" />
+                <ImageView n1:id="@id/icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:contentDescription="@string/menu_editNotes" n2:srcCompat="@drawable/ic_action_edit" />
+            </LinearLayout>
+            <EditText n1:id="@id/edit" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:inputType="textMultiLine">
+                <requestFocus />
+            </EditText>
+            <ScrollView n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+                <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/note" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+    <include n1:layout_width="fill_parent" n1:layout_height="48.0dip" layout="@layout/call_confirm_buttons" />
+</android.support.v7.widget.LinearLayoutCompat>

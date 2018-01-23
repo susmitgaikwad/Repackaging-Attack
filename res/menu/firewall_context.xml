@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:enabled="false" n1:id="@id/viewRelatedContacts" n1:title="@string/menu_viewRelatedContacts"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:id="@id/edit" n2:title="@string/menu_edit"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:id="@id/delete" n3:title="@string/delete"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</menu>

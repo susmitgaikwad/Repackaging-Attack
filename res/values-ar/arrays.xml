@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>غير مسموح</item>
+        <item>يسمح</item>
+        <item>صامت</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>تصفية المجموعة</item>
+        <item>تصفية الأرقام</item>
+        <item>ارقام الاتصالات الاخيرة</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>حدد المجموعات للتصفية</item>
+        <item>ادخل الرقم للتصفية</item>
+        <item>حدد المدة المسموحة</item>
+    </string-array>
+    <string-array name="days">
+        <item>الأحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>الأحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>السبت</item>
+    </string-array>
+    <string-array name="efp__size_units">
+        <item>B</item>
+        <item>kB</item>
+        <item>mB</item>
+        <item>gB</item>
+        <item>tB</item>
+        <item>pB</item>
+    </string-array>
+    <string-array name="efp__sorting_types">
+        <item>بالاسم، تصاعدي</item>
+        <item>بالاسم، تنازلي</item>
+        <item>حسب الحجم، تصاعدي</item>
+        <item>حسب الحجم، تنازلي</item>
+        <item>بواسطة التاريخ، تصاعدي</item>
+        <item>بواسطة التاريخ، تنازلي</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>عنوان البريد الإلكتروني الافتراضي</item>
+        <item>كل عناوين البريد الإلكتروني</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>الافتراضي أو رقم الهاتف الجوال الأول</item>
+        <item>جميع أرقام الهواتف الجوالة</item>
+        <item>كافة الأرقام</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>منظمة</item>
+        <item>العناوين</item>
+        <item>الهاتف</item>
+        <item>البريد الإلكتروني</item>
+        <item>الملاحظات</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>كل يوم</item>
+        <item>كل يومين</item>
+        <item>كل ثلاثة أيام</item>
+        <item>كل أربعة أيام</item>
+        <item>كل خمسة أيام</item>
+        <item>كل ستة أيام</item>
+        <item>كل أسبوع</item>
+        <item>كل شهر</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>البحث في كافة الحقول</item>
+        <item>البحث عن كافة جهات الاتصال</item>
+        <item>البحث في قائمة العناوين العمومية</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>الوسط</item>
+        <item>وسط محدد</item>
+        <item>وسط الى الداخل</item>
+        <item>وسط ملائم</item>
+        <item>تناسب طول وعرض</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF النغمة</item>
+        <item>اضغط النغمة</item>
+        <item>إيقاف</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>طلب / الإدخال / حذف</item>
+        <item>حذف / إدخال / طلب</item>
+        <item>إدخال / حذف / طلب</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>يعمل</item>
+        <item>إيقاف</item>
+        <item>تلقائي</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>الاسم الأول</item>
+        <item>الاسم الأخير</item>
+        <item>الاسم الأوسط</item>
+        <item>بادئة شرفية</item>
+        <item>لاحقة شرفية</item>
+        <item>جهة/جهات اتصال لفظية</item>
+        <item>الاسم الاخير اللفظي</item>
+        <item>الاسم الأوسط /اللفظي</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>دقيقة</item>
+        <item>خمس دقائق</item>
+        <item>عشر دقائق</item>
+        <item>15 دقيقة</item>
+        <item>20 دقيقة</item>
+        <item>25 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>45 دقيقة</item>
+        <item>1 ساعة</item>
+        <item>2 ساعة</item>
+        <item>3 ساعات</item>
+        <item>12 ساعة</item>
+        <item>24 ساعة</item>
+        <item>يومين</item>
+        <item>أسبوع واحد</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>أعلى</item>
+        <item>الوسط</item>
+        <item>أسفل</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>مخفية</item>
+        <item>نسخة</item>
+        <item>إلى</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>أرقام</item>
+        <item>المنظمة</item>
+        <item>العنوان</item>
+        <item>المجموعات</item>
+        <item>رمز الحساب</item>
+        <item>صورة جهة الاتصال</item>
+        <item>زر البريد الإلكتروني</item>
+        <item>زر الرسالة النصية</item>
+        <item>زر الطلب الهاتفي</item>
+        <item>الملاحظات</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>المجموعات</item>
+        <item>المنظمات</item>
+        <item>العناوين</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>متجرجوجل</item>
+        <item>باي بال أو بطاقة الائتمان</item>
+        <item>نبذة للأصدقاء</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>سجل هذا البرنامج لحساب جوجل الخاص بك (شراء وتثبيت الإصدار الاحترافي عن طريق متجرجوجل). بعد تثبيت الإصدار الكامل، الرجاء إلغاء تثبيت الإصدار المجاني.</item>
+        <item>سجل هذا البرنامج إلى الرقم التسلسلي الجهاز: بعد عملية الدفع، سوف تحصل تأكيد بالبريد إلكتروني مع رمز التسجيل الخاص بك. بعد ذلك التحقق من التسجيل عن طريق نقرة واحدة على [التحقق من التسجيل على الإنترنت].</item>
+        <item>الحصول على رمز تسجيل مجاناً</item>
+    </string-array>
+</resources>

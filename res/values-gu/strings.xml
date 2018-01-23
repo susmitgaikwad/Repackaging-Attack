@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_SAPPS_BODY_WAITING_ING">પ્રતીક્ષારત...</string>
+    <string name="IDS_SAPPS_HEADER_ITEM_PURCHASED">વસ્તુ ખરીદી</string>
+    <string name="IDS_SAPPS_POP_ALREADY_PURCHASED">અગાઉથી જ ખરીદાઈ.</string>
+    <string name="IDS_SAPPS_POP_AN_ERROR_OCCURRED_WHILE_RESETTING_SAMSUNG_IN_APP_PURCHASE">સેમસંગ ઇન-એપ્લિકેશન ખરીદીને ફરીથી ગોઠવવામાં ભૂલ આવી.</string>
+    <string name="IDS_SAPPS_POP_AN_INVALID_VALUE_HAS_BEEN_PROVIDED_FOR_SAMSUNG_IN_APP_PURCHASE">સેમસંગ ઇન-એપ ખરીદી માટે એક અમાન્ય મૂલ્ય પ્રદાન કરવામાં આવ્યું છે.</string>
+    <string name="IDS_SAPPS_POP_AN_UNEXPECTED_ERROR_HAS_OCCURRED_SAMSUNG_ACCOUNT_AUTHENTICATION_HAS_BEEN_CANCELLED">એક અનપેક્ષિત ભૂલ આવી. Samsung account પ્રમાણીકરણ રદ કરવામાં આવ્યું.</string>
+    <string name="IDS_SAPPS_POP_A_NEW_VERSION_OF_SAMSUNG_IN_APP_PURCHASE_IS_AVAILABLE_UPDATE_Q">સેમસંગ ઇન-એપ્લિકેશન પર ચેઝનું એક નવું સંસ્કરણ ઉપલબ્ધ છે. અપડેટ કરીએ?</string>
+    <string name="IDS_SAPPS_POP_NETWORK_UNAVAILABLE">નેટવર્ક ઉપલબ્ધ નથી.</string>
+    <string name="IDS_SAPPS_POP_PAYMENT_CANCELLED">ચૂકવણી રદ કરી.</string>
+    <string name="IDS_SAPPS_POP_PRODUCT_DOES_NOT_EXIST_IN_THIS_STORE">પ્રોડક્ટ આ સ્ટોરમાં હાજર નથી.</string>
+    <string name="IDS_SAPPS_POP_SAMSUNG_IN_APP_PURCHASE">સેમસંગ ઇન-એપ્લિકેશન ખરીદી</string>
+    <string name="IDS_SAPPS_POP_SAMSUNG_IN_APP_PURCHASE_NEEDS_TO_BE_UPDATED">સેમસંગ ઇન-એપ્લિકેશન ખરીદીને અપડેટ કરવાની જરૂર છે.</string>
+    <string name="IDS_SAPPS_POP_TO_PURCHASE_ITEMS_YOU_NEED_TO_INSTALL_SAMSUNG_IN_APP_PURCHASE_INSTALL_Q">વસ્તુઓ ખરીદવા માટે, તમને સેમસંગ ઇન-એપ્લિકેશન પરચેઝ સ્થાપિત કરવાની આવશ્યકતા છે. સ્થાપિત કરીએ?</string>
+    <string name="IDS_SAPPS_POP_UNKNOWN_ERROR_OCCURRED">અજ્ઞાત ભૂલ થઈ છે.</string>
+    <string name="IDS_SAPPS_POP_YOUR_PURCHASE_VIA_SAMSUNG_IN_APP_PURCHASE_IS_INVALID_A_FAKE_APPLICATION_HAS_BEEN_DETECTED_CHECK_THE_APP_MSG">સેમસંગ ઇન-એપ્લિકેશન ખરીદી મારફતે તમારી ખરીદી અમાન્ય છે. એક નકલી એપ્લિકેશન શોધવામાં આવ્યો છે. તમે ખરીદવાનો પ્રયાસ કરી રહ્યાં છો તે એપ્લિકેશન તપાસો અને ફરીથી પ્રયાસ કરો.</string>
+    <string name="abc_action_bar_home_description">હોમ પર નેવિગેટ કરો</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">ઉપર નેવિગેટ કરો</string>
+    <string name="abc_action_menu_overflow_description">વધુ વિકલ્પો</string>
+    <string name="abc_action_mode_done">થઈ ગયું</string>
+    <string name="abc_activity_chooser_view_see_all">બધું જુઓ</string>
+    <string name="abc_activitychooserview_choose_application">એક ઍપ્લિકેશન પસંદ કરો</string>
+    <string name="abc_capital_off">બંધ</string>
+    <string name="abc_capital_on">ચાલુ</string>
+    <string name="abc_search_hint">શોધો…</string>
+    <string name="abc_searchview_description_clear">ક્વેરી સાફ કરો</string>
+    <string name="abc_searchview_description_query">શોધ ક્વેરી</string>
+    <string name="abc_searchview_description_search">શોધો</string>
+    <string name="abc_searchview_description_submit">ક્વેરી સબમિટ કરો</string>
+    <string name="abc_searchview_description_voice">વૉઇસ શોધ</string>
+    <string name="abc_shareactionprovider_share_with">આની સાથે શેર કરો</string>
+    <string name="abc_shareactionprovider_share_with_application">%s સાથે શેર કરો</string>
+    <string name="abc_toolbar_collapse_description">સંકુચિત કરો</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ને Google Play સેવાઓમાં મુશ્કેલી આવી રહી છે. કૃપા કરીને ફરી પ્રયાસ કરો.</string>
+    <string name="s1">છબી સાચવો</string>
+    <string name="s2">જાહેરાતને ચિત્ર ગૅલેરીમાં છબી સંગ્રહિત કરવાની મંજૂરી આપીએ?</string>
+    <string name="s3">સ્વીકારો</string>
+    <string name="s4">નકારો</string>
+    <string name="s5">કૅલેન્ડર ઇવેન્ટ બનાવો</string>
+    <string name="s6">જાહેરાતને કૅલેન્ડર ઇવેન્ટ બનાવવાની મંજૂરી આપીએ?</string>
+    <string name="search_menu_title">શોધો</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

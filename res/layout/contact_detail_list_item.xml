@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:paddingLeft="16.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.dw.contacts.ui.widget.ActionsViewContainer n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/actions_view_container" n1:background="?selectableItemBackground" n1:focusable="true" n1:nextFocusRight="@id/secondary_action_view_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/detail_min_line_item_height">
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:id="@id/primary_action_view" n1:paddingLeft="8.0dip" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <TextView n1:textAppearance="?android:textAppearanceMedium" n1:layout_gravity="center_vertical" n1:id="@id/data" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <ImageView n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/presence_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="1.0dip" n1:layout_marginRight="4.0dip" n1:scaleType="centerInside" />
+                <TextView n1:id="@id/type" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="@style/ContactDetailItemType" />
+                <View n1:layout_gravity="center_vertical" n1:id="@id/primary_indicator" n1:background="?ic_list_default_mime" n1:visibility="gone" n1:layout_width="16.0dip" n1:layout_height="16.0dip" n1:contentDescription="@string/Default" />
+                <ImageView n1:gravity="center" n1:layout_gravity="center|right" n1:id="@id/sim_indicator" n1:layout_width="16.0dip" n1:layout_height="16.0dip" n1:layout_marginTop="1.0dip" n1:layout_marginRight="4.0dip" n1:scaleType="centerInside" />
+            </LinearLayout>
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:textColor="?android:textColorSecondary" n1:layout_gravity="center_vertical" n1:id="@id/footer" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </LinearLayout>
+        <View n1:id="@id/vertical_divider" n1:background="?dividerVertical" n1:layout_width="1.0dip" n1:layout_height="fill_parent" n1:layout_marginTop="@dimen/detail_vertical_divider_vertical_margin" n1:layout_marginBottom="@dimen/detail_vertical_divider_vertical_margin" />
+        <FrameLayout n1:id="@id/secondary_action_view_container" n1:background="?selectableItemBackground" n1:paddingLeft="@dimen/detail_item_icon_margin" n1:paddingRight="@dimen/detail_item_icon_margin" n1:focusable="true" n1:nextFocusLeft="@id/actions_view_container" n1:layout_width="wrap_content" n1:layout_height="fill_parent">
+            <com.dw.android.widget.TintImageView n1:layout_gravity="center_vertical" n1:id="@id/secondary_action_button" n1:duplicateParentState="false" n1:layout_width="32.0dip" n1:layout_height="32.0dip" n1:scaleType="center" n2:tint="?listButtonTint" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <FrameLayout n1:id="@id/third_action_view_container" n1:background="?selectableItemBackground" n1:paddingLeft="@dimen/detail_item_icon_margin" n1:paddingRight="@dimen/detail_item_icon_margin" n1:focusable="true" n1:visibility="gone" n1:nextFocusLeft="@id/actions_view_container" n1:layout_width="wrap_content" n1:layout_height="fill_parent">
+            <com.dw.android.widget.TintImageView n1:layout_gravity="center_vertical" n1:id="@id/third_action_button" n1:duplicateParentState="false" n1:layout_width="32.0dip" n1:layout_height="32.0dip" n1:scaleType="center" n3:tint="?listButtonTint" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+    </com.dw.contacts.ui.widget.ActionsViewContainer>
+</FrameLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_edit" n1:id="@id/menu_edit" n1:title="@string/menu_editContact" n1:alphabeticShortcut="e" n2:showAsAction="ifRoom"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:id="@id/share" n3:title="@string/menu_share" n3:alphabeticShortcut="s"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <menu>
+            <item n3:id="@id/shareWithText" n3:title="@string/text" />
+            <item n3:id="@id/shareWithvCard" n3:title="@string/vCard" />
+        </menu>
+    </item>
+    <item n4:icon="@drawable/ic_action_text" n4:id="@id/send_message" n4:title="@string/send_message" n5:showAsAction="ifRoom"
+      xmlns:n4="http://schemas.android.com/apk/res/android" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <item n6:id="@id/menu_delete" n6:title="@string/menu_deleteContact"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:id="@id/menu_set_ringtone" n7:title="@string/menu_set_ring_tone"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:id="@id/menu_split" n8:title="@string/menu_splitAggregate"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:id="@id/menu_join" n9:title="@string/menu_joinAggregate"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:id="@id/menu_add_custom_field" n10:title="@string/menu_addCustomField"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:id="@id/edit_note" n11:title="@string/menu_editNotes"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <item n12:id="@id/menu_send_to_voicemail" n12:title="@string/menu_redirect_calls_to_vm" n12:checkable="true"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+    <item n13:id="@id/more_action" n13:title="@string/more"
+      xmlns:n13="http://schemas.android.com/apk/res/android">
+        <menu>
+            <item n13:id="@id/menu_other" n13:title="@string/menu_otherContactViewer" />
+            <item n13:id="@id/menu_add_numbers" n13:title="@string/menu_addConsecutiveNumbers" />
+        </menu>
+    </item>
+    <item n14:id="@id/settings" n14:menuCategory="secondary" n14:title="@string/menu_preferences"
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_sort" n1:id="@id/sort" n1:title="@string/menu_sort" n2:showAsAction="ifRoom"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <menu>
+            <item n1:id="@id/sort_by_default" n1:title="@string/Default" />
+            <item n1:id="@id/sort_by_name" n1:title="@string/nameLabelsGroup" />
+            <item n1:id="@id/sort_by_phone" n1:title="@string/phoneLabelsGroup" />
+        </menu>
+    </item>
+    <item n3:icon="?ic_action_search" n3:id="@id/search" n3:title="@string/search" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:id="@id/arrange_mode" n5:title="@string/menu_arrangeMode"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+</menu>

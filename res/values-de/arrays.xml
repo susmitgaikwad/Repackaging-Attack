@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Filtern</item>
+        <item>Erlauben</item>
+        <item>Lautlos</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Gruppen-Filter</item>
+        <item>Nummern-Filter</item>
+        <item>Kürzlich kontaktierte Telefonnummer</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Wähle Gruppen für Filterung</item>
+        <item>Einganbe der Nummer für Filterung</item>
+        <item>Wähle die Gültigkeitsdauer</item>
+    </string-array>
+    <string-array name="days">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>So</item>
+        <item>Mo</item>
+        <item>Di</item>
+        <item>Mi</item>
+        <item>Do</item>
+        <item>Fr</item>
+        <item>Sa</item>
+    </string-array>
+    <string-array name="efp__size_units">
+        <item>B</item>
+        <item>kB</item>
+        <item>mB</item>
+        <item>gB</item>
+        <item>tB</item>
+        <item>pB</item>
+    </string-array>
+    <string-array name="efp__sorting_types">
+        <item>Nach Name, aufsteigend</item>
+        <item>Nach Name, absteigend</item>
+        <item>Nach Größe, aufsteigend</item>
+        <item>Nach Größe, absteigend</item>
+        <item>Nach Datum, aufsteigend</item>
+        <item>Nach Datum, absteigend</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Standard E-Mail-Adresse</item>
+        <item>Alle E-Mail-Adressen</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Standard oder erste Mobil-Nummer</item>
+        <item>Alle Mobil-Nummern</item>
+        <item>Alle Nummern</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Organisation</item>
+        <item>Adresse</item>
+        <item>Telefon</item>
+        <item>E-Mail</item>
+        <item>Notizen</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>Jeden Tag</item>
+        <item>Jeden 2. Tag</item>
+        <item>Jeden 3. Tag</item>
+        <item>Jeden 4. Tag</item>
+        <item>Jeden 5. Tag</item>
+        <item>Jeden 6. Tag</item>
+        <item>Wöchentlich</item>
+        <item>Monatlich</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Alle Felder durchsuchen</item>
+        <item>Alle Kontakte durchsuchen</item>
+        <item>Suche in globaler Adressliste</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Zentrieren</item>
+        <item>Mitte ausschneiden</item>
+        <item>Zentrieren</item>
+        <item>Zentrum adjustieren</item>
+        <item>Mittig ausrichten</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF-Ton</item>
+        <item>Tastenton</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Wählen/Eingabe/Löschen</item>
+        <item>Löschen/Eingabe/Wählen</item>
+        <item>Eingabe/Löschen/Wählen</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Ein</item>
+        <item>Aus</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Vorname</item>
+        <item>Nachname</item>
+        <item>weitere Vornamen</item>
+        <item>Ehrentitel Präfix</item>
+        <item>Ehrentitel Zusatz</item>
+        <item>phonetischer Vorname</item>
+        <item>phonetischer Familienname</item>
+        <item>phonetischer mittlerer Name</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 Minute</item>
+        <item>5 Minuten</item>
+        <item>5 Minuten</item>
+        <item>15 Minuten</item>
+        <item>20 Minuten</item>
+        <item>25 Minuten</item>
+        <item>30 Minuten</item>
+        <item>45 Minuten</item>
+        <item>1 Stunde</item>
+        <item>2 Stunden</item>
+        <item>3 Stunden</item>
+        <item>12 Stunden</item>
+        <item>24 Stunden</item>
+        <item>2 Tage</item>
+        <item>1 Woche</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Oben</item>
+        <item>Mitte</item>
+        <item>Unten</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>BCC</item>
+        <item>CC</item>
+        <item>An</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Nummern</item>
+        <item>Unternehmen</item>
+        <item>Titel</item>
+        <item>Gruppen</item>
+        <item>Konto Symbol</item>
+        <item>Kontaktbilder</item>
+        <item>E-Mail-Taste</item>
+        <item>SMS Taste</item>
+        <item>Wähl Taste</item>
+        <item>Notizen</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Gruppen</item>
+        <item>Unternehmen</item>
+        <item>Titel</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal oder Kreditkarte</item>
+        <item>Freunden empfehlen</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Registriere diese Software auf dein Google Konto (kaufe und installiere die Pro Version über Google Play). Nach der Installation der Pro Version entferne bitte die kostenlose Version.</item>
+        <item>Registriere diese Software auf die Geräte-Seriennummer: %s. Nach dem Zahlungsvorgang erhältst du eine Bestätigungs-E-Mail mit dem Registrierungscode. Prüfe anschließend die Registrierung mit einen Klick auf [Onlineprüfung der Registrierung].</item>
+        <item>Holen Sie sich damit einen kostenlosen Registrierungscode</item>
+    </string-array>
+</resources>

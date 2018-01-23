@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dw.widget.LinearLayoutEx n1:orientation="horizontal" n1:id="@id/root" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:baselineAligned="false"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+        <ViewStub n1:id="@id/call_type_filter_bar_top" n1:layout="@layout/call_type_filter_bar_top" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        <com.dw.android.widget.CSLinearLayout n1:id="@id/content" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" n2:sink="?sinkSizePrimary" n2:sinkGravity="bottom" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <com.dw.widget.ListViewEx n1:id="@android:id/list" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+            <FrameLayout n1:id="@id/empty" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+                <ViewStub n1:id="@id/action" n1:layout="@layout/dialer_not_match_action" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+            </FrameLayout>
+        </com.dw.android.widget.CSLinearLayout>
+        <ViewStub n1:id="@id/call_type_filter_bar_bottom" n1:layout="@layout/call_type_filter_bar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        <FrameLayout n1:id="@id/bottom_dialer_pad" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <com.dw.contacts.ui.widget.TwelveKeyDialer n1:orientation="horizontal" n1:id="@id/dialer_pad" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout n1:id="@id/right_dialer_pad" n1:visibility="gone" n1:layout_width="@dimen/dialpad_width_landscape" n1:layout_height="fill_parent" />
+    <View n1:layout_gravity="bottom|center|right" n1:id="@id/popmenu_anchor" n1:layout_width="0.0dip" n1:layout_height="0.0dip" />
+</com.dw.widget.LinearLayoutEx>

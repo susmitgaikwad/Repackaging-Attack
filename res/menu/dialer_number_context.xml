@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/call_using" n1:visible="false" n1:title=""
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:id="@id/call_with_prefix" n2:visible="false" n2:title=""
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:id="@id/call_with_prefix1" n3:visible="false" n3:title=""
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:id="@id/call_with_prefix2" n4:visible="false" n4:title=""
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:id="@id/call_with_suffix" n5:visible="false" n5:title=""
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:id="@id/call_with_infix" n6:visible="false" n6:title=""
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+</menu>

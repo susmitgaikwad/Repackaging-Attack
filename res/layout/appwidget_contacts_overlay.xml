@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:padding="@dimen/widget_margin" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:textColor="#ffffffff" n1:ellipsize="end" n1:gravity="center" n1:id="@id/title" n1:background="@drawable/bg_aw_title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/loading" n1:maxLines="1" n1:shadowColor="#ff000000" n1:shadowDx="1.0" n1:shadowDy="1.0" n1:shadowRadius="1.0" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/content" n1:background="@drawable/bg_aw" n1:paddingBottom="0.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout style="@style/appwidget_contact_l1">
+            <LinearLayout n1:id="@id/l1" style="@style/appwidget_contact_l2">
+                <RelativeLayout n1:id="@id/item1" style="@style/appwidget_contact_item_overlay">
+                    <ImageView n1:id="@id/photo1" style="@style/appwidget_contact_photo_overlay" />
+                    <TextView n1:id="@id/text1" n1:layout_alignLeft="@id/photo1" n1:layout_alignRight="@id/photo1" n1:layout_alignBottom="@id/photo1" style="@style/appwidget_contact_name.overlay" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout n1:id="@id/l2" style="@style/appwidget_contact_l2">
+                <RelativeLayout n1:id="@id/item2" style="@style/appwidget_contact_item_overlay">
+                    <ImageView n1:id="@id/photo2" style="@style/appwidget_contact_photo_overlay" />
+                    <TextView n1:id="@id/text2" n1:layout_alignLeft="@id/photo2" n1:layout_alignRight="@id/photo2" n1:layout_alignBottom="@id/photo2" style="@style/appwidget_contact_name.overlay" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/appwidget_contact_l1">
+            <LinearLayout n1:id="@id/l3" style="@style/appwidget_contact_l2">
+                <RelativeLayout n1:id="@id/item3" style="@style/appwidget_contact_item_overlay">
+                    <ImageView n1:id="@id/photo3" style="@style/appwidget_contact_photo_overlay" />
+                    <TextView n1:id="@id/text3" n1:layout_alignLeft="@id/photo3" n1:layout_alignRight="@id/photo3" n1:layout_alignBottom="@id/photo3" style="@style/appwidget_contact_name.overlay" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout n1:id="@id/l4" style="@style/appwidget_contact_l2">
+                <RelativeLayout n1:id="@id/item4" style="@style/appwidget_contact_item_overlay">
+                    <ImageView n1:id="@id/photo4" style="@style/appwidget_contact_photo_overlay" />
+                    <TextView n1:id="@id/text4" n1:layout_alignLeft="@id/photo4" n1:layout_alignRight="@id/photo4" n1:layout_alignBottom="@id/photo4" style="@style/appwidget_contact_name.overlay" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/appwidget_contact_l1">
+            <LinearLayout n1:id="@id/l5" style="@style/appwidget_contact_l2">
+                <RelativeLayout n1:id="@id/item5" style="@style/appwidget_contact_item_overlay">
+                    <ImageView n1:id="@id/photo5" style="@style/appwidget_contact_photo_overlay" />
+                    <TextView n1:id="@id/text5" n1:layout_alignLeft="@id/photo5" n1:layout_alignRight="@id/photo5" n1:layout_alignBottom="@id/photo5" style="@style/appwidget_contact_name.overlay" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout n1:id="@id/l6" style="@style/appwidget_contact_l2">
+                <RelativeLayout n1:id="@id/item6" style="@style/appwidget_contact_item_overlay">
+                    <ImageView n1:id="@id/photo6" style="@style/appwidget_contact_photo_overlay" />
+                    <TextView n1:id="@id/text6" n1:layout_alignLeft="@id/photo6" n1:layout_alignRight="@id/photo6" n1:layout_alignBottom="@id/photo6" style="@style/appwidget_contact_name.overlay" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/appwidget_contact_l1">
+            <LinearLayout n1:id="@id/l7" style="@style/appwidget_contact_l2">
+                <RelativeLayout n1:id="@id/item7" style="@style/appwidget_contact_item_overlay">
+                    <ImageView n1:id="@id/photo7" style="@style/appwidget_contact_photo_overlay" />
+                    <TextView n1:id="@id/text7" n1:layout_alignLeft="@id/photo7" n1:layout_alignRight="@id/photo7" n1:layout_alignBottom="@id/photo7" style="@style/appwidget_contact_name.overlay" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout n1:id="@id/l8" style="@style/appwidget_contact_l2">
+                <RelativeLayout n1:id="@id/item8" style="@style/appwidget_contact_item_overlay">
+                    <ImageView n1:id="@id/photo8" style="@style/appwidget_contact_photo_overlay" />
+                    <TextView n1:id="@id/text8" n1:layout_alignLeft="@id/photo8" n1:layout_alignRight="@id/photo8" n1:layout_alignBottom="@id/photo8" style="@style/appwidget_contact_name.overlay" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/appwidget_contact_l1">
+            <LinearLayout n1:id="@id/l9" style="@style/appwidget_contact_l2">
+                <RelativeLayout n1:id="@id/item9" style="@style/appwidget_contact_item_overlay">
+                    <ImageView n1:id="@id/photo9" style="@style/appwidget_contact_photo_overlay" />
+                    <TextView n1:id="@id/text9" n1:layout_alignLeft="@id/photo9" n1:layout_alignRight="@id/photo9" n1:layout_alignBottom="@id/photo9" style="@style/appwidget_contact_name.overlay" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout n1:id="@id/l10" style="@style/appwidget_contact_l2">
+                <RelativeLayout n1:id="@id/item10" style="@style/appwidget_contact_item_overlay">
+                    <ImageView n1:id="@id/photo10" style="@style/appwidget_contact_photo_overlay" />
+                    <TextView n1:id="@id/text10" n1:layout_alignLeft="@id/photo10" n1:layout_alignRight="@id/photo10" n1:layout_alignBottom="@id/photo10" style="@style/appwidget_contact_name.overlay" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n1:gravity="center" n1:id="@id/button_bar" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <ImageButton n1:id="@id/prev" n1:background="@drawable/bg_aw_btn" n1:nextFocusRight="@id/next" n1:layout_width="0.0dip" n1:layout_height="30.0dip" n1:src="@drawable/aw_arrow_left" n1:layout_weight="1.0" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:textColor="#ffcccccc" n1:id="@id/info" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <ImageButton n1:id="@id/next" n1:background="@drawable/bg_aw_btn" n1:nextFocusLeft="@id/prev" n1:layout_width="0.0dip" n1:layout_height="30.0dip" n1:src="@drawable/aw_arrow_right" n1:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

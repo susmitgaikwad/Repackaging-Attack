@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s στοιχεία επισημάνθηκαν ως ολοκληρωμένα</item>
+        <item quantity="one">%s στοιχείο επισημάνθηκε ως ολοκληρωμένο</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s διαγράφηκαν</item>
+        <item quantity="one">%1$s διαγράφηκε</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">1 λεπτό</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d επαφές</item>
+        <item quantity="one">1 επαφή</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Βρέθηκαν %d</item>
+        <item quantity="one">Βρέθηκε 1</item>
+    </plurals>
+</resources>

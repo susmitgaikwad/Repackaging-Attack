@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.FrameLayout n1:background="#ff880000" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="0.5dip">
+        <ImageView n1:layout_gravity="right" n1:layout_width="@dimen/button_width" n1:layout_height="fill_parent" n1:scaleType="center" n2:srcCompat="@drawable/ic_action_discard" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <android.support.v7.widget.FrameLayout n1:id="@id/swipe_left" n1:background="#ff008800" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <com.dw.widget.DontPressWithParentImageView n1:id="@id/action" n1:layout_width="@dimen/button_width" n1:contentDescription="@string/description_dial_button" n3:srcCompat="@drawable/ic_action_call" style="@style/Widget.ListButton" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <TextView n1:textColor="#ffffffff" n1:gravity="center_vertical" n1:id="@id/action_msg" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginLeft="56.0dip" />
+            <android.support.v7.widget.FrameLayout n1:id="@id/swipe_right" n1:background="?android:colorBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="56.0dip">
+                <com.dw.contacts.ui.widget.ListItemView n1:layout_gravity="center_vertical" n1:id="@id/text_fields" n1:background="?selectableItemBackground" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/recommended_touch_area_size" />
+            </android.support.v7.widget.FrameLayout>
+        </android.support.v7.widget.FrameLayout>
+    </android.support.v7.widget.FrameLayout>
+</merge>

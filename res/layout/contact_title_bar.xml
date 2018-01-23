@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center" n1:orientation="vertical" n1:paddingLeft="6.0dip" n1:paddingRight="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="?actionBarSize"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textAppearance="?titleTextAppearance" n1:textSize="@dimen/action_bar_title_text_size" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/title2" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="2" n1:shadowColor="#88000000" n1:shadowRadius="3.0" style="?titleTextStyle" />
+    <TextView n1:textAppearance="?subtitleTextAppearance" n1:textSize="@dimen/action_bar_subtitle_text_size" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/subtitle2" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="2" n1:shadowColor="#88000000" n1:shadowRadius="3.0" style="?subtitleTextStyle" />
+</LinearLayout>

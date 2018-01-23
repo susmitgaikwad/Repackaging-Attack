@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_alphabet" n1:id="@id/quick_Jump" n1:title="@string/menu_quickJump" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?ic_action_new_person_group" n3:id="@id/new_group" n3:title="@string/menu_new_group_action_bar" n4:showAsAction="ifRoom"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="?ic_action_sort" n5:id="@id/sort" n5:title="@string/menu_sort_hide" n6:showAsAction="ifRoom"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="?ic_action_search" n7:id="@id/search" n7:title="@string/search" n8:showAsAction="always"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:icon="?ic_action_select" n9:id="@id/select_mode" n9:title="@string/menu_select_mode" n10:showAsAction="ifRoom"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+</menu>

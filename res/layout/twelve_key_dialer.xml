@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/vertical_divider" n1:background="?dividerVertical" n1:visibility="gone" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/background" n1:background="?bg_dp" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:gravity="center" n1:id="@id/button_line" n1:layout_width="fill_parent" n1:layout_height="48.0dip" n1:minHeight="46.0dip">
+            <com.dw.android.widget.TintImageView n1:id="@id/dialButton" n1:layout_width="56.0dip" n1:layout_height="fill_parent" n1:scaleType="center" n1:layout_weight="0.0" n1:contentDescription="@string/description_dial_button" n2:srcCompat="?ic_dp_call_mic" style="@style/DialButton.Tint" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.dw.contacts.ui.widget.DigitsEditText n1:textSize="30.0sp" n1:textColor="?textColorDialpadDigits" n1:gravity="center" n1:id="@id/digits" n1:background="@android:color/transparent" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:cursorVisible="false" n1:maxLines="2" n1:freezesText="true" n1:layout_weight="1.0" />
+            <com.dw.android.widget.TintImageView n1:id="@id/btn_backspace" n1:layout_width="56.0dip" n1:layout_height="fill_parent" n1:scaleType="center" n1:layout_weight="0.0" n1:contentDescription="@string/description_switch_keyboard" n3:srcCompat="?ic_dp_keyboard" style="@style/DialButton.Tint" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.dw.android.widget.TintImageView n1:id="@id/btn_menu" n1:layout_width="56.0dip" n1:layout_height="fill_parent" n1:scaleType="center" n1:layout_weight="0.0" n1:contentDescription="@string/abc_action_menu_overflow_description" n4:srcCompat="?ic_action_overflow" style="@style/DialButton.Tint" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <View n1:id="@id/d1" n1:background="?dividerVertical" n1:layout_width="fill_parent" n1:layout_height="1.0px" />
+        <include n1:id="@id/dialpad" n1:layout_width="fill_parent" n1:layout_height="240.0dip" n1:layout_marginBottom="0.0dip" layout="@layout/dialpad" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_SAPPS_BODY_WAITING_ING">Zain...</string>
+    <string name="IDS_SAPPS_HEADER_ITEM_PURCHASED">Gaia erosita</string>
+    <string name="IDS_SAPPS_POP_ALREADY_PURCHASED">Lehendik erosia</string>
+    <string name="IDS_SAPPS_POP_AN_ERROR_OCCURRED_WHILE_RESETTING_SAMSUNG_IN_APP_PURCHASE">Errore bat gertatu da Samsung In-App erosketa berrezartzean</string>
+    <string name="IDS_SAPPS_POP_AN_INVALID_VALUE_HAS_BEEN_PROVIDED_FOR_SAMSUNG_IN_APP_PURCHASE">Balio baliogabea eman da Samsung In-App erosketan</string>
+    <string name="IDS_SAPPS_POP_AN_UNEXPECTED_ERROR_HAS_OCCURRED_SAMSUNG_ACCOUNT_AUTHENTICATION_HAS_BEEN_CANCELLED">Ezusteko errorea gertatu da. Samsung account-en autentifikazioa ezeztatu da.</string>
+    <string name="IDS_SAPPS_POP_A_NEW_VERSION_OF_SAMSUNG_IN_APP_PURCHASE_IS_AVAILABLE_UPDATE_Q">Samsung In-App Purchase-n bertsio berria eskuragarri. Eguneratu?</string>
+    <string name="IDS_SAPPS_POP_NETWORK_UNAVAILABLE">Sarea ez dago eskuragarri</string>
+    <string name="IDS_SAPPS_POP_PAYMENT_CANCELLED">Ordainketa utzita</string>
+    <string name="IDS_SAPPS_POP_PRODUCT_DOES_NOT_EXIST_IN_THIS_STORE">Produktua ez da existitzen denda honetan</string>
+    <string name="IDS_SAPPS_POP_SAMSUNG_IN_APP_PURCHASE">Samsung In-App erosketa</string>
+    <string name="IDS_SAPPS_POP_SAMSUNG_IN_APP_PURCHASE_NEEDS_TO_BE_UPDATED">Samsung In-App erosketak eguneratzea behar du</string>
+    <string name="IDS_SAPPS_POP_TO_PURCHASE_ITEMS_YOU_NEED_TO_INSTALL_SAMSUNG_IN_APP_PURCHASE_INSTALL_Q">Elementuak erosteko, Samsung In-App Erosketa instalatu behar duzu. Instalatu?</string>
+    <string name="IDS_SAPPS_POP_UNKNOWN_ERROR_OCCURRED">Errore ezezaguna gertatu da</string>
+    <string name="IDS_SAPPS_POP_YOUR_PURCHASE_VIA_SAMSUNG_IN_APP_PURCHASE_IS_INVALID_A_FAKE_APPLICATION_HAS_BEEN_DETECTED_CHECK_THE_APP_MSG">Samsung In-App erosketa bidezko erosketa baliogabea da. Aplikazio faltsu bat detektatu da. Egiaztatu erosketa egiteko erabiltzen ari zaren aplikazioa eta saiatu berriro.</string>
+    <string name="abc_action_bar_home_description">Joan orri nagusira</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Joan gora</string>
+    <string name="abc_action_menu_overflow_description">Aukera gehiago</string>
+    <string name="abc_action_mode_done">Eginda</string>
+    <string name="abc_activity_chooser_view_see_all">Ikusi guztiak</string>
+    <string name="abc_activitychooserview_choose_application">Aukeratu aplikazio bat</string>
+    <string name="abc_capital_off">DESAKTIBATUTA</string>
+    <string name="abc_capital_on">AKTIBATUTA</string>
+    <string name="abc_search_hint">Bilatu…</string>
+    <string name="abc_searchview_description_clear">Garbitu kontsulta</string>
+    <string name="abc_searchview_description_query">Bilaketa-kontsulta</string>
+    <string name="abc_searchview_description_search">Bilatu</string>
+    <string name="abc_searchview_description_submit">Bidali kontsulta</string>
+    <string name="abc_searchview_description_voice">Ahots bidezko bilaketa</string>
+    <string name="abc_shareactionprovider_share_with">Partekatu hauekin</string>
+    <string name="abc_shareactionprovider_share_with_application">Partekatu %s erabiltzailearekin</string>
+    <string name="abc_toolbar_collapse_description">Tolestu</string>
+    <string name="common_google_play_services_unknown_issue">%1$s aplikazioak arazoak ditu Google Play zerbitzuekin. Saiatu berriro.</string>
+    <string name="s1">Gorde irudia</string>
+    <string name="s2">Irudia irudien galerian gordetzea baimendu nahi diozu iragarkiari?</string>
+    <string name="s3">Onartu</string>
+    <string name="s4">Baztertu</string>
+    <string name="s5">Sortu egutegiko gertaera bat</string>
+    <string name="s6">Egutegiko gertaera bat sortzea baimendu nahi diozu iragarkiari?</string>
+    <string name="search_menu_title">Bilatu</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

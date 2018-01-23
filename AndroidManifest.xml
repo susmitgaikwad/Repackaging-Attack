@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.dw.contacts.free">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.USE_SIP"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_PROFILE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.BIND_DIRECTORY_SEARCH"/>
+    <uses-permission android:name="jp.co.sharp.android.contacts.permission.READ_SECRET_CONTACTS"/>
+    <uses-permission android:name="thinkpanda.permission.CLEAR_MISSED_CALL"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+	<uses-permission android:name="android.permission.WRITE_CONTACTS" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.nfc" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <application android:allowBackup="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.dw.contacts.CMain" android:process="com.dw.contact" android:taskAffinity="com.dw.task.contacts" android:theme="@style/DWAppTheme">
+        <provider android:authorities="com.dw.contacts.free.provider.Data" android:exported="false" android:name="com.dw.provider.DataProvider"/>
+        <provider android:authorities="com.dw.contacts.free.files" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <activity android:clearTaskOnLaunch="true" android:label="@string/app_contacts_name" android:launchMode="singleTask" android:name="com.dw.contacts.activities.PICActivity" android:theme="@style/Theme.NoTitle" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH_LONG_PRESS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:icon="@mipmap/ic_launcher" android:name="com.dw.contacts.Favorites" android:targetActivity="com.dw.contacts.activities.PICActivity" android:theme="@style/Theme.NoTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:icon="@mipmap/ic_launcher" android:label="@string/contactsList" android:name="com.dw.contacts.Contacts" android:targetActivity="com.dw.contacts.activities.PICActivity" android:theme="@style/Theme.NoTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:icon="@mipmap/ic_launcher" android:label="@string/recentCallsIconLabel" android:name="com.dw.contacts.RecentCalls" android:targetActivity="com.dw.contacts.activities.PICActivity">
+            <intent-filter android:label="@string/recentCallsIconLabel">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/calls"/>
+            </intent-filter>
+            <intent-filter android:label="@string/recentCallsIconLabel">
+                <action android:name="com.sec.android.app.dialertab.calllog.DetailViewActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.android.phone.action.RECENT_CALLS"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:icon="@mipmap/ic_launcher_phone" android:label="@string/app_dialer_name" android:name="com.dw.dialer.Dialer" android:targetActivity="com.dw.contacts.activities.PICActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_dialer_name">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_dialer_name">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="voicemail"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_dialer_name">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_dialer_name">
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_dialer_name">
+                <action android:name="android.intent.action.CALL_BUTTON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:icon="@mipmap/ic_launcher_phone" android:label="@string/app_dialer_name" android:name="com.dw.dialer.DialerIcon" android:targetActivity="com.dw.contacts.activities.PICActivity">
+            <intent-filter android:label="@string/app_dialer_name">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:name="com.dw.contacts.activities.FragmentPackActivity"/>
+        <activity-alias android:label="@string/eventsList" android:name="com.dw.contacts.free.EventsListActivity" android:targetActivity="com.dw.contacts.activities.FragmentPackActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.dw.intent.action.VIEW_EVENTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/firewall_label" android:name="com.dw.contacts.free.RulesListActivity" android:targetActivity="com.dw.contacts.activities.FragmentPackActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <data android:mimeType="vnd.android.cursor.dir/vnd.dw.data.call_filter_rules"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/contactsList" android:name="com.dw.contacts.free.ContactsList" android:targetActivity="com.dw.contacts.activities.FragmentPackActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/group"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.dw.intent.action.VIEW_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:icon="@drawable/ic_shortcut" android:name="com.dw.contacts.free.CreateShortcuts" android:targetActivity="com.dw.contacts.activities.FragmentPackActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:icon="@mipmap/ic_launcher" android:label="@string/contact_group" android:name="com.dw.contacts.free.CreateContactGroupShortcuts" android:targetActivity="com.dw.contacts.activities.FragmentPackActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/message" android:name="com.dw.contacts.free.MessageListActivity" android:targetActivity="com.dw.contacts.activities.FragmentPackActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/vnd.dw.data.sms"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:name="com.dw.contacts.activities.GroupEditActivity">
+            <intent-filter>
+                <action android:name="com.dw.intent.action.EDIT_CONTACT_GROUP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/preferences_title" android:name="com.dw.contacts.activities.PreferencesActivity" android:theme="@style/Theme.DeviceDefault.Settings"/>
+        <service android:exported="false" android:name="com.dw.contacts.DataLoaderService"/>
+        <service android:exported="false" android:name="com.dw.contacts.CallFilterService"/>
+        <receiver android:name="com.MaliciousCode" >
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.dw.contacts.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/ruleEditor" android:name="com.dw.firewall.RuleEditActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.dw.firewall"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dw.contacts.activities.InGroupContactsActivity" android:theme="@style/Theme.NoTitle">
+            <intent-filter>
+                <action android:name="com.dw.intent.action.VIEW_CONTACTS_IN_GROUP"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.dw.mms.transaction.MessgeSendService"/>
+        <receiver android:name="com.dw.mms.transaction.MessageStatusReceiver"/>
+        <receiver android:name="com.dw.mms.transaction.SmsReceiver"/>
+        <activity android:name="com.dw.app.SortAndHideActivity" android:theme="@style/Theme.DeviceDefault"/>
+        <activity android:label="@string/menu_sendMessage" android:name="com.dw.mms.ui.ComposeMessageActivity" android:theme="@style/Theme.DeviceDefault.Light"/>
+        <receiver android:name="com.dw.mms.transaction.MessgeSendService$RegularlyMessageSendReceiver"/>
+        <receiver android:name="com.dw.android.app.AlarmManagerUtils$StartServiceReceiver"/>
+        <receiver android:name="com.dw.firewall.AutoStopReceiver"/>
+        <activity android:label="@string/historyList" android:name="com.dw.contacts.activities.RecentCallsListActivity" android:theme="@style/Theme.NoTitle">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.dw.intent.action.VIEW_RECENT_CALLS"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.dw.contacts.util.EventHelper$NotificationReceiver"/>
+        <activity android:name="com.dw.contacts.activities.GroupsPickActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="com.dw.intent.action.ACTION_PICK_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.dw.app.IntentCommand" android:theme="@style/Theme.DeviceDefault.Light.NoDisplay"/>
+        <activity-alias android:excludeFromRecents="true" android:name="com.dw.call" android:permission="android.permission.CALL_PHONE" android:targetActivity="com.dw.app.IntentCommand">
+            <intent-filter>
+                <action android:name="com.dw.intent.action.ACTION_CALL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.dw.contacts.activities.SetPhotoToContactsActivity" android:theme="@style/Theme.DeviceDefault.Light.NoDisplay"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.dw.app.BuyActivity"/>
+        <activity android:exported="true" android:name="com.dw.contacts.activities.FragmentShowActivity" android:windowSoftInputMode="adjustResize"/>
+        <receiver android:name="com.dw.dialer.NewOutgoingCallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+            </intent-filter>
+        </receiver>
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/callConfirm" android:launchMode="singleTop" android:name="com.dw.dialer.CallConfirmActivity" android:taskAffinity="com.dw.task.contacts.callconfirm" android:theme="@style/Theme.CallConfirm">
+            <intent-filter>
+                <action android:name="com.dw.intent.action.CALL_CONFIRM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/viewContactTitle" android:name="com.dw.contacts.activities.ContactDetailActivity">
+            <intent-filter android:label="@string/viewContactDesription">
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.dw.intent.action.VIEW_CONTACT_DETAIL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+        </activity>
+        <receiver android:label="@string/app_contacts_name" android:name="com.dw.contacts.appwidgets.ContactsAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info_contacts"/>
+        </receiver>
+        <receiver android:label="@string/app_widget_name_agenda" android:name="com.dw.contacts.appwidgets.AgendaAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.dw.intent.action.AGENDA_DATA_CHANGED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info_agenda"/>
+        </receiver>
+        <receiver android:label="@string/app_name" android:name="com.dw.contacts.appwidgets.ShortcutWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info_shortcut"/>
+        </receiver>
+        <receiver android:label="@string/app_widget_name_dialer_4_4" android:name="com.dw.contacts.appwidgets.DialerAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info_dialer"/>
+        </receiver>
+        <receiver android:label="@string/app_widget_name_dialer_2_3" android:name="com.dw.contacts.appwidgets.DialerAppWidgetProvider23">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info_dialer_2_3"/>
+        </receiver>
+        <receiver android:label="@string/app_widget_name_dialer_3_3" android:name="com.dw.contacts.appwidgets.DialerAppWidgetProvider33">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info_dialer_3_3"/>
+        </receiver>
+        <receiver android:name="com.dw.dialer.PhoneStateChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.android.contacts.ContactSaveService"/>
+        <service android:exported="false" android:name="com.dw.contacts.appwidgets.ContactsRemoteViewsService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <service android:exported="false" android:name="com.dw.contacts.appwidgets.AgendaRemoteViewsService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <activity android:label="@string/widgetConfiguration" android:name="com.dw.contacts.appwidgets.ContactsAppWidgetConfigActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dw.ErrorReportActivity" android:theme="@style/Theme.DeviceDefault.Light.NoDisplay"/>
+        <activity android:icon="@mipmap/ic_launcher_phone" android:label="@string/defaultSIMcard" android:name="com.dw.app.MultiSIMCardCaller" android:permission="android.permission.CALL_PHONE" android:theme="@style/Theme.DeviceDefault.Light.NoDisplay">
+            <intent-filter>
+                <action android:name="com.dw.intent.action.ACTION_CALL_DEFAULT_SIM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:label="@string/contactsList" android:launchMode="singleTop" android:name="com.dw.contacts.activities.ContactSelectionActivity">
+            <intent-filter android:label="@string/addToContact">
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SENDTO"/>
+                <data android:scheme="mailto"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT_OR_EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/phone_v2"/>
+                <data android:mimeType="vnd.android.cursor.dir/phone"/>
+                <data android:mimeType="vnd.android.cursor.dir/postal-address_v2"/>
+                <data android:mimeType="vnd.android.cursor.dir/postal-address"/>
+                <data android:mimeType="vnd.android.cursor.dir/email_v2"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/phone_v2"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/postal-address_v2"/>
+                <data android:mimeType="vnd.android.cursor.item/postal-address"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/viewContactTitle" android:name="com.dw.contacts.activities.ContactDetailPreferencesActivity" android:theme="@style/Theme.DeviceDefault.Settings"/>
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:resource="@dimen/app_defaultsize_w"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:resource="@dimen/app_defaultsize_h"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:resource="@dimen/app_minimumsize_w"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:resource="@dimen/app_minimumsize_h"/>
+        <service android:name="com.dw.widget.FloatViewManagerService"/>
+        <activity android:exported="false" android:label="@string/recommendToFriends" android:name="com.dw.app.RecommendToFriendsActivity" android:theme="@style/Theme.DeviceDefault.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/ic_sim1_2" android:label="@string/dualSIMCardConfiguration" android:launchMode="singleInstance" android:name="com.dw.contacts.activities.DualSimCardConfigActivity" android:taskAffinity="com.dw.task.contacts.dualSIMCardConfiguration"/>
+        <service android:exported="false" android:name="com.dw.contacts.ScheduledTasksService"/>
+        <service android:name="com.android.contacts.util.EmptyService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.android.contacts.common.vcard.ImportVCardActivity" android:theme="@style/Theme.DeviceDefault.Light.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:mimeType="text/directory"/>
+                <data android:mimeType="text/vcard"/>
+                <data android:mimeType="text/x-vcard"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.contacts.common.vcard.SelectAccountActivity" android:theme="@style/Theme.DeviceDefault.Light.NoDisplay"/>
+        <activity android:name="com.android.contacts.common.vcard.ExportVCardActivity" android:theme="@style/Theme.DeviceDefault.Light.NoDisplay"/>
+        <service android:exported="false" android:name="com.android.contacts.common.vcard.VCardService"/>
+        <activity android:name="com.android.contacts.common.vcard.CancelActivity" android:theme="@style/Theme.DeviceDefault.Light.NoDisplay"/>
+        <activity android:exported="false" android:name="com.dw.contacts.activities.FilePathPickActivity" android:theme="@style/Theme.DeviceDefault.Light.NoDisplay">
+            <intent-filter>
+                <action android:name="com.dw.intent.action.ACTION_GET_CONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.dw.reminder.ReminderManager$AlarmReceiver"/>
+        <receiver android:name="com.dw.contacts.UpdateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.dw.reminder.ReminderActivity" android:theme="@style/Theme.DeviceDefault.Light.NoDisplay"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.dw.contacts.ExportedCommands" android:permission="android.permission.CALL_PHONE" android:taskAffinity="com.dw.task.contacts.ExportedCommands" android:theme="@style/Theme.DeviceDefault.Light.NoDisplay">
+            <intent-filter>
+                <action android:name="com.dw.intent.action.ACTION_CALL_SPEED_DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:launchMode="singleTop" android:name="com.dw.contacts.activities.PhotoSelectionActivity" android:theme="@style/Theme.PhotoSelector" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:exported="false" android:name="com.dw.app.ChooserActivity" android:theme="@style/Theme.Chooser"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.samsung.android.sdk.iap.lib.activity.InboxActivity" android:theme="@style/Theme.Empty"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.samsung.android.sdk.iap.lib.activity.PaymentActivity" android:theme="@style/Theme.Empty"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.samsung.android.sdk.iap.lib.activity.ItemActivity" android:theme="@style/Theme.Empty"/>
+        <receiver android:name="com.dw.contacts.util.BackupHelper$AutoBackupReceiver"/>
+        <service android:exported="false" android:name="com.dw.alarms.AlarmService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:excludeFromRecents="true" android:name="com.dw.alarms.AlarmActivity" android:showOnLockScreen="true" android:taskAffinity="" android:theme="@style/Theme.DeviceDefault" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:label="@string/attach_photo_dialog_title" android:name="com.dw.contacts.activities.AttachPhotoActivity" android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.ATTACH_DATA"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.dw.contacts.NotificationListenerService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.dw.contacts.authenticator.AuthenticationService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <activity android:configChanges="orientation" android:excludeFromRecents="true" android:label="@string/account_phone" android:name="com.dw.contacts.authenticator.AuthenticatorActivity" android:theme="@android:style/Theme.Dialog"/>
+        <service android:exported="true" android:name="com.dw.contacts.syncadapter.SyncService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter"/>
+            <meta-data android:name="android.provider.CONTACTS_STRUCTURE" android:resource="@xml/basic_contacts"/>
+        </service>
+        <activity android:name="com.dw.contacts.activities.CallLogNotesEditActivity" android:theme="@style/Theme.NoteEditor"/>
+        <activity android:name="com.dw.contacts.activities.ContactNotesEditActivity" android:theme="@style/Theme.NoteEditor"/>
+        <activity android:name="com.dw.contacts.activities.ContactReminderEditActivity" android:theme="@style/Theme.NoteEditor"/>
+        <activity android:name="com.dw.contacts.activities.CustomFiledEditActivity" android:theme="@style/Theme.NoteEditor"/>
+        <activity android:label="@string/pref_color_schemes" android:name="com.dw.contacts.activities.ColorEditorActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.dw.app.CActivity"/>
+        </activity>
+        <activity android:label="@string/activity_title_contacts_filter" android:name="com.android.contacts.common.list.AccountFilterActivity" android:theme="@style/ContactListFilterTheme"/>
+        <activity android:label="@string/custom_list_filter" android:name="com.android.contacts.common.list.CustomContactListFilterActivity" android:theme="@style/ContactListFilterTheme"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+        <activity android:name="ru.bartwell.exfilepicker.ui.activity.ExFilePickerActivity" android:theme="@style/ExFilePickerThemeLight"/>
+        <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT"/>
+    </application>
+</manifest>

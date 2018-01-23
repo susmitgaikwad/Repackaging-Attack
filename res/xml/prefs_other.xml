@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/other" n1:key="other"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory n1:title="@string/pref_title_likeTheSoftware" n1:key="likeTheSoftware">
+        <Preference n1:title="@string/pref_title_rating" n1:key="pref_key_rating" n1:summary="@string/pref_summary_rating" />
+        <Preference n1:title="@string/pref_title_share" n1:key="pref_key_share" n1:summary="@string/pref_summary_share" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/pref_help_title" n1:key="help_group">
+        <PreferenceScreen n1:title="@string/pref_online_help_title" n1:key="online_help">
+            <intent n1:action="android.intent.action.VIEW" n1:data="http://wiki.dw-p.net/index.php?title=DW_Contacts_%26_Phone#Get_Help" />
+        </PreferenceScreen>
+        <PreferenceScreen n1:title="@string/pref_title_supportForum" n1:key="supportForum">
+            <intent n1:action="android.intent.action.VIEW" n1:data="http://forum.dw-p.net/" />
+        </PreferenceScreen>
+        <Preference n1:title="@string/pref_feedback_title" n1:key="pref_key_feedback" />
+        <Preference n1:title="@string/recentChanges" n1:key="recentChanges" />
+        <Preference n1:title="@string/updateCheck" n1:key="update_check" />
+        <Preference n1:title="@string/pref_about_title" n1:key="pref_key_about" />
+    </PreferenceCategory>
+</PreferenceScreen>

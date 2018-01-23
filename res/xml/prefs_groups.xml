@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/contact_group" n1:key="groups"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference n1:title="@string/pref_title_display_auto_group" n1:key="display_auto_group" n1:summary="@string/pref_display_auto_group_summary" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_display_system_group" n1:key="display_systme_group" n1:summary="@string/pref_display_system_group_summary" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_merge_same_name_group" n1:key="merge_same_name_group" n1:summary="@string/pref_merge_same_name_group_summary" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_show_account_name_title" n1:key="show_account_name" n1:summary="@string/pref_show_account_name_summary" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_showGroupSContactsCount" n1:key="showGroupSContactsCount" n1:summary="@string/pref_summary_showGroupSContactsCount" n1:defaultValue="false" />
+    <CheckBoxPreference n1:title="@string/show_group_icon" n1:key="show_group_icon" n1:summary="@string/show_group_icon_summary" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_showMyContactsInUngrouped" n1:key="showMyContactsInUngrouped" n1:summary="@string/pref_summary_showMyContactsInUngrouped" n1:defaultValue="true" />
+    <PreferenceScreen n1:title="@string/pref_title_tabSettings" n1:key="groups.tab_order" n1:summary="@string/pref_tabs_summary" />
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="duration_minutes">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="one">Dakika 1</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">Sekunde %d</item>
+        <item quantity="one">Sekunde 1</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Anwani %d</item>
+        <item quantity="one">Anwani 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Zimepatikana %d</item>
+        <item quantity="one">Imepatikana 1</item>
+    </plurals>
+</resources>

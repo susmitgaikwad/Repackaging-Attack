@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/ic_tab_recent" n1:id="@id/view_historys" n1:title="@string/menu_showHistory"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:icon="@drawable/ic_action_text" n2:id="@id/send_sms_to_select" n2:title="@string/menu_sendMessage"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:icon="@drawable/ic_action_email" n3:id="@id/send_email_to_select" n3:title="@string/menu_sendEmail"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:icon="@drawable/ic_action_discard" n4:id="@id/delete_select" n4:title="@string/menu_deleteGroups"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:icon="@drawable/ic_action_music_note" n5:id="@id/set_ringtone_for_select" n5:title="@string/menu_setRingtone"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+</menu>

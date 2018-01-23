@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/viewContactTitle" n1:key="contact_detail"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference n1:title="@string/pref_title_linksInNotes" n1:key="linksInNotes" n1:summary="@string/pref_summary_linksInNotes" n1:defaultValue="true" />
+    <PreferenceScreen n1:title="@string/pref_title_tabSettings" n1:key="contact_detail.tab_order" n1:summary="@string/pref_tabs_summary" />
+    <ListPreference n1:entries="@array/pref_entries_hideTab" n1:title="@string/pref_title_autoHideTab" n1:key="contact_detail.hideTab" n1:summary="@string/pref_summary_autoHideTab" n1:defaultValue="off" n1:entryValues="@array/pref_values_hideTab" />
+    <com.dw.preference.MultiSelectListPreference n1:title="@string/pref_title_hideSection" n1:key="contact_detail.hide_section" />
+    <CheckBoxPreference n1:title="@string/pref_title_showContactsLocalTime" n1:key="contact_detail.showLocalTime" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_hideContactPicture" n1:key="contact_detail.hidePicture" n1:defaultValue="false" />
+    <CheckBoxPreference n1:title="@string/pref_title_mergeItemsJustDiffLabel" n1:key="contact_detail.mergeItemsJustDiffLabel" n1:summary="@string/pref_summary_mergeItemsJustDiffLabel" n1:defaultValue="true" />
+</PreferenceScreen>

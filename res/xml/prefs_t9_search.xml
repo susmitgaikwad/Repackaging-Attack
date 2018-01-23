@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/pref_title_t9Search" n1:key="t9_search" n1:summary="@string/pref_summary_t9Search"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.dw.preference.MultiSelectListPreference n1:entries="@array/pref_entries_t9_language" n1:title="@string/pref_title_languageForT9" n1:key="t9_languages" n1:summary="@string/pref_summary_languageForT9" n1:defaultValue="default" n1:entryValues="@array/pref_values_t9_language" />
+    <com.dw.preference.MultiSelectListPreference n1:entries="@array/pref_entries_t9_language" n1:title="@string/pref_title_languageForT9Keyboard" n1:key="t9_keyboard" n1:summary="@string/pref_summary_languageForT9Keyboard" n1:defaultValue="default" n1:entryValues="@array/pref_values_t9_language" />
+    <CheckBoxPreference n1:title="@string/pref_title_sortByDegreeOfMatch" n1:key="sortByDegreeOfMatch" n1:summary="@string/pref_title_sortByDegreeOfMatch" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_showMatchFirstLetterResultsFirst" n1:key="showMatchFirstLetterFirst" n1:summary="@string/pref_title_showMatchFirstLetterResultsFirst" n1:dependency="sortByDegreeOfMatch" n1:defaultValue="@bool/pref_def_showMatchFirstLetterFirst" />
+    <CheckBoxPreference n1:title="@string/pref_title_matchingFirstLetter" n1:key="matchingFirstLetter" n1:summary="@string/pref_summary_matchingFirstLetter" n1:defaultValue="@bool/pref_def_matchingFirstLetter" />
+    <CheckBoxPreference n1:title="@string/pref_title_matchingSkipWord" n1:key="matchingSkipWord" n1:summary="@string/pref_summary_matchingSkipWord" n1:dependency="matchingFirstLetter" n1:defaultValue="@bool/pref_def_matchingSkipWord" />
+    <CheckBoxPreference n1:title="@string/pref_title_matchingPart" n1:key="matchingPart" n1:summary="@string/pref_summary_matchingPart" n1:defaultValue="@bool/pref_def_matchingPart" />
+    <CheckBoxPreference n1:title="@string/pref_title_matchingSkipSpace" n1:key="t9.skip_space" n1:summary="@string/pref_summary_matchingSkipSpace" n1:dependency="matchingPart" n1:defaultValue="@bool/pref_def_matchingSkipSpace" />
+    <CheckBoxPreference n1:title="@string/pref_title_matchingAnywhere" n1:key="matchingAnywhere" n1:summary="@string/pref_summary_matchingAnywhere" n1:defaultValue="false" />
+    <CheckBoxPreference n1:title="@string/pref_title_useNumberSearch" n1:key="useNumberSearch" n1:summary="@string/pref_summary_useNumberSearch" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_useOrgSearch" n1:key="useOrgSearch" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_searchCallLog" n1:key="t9.searchCallLog" n1:summary="@string/pref_summary_searchCallLog" n1:defaultValue="true" />
+</PreferenceScreen>

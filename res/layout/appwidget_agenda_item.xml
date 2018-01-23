@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/item" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:enabled="false" n1:textSize="12.0sp" n1:textColor="@color/appwidget_agenda_separator_text_color" n1:id="@id/header_text" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:lines="1" n1:textAllCaps="true" />
+    <FrameLayout n1:orientation="vertical" n1:id="@id/div" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="3.0dip" />
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/bg" n1:background="@drawable/appwidget_bg_agenda_item" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <ImageView n1:id="@id/photo" n1:layout_width="@dimen/appwidget_agenda_icon_size" n1:layout_height="@dimen/appwidget_agenda_icon_size" n1:layout_marginLeft="3.0dip" n1:layout_marginTop="3.0dip" n1:layout_marginRight="0.0dip" n1:layout_marginBottom="3.0dip" n1:scaleType="center" />
+        <LinearLayout n1:orientation="vertical" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:id="@id/title" style="@style/AppWidget.Agenda.Item.Text.Title" />
+            <TextView n1:id="@id/description" style="@style/AppWidget.Agenda.Item.Text.Description" />
+            <TextView n1:id="@id/time" style="@style/AppWidget.Agenda.Item.Text.Time" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

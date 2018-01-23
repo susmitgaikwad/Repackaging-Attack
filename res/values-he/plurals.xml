@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d אנשי קשר</item>
+        <item quantity="one">איש קשר אחד</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">נמצאו %d</item>
+        <item quantity="one">נמצא אחד</item>
+    </plurals>
+</resources>

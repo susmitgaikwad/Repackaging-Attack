@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_new_person" n1:id="@id/new_contact" n1:title="@string/menu_newContact" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?ic_action_select" n3:id="@id/select_mode" n3:title="@string/menu_select_mode" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="?ic_action_search" n5:id="@id/search" n5:title="@string/search" n6:showAsAction="always"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="?ic_action_import_export" n7:id="@id/export" n7:title="@string/export_to_sdcard" n8:showAsAction="ifRoom"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:icon="@android:drawable/ic_menu_close_clear_cancel" n9:id="@id/delete_shown" n9:menuCategory="alternative" n9:title="@string/menu_deleteTheShownCallLog"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:id="@id/show_call_log_filter" n10:menuCategory="alternative" n10:title="@string/show_call_log_filter"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:id="@id/hide_call_log_filter" n11:menuCategory="alternative" n11:title="@string/hide_call_log_filter"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <item n12:id="@id/show_field" n12:menuCategory="alternative" n12:title="@string/pref_title_showInContactList"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+    <item n13:id="@id/settings" n13:menuCategory="system" n13:orderInCategory="100" n13:title="@string/menu_preferences"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/header" n1:layout="@layout/list_section" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <com.dw.widget.LinearLayoutEx n1:gravity="center_vertical" n1:orientation="horizontal" n1:id="@id/actions_view_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/detail_min_line_item_height">
+        <CheckBox n1:id="@id/checkbox" n1:focusable="false" n1:visibility="gone" n1:clickable="false" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_margin="5.0dip" />
+        <com.dw.contacts.ui.widget.ListItemView n1:layout_gravity="center" n1:id="@id/text_fields" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="2.0dip" n1:layout_marginRight="2.0dip" n1:layout_weight="1.0" />
+        <com.dw.widget.QuickContactBadge n1:layout_gravity="center_vertical" n1:id="@id/photo" style="@style/QuickContactBadge" />
+    </com.dw.widget.LinearLayoutEx>
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s marcados como concluídos</item>
+        <item quantity="one">%s marcado como concluído</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s excluídos</item>
+        <item quantity="one">%1$s excluído</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d contatos</item>
+        <item quantity="one">1 contato</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d encontrados</item>
+        <item quantity="one">%d encontrados</item>
+    </plurals>
+</resources>

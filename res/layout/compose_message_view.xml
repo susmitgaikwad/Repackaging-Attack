@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dw.widget.LinearLayoutEx n1:orientation="vertical" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:sink="?sinkSizePrimary" n2:sinkGravity="top"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <EditText n1:id="@id/recipients_editor" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:hint="@string/to_hint" n1:ems="10" n1:inputType="textFilter" />
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:id="@id/ad" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <LinearLayout n1:gravity="bottom" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <ScrollView n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+            <LinearLayout n1:layout_gravity="bottom" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <CheckBox n1:id="@id/auto_replace" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:checked="true" n1:minHeight="@dimen/recommended_touch_area_size" n1:text="@string/auto_replace_to_name" />
+                <TextView n1:textAppearance="@style/TextAppearance.Message.Medium.Send" n1:textColor="#ff000000" n1:layout_gravity="right" n1:id="@id/preview" n1:background="?bg_detail_message_send" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="6.0dip" n1:layout_marginLeft="@dimen/recommended_touch_area_size" />
+            </LinearLayout>
+        </ScrollView>
+        <include layout="@layout/compose_message_panel" />
+    </LinearLayout>
+</com.dw.widget.LinearLayoutEx>

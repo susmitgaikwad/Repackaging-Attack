@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.dw.widget.TableView n1:id="@id/tableView" n1:background="#ffffffff" n1:scrollbars="horizontal|vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:textSize="12.0sp" n2:titleBackground="#ff888888" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

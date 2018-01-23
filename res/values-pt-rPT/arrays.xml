@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Intercetar</item>
+        <item>Permite</item>
+        <item>Silence</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Filtro de grupo</item>
+        <item>Filtro de número</item>
+        <item>Recently contacted phone number</item>
+    </string-array>
+    <string-array name="days">
+        <item>domingo</item>
+        <item>segunda</item>
+        <item>terça</item>
+        <item>quarta</item>
+        <item>quinta</item>
+        <item>sexta</item>
+        <item>sábado</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>dom</item>
+        <item>seg</item>
+        <item>ter</item>
+        <item>qua</item>
+        <item>qui</item>
+        <item>sex</item>
+        <item>sáb</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>Tom DTMF</item>
+        <item>Click Tone</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Ligado</item>
+        <item>Desligado</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 minuto</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+        <item>2 days</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Cima</item>
+        <item>Centro</item>
+        <item>Baixo</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Bcc</item>
+        <item>Cc</item>
+        <item>Para</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Grupos</item>
+        <item>Organizações</item>
+        <item>Títulos</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/pref_title_themeCustomize" n1:key="theme"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <Preference n1:title="@string/pref_theme_title" n1:key="themes" n1:summary="@string/pref_theme_summary" />
+    <Preference n1:title="@string/pref_color_schemes" n1:key="color_schemes" n1:summary="@string/font_size" />
+    <PreferenceCategory n1:title="@string/pref_title_globalThemeSettings" n1:key="globalThemeSettings">
+        <com.dw.preference.MyListPreference n1:entries="@array/pref_entries_quickJumpAlignment" n1:title="@string/pref_title_quickJumpAlignment" n1:key="theme.quick_jump_alignment" n1:summary="%s" n1:defaultValue="CENTER" n1:entryValues="@array/pref_values_quickJumpAlignment" />
+        <com.dw.preference.TextNumberPreference n1:title="@string/pref_title_minimumHeightOfListItem" n1:key="theme.minimumHeightOfListItem" n1:defaultValue="0" n2:maxValue="1000" n2:minValue="0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.dw.preference.TextNumberPreference n1:title="@string/pref_title_globalIconSize" n1:key="theme.list_icon_size" n1:summary="@string/pref_summary_globalIconSize" n1:defaultValue="56" n3:maxValue="200" n3:minValue="24" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.dw.preference.MyListPreference n1:entries="@array/pref_entries_byThemeOnOff" n1:title="@string/pref_title_circleIcon" n1:key="theme.circle_icon" n1:summary="%s" n1:defaultValue="DEFAULT" n1:entryValues="@array/pref_values_byThemeOnOff" />
+        <com.dw.preference.MyListPreference n1:entries="@array/pref_entries_byThemeOnOff" n1:title="@string/pref_title_colorfulIcon" n1:key="theme.colorful_icon" n1:summary="%s" n1:defaultValue="DEFAULT" n1:entryValues="@array/pref_values_byThemeOnOff" />
+        <com.dw.preference.PicturePreference n1:title="@string/pref_title_defaultContactIcon" n1:key="theme.defaultContactIcon" n1:defaultValue="@drawable/ic_contact_picture_light" n4:pictureHigh="96.0dip" n4:pictureWidth="96.0dip" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.dw.preference.PicturePreference n1:title="@string/pref_title_defaultGroupIcon" n1:key="theme.defaultGroupIcon" n1:defaultValue="@drawable/ic_contact_picture_light" n5:pictureHigh="96.0dip" n5:pictureWidth="96.0dip" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <CheckBoxPreference n1:title="@string/pref_title_hideDefaultIcon" n1:key="theme.hideDefaultIcon" n1:summary="@string/pref_summary_hideDefaultIcon" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/pref_title_lockView" n1:key="theme.lock_items_view" n1:summary="@string/pref_summary_lockView" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/pref_title_dialpadThemeSettings" n1:key="dialpadThemeSettings">
+        <com.dw.preference.FontPreference n1:title="@string/font" n1:key="font.dialpad" />
+        <com.dw.preference.NumberPreference n1:title="@string/pref_title_phoneDialpadHeight" n1:key="dialpadHeight" n6:maxValue="100000" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <CheckBoxPreference n1:title="@string/pref_title_largeDialButton" n1:key="dialpad.largeDialButton" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/pref_title_hideMenuButton" n1:key="dialpad.hide_menu_button" n1:summary="@string/pref_summary_hideMenuButton" n1:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/pref_title_gridViewSettings" n1:key="gridViewThemeSettings">
+        <com.dw.preference.NumberPreference n1:title="@string/pref_title_gridViewSize" n1:key="theme.contactGridSize" />
+        <CheckBoxPreference n1:title="@string/pref_title_scaleToFitTheScreen" n1:key="theme.contactGridSize_autoScale" n1:summary="@string/pref_summary_scaleToFitTheScreen" n1:defaultValue="true" />
+        <com.dw.preference.NumberPreference n1:title="@string/pref_title_nameLines" n1:key="theme.contactGridSize_nameLines" n1:summary="%s" n1:defaultValue="1" n7:maxValue="10" n7:message="@string/pref_summary_nameLines" n7:minValue="0" xmlns:n7="http://schemas.android.com/apk/res-auto" />
+        <com.dw.preference.ColorPreference n1:title="@string/pref_title_textColor" n1:key="theme.color.grid.text" n1:defaultValue="0xFFFFFFFF" />
+        <CheckBoxPreference n1:title="@string/pref_title_displayNameBelowThePicture" n1:key="theme.contactNameBelowPicture" n1:summary="@string/pref_title_displayNameBelowThePicture" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/pref_title_lockGridSize" n1:key="lockContactGridSize" n1:summary="@string/pref_summary_lockGridSize" n1:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

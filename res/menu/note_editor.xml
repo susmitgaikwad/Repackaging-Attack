@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/ic_action_launch" n1:id="@id/btn_parse" n1:visible="false" n1:title="@string/select_link_title"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:icon="@drawable/ic_mic_24dp" n2:id="@id/btn_add_voice_tag" n2:visible="false" n2:title="@string/description_add_voice_tag"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:icon="@drawable/ic_action_add_alarm" n3:id="@id/btn_add_reminder" n3:visible="false" n3:title="@string/menu_add_reminder"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:icon="@drawable/ic_action_go_to_today" n4:id="@id/btn_insert_current_datetime" n4:title="Insert the current date and time" n5:showAsAction="always"
+      xmlns:n4="http://schemas.android.com/apk/res/android" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+    <item n6:icon="@drawable/ic_action_cut" n6:id="@id/btn_cut" n6:title="@android:string/cut"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:icon="@drawable/ic_action_copy" n7:id="@id/btn_copy" n7:title="@android:string/copy"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+</menu>

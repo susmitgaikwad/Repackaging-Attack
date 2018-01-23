@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/ic_tab_recent" n1:id="@id/group_view_history" n1:title="@string/menu_showHistory"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:icon="@drawable/ic_action_text" n2:id="@id/group_text" n2:title="@string/menu_sendMessage"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:icon="@drawable/ic_action_email" n3:id="@id/group_email" n3:title="@string/menu_sendEmail"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <group n4:id="@id/editable" n4:visible="false"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <item n4:icon="@drawable/ic_action_edit" n4:id="@id/group_edit" n4:title="@string/menu_edit_group" />
+        <item n4:icon="@drawable/ic_action_add_field" n4:id="@id/group_add_contact" n4:title="@string/menu_add_contact_to_group" />
+        <item n4:icon="@drawable/ic_remove_circle_outline_24dp" n4:id="@id/group_remove_contact" n4:title="@string/menu_remove_contact_from_group" />
+        <item n4:icon="@drawable/ic_action_discard" n4:id="@id/group_delete" n4:title="@string/menu_delete_group" />
+    </group>
+    <item n5:icon="@drawable/ic_tab_24dp" n5:id="@id/group_add_to_tabbar" n5:visible="false" n5:title="@string/menu_addToTabBar"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:icon="@drawable/ic_tab_24dp" n6:id="@id/group_remove_from_tabbar" n6:visible="false" n6:title="@string/menu_removeFromTabBar"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <group n7:id="@id/haslink" n7:visible="false"
+      xmlns:n7="http://schemas.android.com/apk/res/android">
+        <item n7:icon="@drawable/ic_action_music_note" n7:id="@id/group_set_ringtone" n7:title="@string/menu_setRingtone" />
+        <item n7:icon="@drawable/ic_action_launch" n7:id="@id/group_create_shortcut" n7:title="@string/create_shortcut" />
+    </group>
+    <item n8:icon="@drawable/ic_action_star_off" n8:id="@id/group_clear_frequents" n8:visible="false" n8:title="@string/menu_clear_frequents"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+</menu>

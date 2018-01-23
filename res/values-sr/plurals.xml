@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s ставки је означено као готово</item>
+        <item quantity="one">%s ставка је означена као готова</item>
+        <item quantity="few">%s ставке су означене као готове</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s ставки је избрисано</item>
+        <item quantity="one">%1$s ставка је избрисана</item>
+        <item quantity="few">%1$s ставке су избрисане</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d минута</item>
+        <item quantity="one">1 минут</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">Секунди: %d</item>
+        <item quantity="one">1 секунда</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Kонтаката: %d</item>
+        <item quantity="one">1 контакт</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Пронађено је %d</item>
+        <item quantity="one">Пронађен је %d</item>
+        <item quantity="few">Пронађена су %d</item>
+    </plurals>
+</resources>

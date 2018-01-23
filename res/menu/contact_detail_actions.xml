@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group n1:id="@id/group_call" n1:visible="false"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <item n1:icon="@drawable/ic_action_call_using" n1:id="@id/call_using" n1:title="@string/menu_callUsing" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_prefix" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_prefix1" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_prefix2" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_suffix" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_infix" n1:title="" />
+        <item n1:icon="@drawable/ic_action_with_number" n1:id="@id/edit_number_before_call" n1:title="@string/recentCalls_editNumberBeforeCall" />
+    </group>
+    <group n2:id="@id/group_phone" n2:visible="false"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <item n2:icon="@drawable/ic_dialpad_twelve_keyboard" n2:id="@id/add_to_quick_dial_list" n2:title="@string/menu_addToQuickdialList" />
+        <item n2:icon="@drawable/ic_action_launch" n2:id="@id/create_shortcut" n2:title="@string/create_shortcut">
+            <menu>
+                <item n2:icon="@drawable/ic_action_call" n2:id="@id/create_shortcut_call" n2:title="@string/shortcutDialContact" />
+                <item n2:icon="@drawable/ic_action_text" n2:id="@id/create_shortcut_text" n2:title="@string/shortcutMessageContact" />
+            </menu>
+        </item>
+    </group>
+    <group n3:id="@id/bind_to_sim" n3:visible="false"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <item n3:id="@id/bind_to_sim_1" n3:title="" />
+        <item n3:id="@id/bind_to_sim_2" n3:title="" />
+        <item n3:icon="@drawable/ic_action_cut" n3:id="@id/clear_bind" n3:title="@string/menu_clearBind" />
+    </group>
+    <item n4:icon="@drawable/ic_action_edit" n4:id="@id/edit_notes" n4:visible="false" n4:title="@string/menu_edit"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:icon="@drawable/ic_action_edit" n5:id="@id/edit_custom_filed" n5:visible="false" n5:title="@string/menu_edit"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:icon="@drawable/ic_action_copy" n6:id="@id/copy_text" n6:title="@string/copy_text"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:icon="@drawable/ic_action_share" n7:id="@id/share_text" n7:title="@string/menu_share"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:icon="@drawable/ic_action_star_on" n8:id="@id/set_default" n8:visible="false" n8:title="@string/set_default"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:icon="@drawable/ic_action_star_off" n9:id="@id/clear_default" n9:visible="false" n9:title="@string/clear_default"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:icon="@drawable/ic_action_discard" n10:id="@id/delete" n10:visible="false" n10:title="@string/delete"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+</menu>

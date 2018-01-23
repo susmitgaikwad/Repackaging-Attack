@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days">
+        <item>Κυριακή</item>
+        <item>Δευτέρα</item>
+        <item>Τρίτη</item>
+        <item>Τετάρτη</item>
+        <item>Πέμπτη</item>
+        <item>Παρασκευή</item>
+        <item>Σάββατο</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Κυρ</item>
+        <item>Δευ</item>
+        <item>Τρι</item>
+        <item>Τετ</item>
+        <item>Πεμ</item>
+        <item>Παρ</item>
+        <item>Σάβ</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Κύρια Διεύθυνση Email</item>
+        <item>Όλες οι Διευθύνσεις Email</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Κύριο ή Πρωτεύων Κινητό</item>
+        <item>Όλοι οι αριθ. Κινητών</item>
+        <item>Όλοι οι αριθμοί</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>Ήχος DTMF</item>
+        <item>Ήχος πληκτρολογίου</item>
+        <item>ΑΠΕΝΕΡΓΟΠΟΊΗΣΗ</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 λεπτό</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>15 λεπτά</item>
+        <item>20 λεπτά</item>
+        <item>25 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>45 λεπτά</item>
+        <item>1 ώρα</item>
+        <item>2 ώρες</item>
+        <item>3 ώρες</item>
+        <item>12 ώρες</item>
+        <item>24 ώρες</item>
+        <item>2 μέρες</item>
+        <item>1 βδομάδα</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Επάνω</item>
+        <item>Κέντρο</item>
+        <item>Κάτω</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Κρυφή Κοιν.</item>
+        <item>Κοιν.</item>
+        <item>Προς</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Νούμερα</item>
+        <item>Οργανώσεις</item>
+        <item>Τίτλος</item>
+        <item>Ομάδες</item>
+        <item>Εικονίδιο λογαριασμού</item>
+        <item>Εικόνες επαφής</item>
+        <item>Πλήκτρο email</item>
+        <item>Πλήκτρο SMS</item>
+        <item>Πλήκτρο κλήσης</item>
+        <item>Notes</item>
+    </string-array>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Пресретање</item>
+        <item>Дозволи</item>
+        <item>Тихо</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Групни филтер</item>
+        <item>Филтер за број</item>
+        <item>Скоро контактирани број</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Изабери групу за филтер</item>
+        <item>Унеси број за филтер</item>
+        <item>Изабери важеће трајање</item>
+    </string-array>
+    <string-array name="days">
+        <item>Nedelja</item>
+        <item>Ponedeljak</item>
+        <item>Уторак</item>
+        <item>Среда</item>
+        <item>Четвртак</item>
+        <item>Петак</item>
+        <item>Субота</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Нед</item>
+        <item>Пон</item>
+        <item>уто</item>
+        <item>Сре</item>
+        <item>чет</item>
+        <item>Пет</item>
+        <item>Суб</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Подразумевана Email адреса</item>
+        <item>Све Email адресе</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Подразумевани или први мобилни број</item>
+        <item>Сви мобилни бројеви</item>
+        <item>Сви бројеви</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>„DTMF” тон</item>
+        <item>Тон клика</item>
+        <item>ИСКЉУЧЕНО</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Бирање/Унос/Брисање</item>
+        <item>Брисање/Унос/Бирање</item>
+        <item>Унос/Брисање/Бирање</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Укључено</item>
+        <item>Искључено</item>
+        <item>Аутоматски</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Лично име</item>
+        <item>Презиме</item>
+        <item>Средње име</item>
+        <item>Титула, префикс</item>
+        <item>Суфикс имена</item>
+        <item>Фонетски лично име</item>
+        <item>Фонетски презиме</item>
+        <item>Фонетски средње име</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 минут</item>
+        <item>5 минута</item>
+        <item>10 минута</item>
+        <item>15 минута</item>
+        <item>20 минута</item>
+        <item>25 минута</item>
+        <item>30 минута</item>
+        <item>45 минута</item>
+        <item>1 сат</item>
+        <item>2 сата</item>
+        <item>3 сата</item>
+        <item>12 сати</item>
+        <item>24 сата</item>
+        <item>2 дана</item>
+        <item>1 недеља</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Врх</item>
+        <item>Центар</item>
+        <item>Дно</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Bcc</item>
+        <item>Cc</item>
+        <item>За</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Бројеви</item>
+        <item>Компанија</item>
+        <item>Титула</item>
+        <item>Групе</item>
+        <item>Икона рачуна</item>
+        <item>Слика контакта</item>
+        <item>Дугме за Email</item>
+        <item>Дугме за SMS</item>
+        <item>Дугме бројчаника</item>
+        <item>Напомене</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>„PayPal” или кредитна картица</item>
+        <item>Препоручи пријатељима</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Региструјте овај програм на свој Гугл налог (купите и инсталирајте Pro везију путем Google Play). По инсталирању Pro верзије деинстаријте бесплатну (Free) верзију.</item>
+        <item>Региструј програм за уређај серијског броја: %s. Након уплате, добићете email са потврдом и шифром за регистрацију. Затим уносите регистрацију кликом (Online registration check).</item>
+        <item>Обезбедите бесплатну шифру за регистровање</item>
+    </string-array>
+</resources>

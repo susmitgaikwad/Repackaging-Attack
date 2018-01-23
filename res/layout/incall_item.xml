@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:background="?selectableItemBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="40.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.dw.android.widget.TintImageView n1:id="@id/typeIcon" n1:padding="3.0dip" n1:layout_width="24.0dip" n1:layout_height="24.0dip" n2:srcCompat="@drawable/ic_tab_place" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textAppearance="?android:textAppearanceMedium" n1:ellipsize="end" n1:id="@id/text1" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="3" />
+        <TextView n1:textAppearance="?android:textAppearanceSmall" n1:id="@id/text2" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:lines="1" />
+    </LinearLayout>
+</LinearLayout>

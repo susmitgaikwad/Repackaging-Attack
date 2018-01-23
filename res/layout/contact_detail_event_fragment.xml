@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/contact_detail_about_fragment" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.dw.widget.ListViewEx n1:id="@android:id/list" n1:fadingEdge="none" n1:layout_width="fill_parent" n1:layout_height="0.0px" n1:layout_weight="1.0" />
+    <ScrollView n1:id="@android:id/empty" n1:visibility="gone" n1:fadingEdge="none" n1:layout_width="fill_parent" n1:layout_height="0.0px" n1:layout_weight="1.0" />
+    <com.dw.widget.ToolbarEx n1:id="@id/toolbar2" n1:background="?actionModeSplitBackground" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n2:contentInsetStart="0.0px" n2:navigationContentDescription="" n2:theme="?actionBarTheme" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

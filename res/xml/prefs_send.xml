@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/pref_send_title" n1:key="send"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory n1:title="@string/pref_sms_settings_title" n1:key="pref_key_sms_settings">
+        <com.dw.preference.MyListPreference n1:entries="@array/prefEntries_sms_mms_to" n1:title="@string/pref_title_sms_mms_send" n1:key="pref_key_sms_mms_send" n1:summary="@string/pref_send_to" n1:defaultValue="@string/pref_send_to_default" n1:entryValues="@array/prefValues_sms_mms_send_to" />
+        <com.dw.preference.TextNumberPreference n1:title="@string/recipients_limit" n1:key="recipients_limit" n1:summary="@string/recipients_limit_summary" n1:defaultValue="10" n1:dialogTitle="@string/recipients_limit" n1:positiveButtonText="@string/save" n1:negativeButtonText="@android:string/cancel" n2:message="@string/recipients_limit_summary" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.dw.preference.TextNumberPreference n1:title="@string/pref_title_SMSSendInterval" n1:key="sms_send_interval" n1:summary="@string/pref_summary_SMSSendInterval" n1:defaultValue="0" n1:dialogTitle="@string/pref_title_SMSSendInterval" n1:positiveButtonText="@string/save" n1:negativeButtonText="@android:string/cancel" />
+        <EditTextPreference n1:title="@string/pref_title_smsSignature" n1:key="smsSignature" n1:summary="@string/pref_summary_smsSignature" />
+        <CheckBoxPreference n1:title="@string/using_system_sms_program" n1:key="using_system_sms_program" n1:summary="@string/using_system_sms_program_summary" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/pref_title_storeSendSMSToSystemDB" n1:key="storeSendSMSToSystemDB" n1:summary="@string/pref_summary_storeSendSMSToSystemDB" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/pref_title_sms_delivery_reports" n1:key="pref_key_sms_delivery_reports" n1:summary="@string/pref_summary_sms_delivery_reports" n1:defaultValue="false" />
+        <CheckBoxPreference n1:title="@string/sms_compatibility_mode_title" n1:key="sms_compatibility_mode" n1:summary="@string/sms_compatibility_mode_summary" n1:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/pref_email_settings_title" n1:key="pref_key_email_settings">
+        <com.dw.preference.MyListPreference n1:entries="@array/prefEntries_email_to" n1:title="@string/pref_title_email_send" n1:key="pref_key_email_send" n1:summary="@string/pref_send_to" n1:defaultValue="@string/pref_send_to_default" n1:entryValues="@array/prefValues_send_to" />
+        <com.dw.preference.MyListPreference n1:entries="@array/pref_entries_recipients_location" n1:title="@string/pref_title_recipients_location" n1:key="recipients_location" n1:summary="@string/pref_recipients_location_summary" n1:defaultValue="@string/pref_recipients_location_default" n1:dialogTitle="@string/pref_title_recipients_location" n1:entryValues="@array/pref_values_recipients_location" />
+        <CheckBoxPreference n1:title="@string/pref_title_EmailProgram" n1:key="use_def_email_program" n1:summaryOn="@string/pref_summary_on_EmailProgram" n1:summaryOff="@string/pref_summary_off_EmailProgram" />
+    </PreferenceCategory>
+</PreferenceScreen>

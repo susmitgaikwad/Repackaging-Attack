@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>インターセプト</item>
+        <item>許可</item>
+        <item>サイレント</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>グループフィルター</item>
+        <item>電話番号フィルター</item>
+        <item>最近通話した電話番号</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>フィルターするグループを選択して下さい</item>
+        <item>フィルターする電話番号を入力して下さい</item>
+        <item>有効期間を選択</item>
+    </string-array>
+    <string-array name="days">
+        <item>日曜日</item>
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>日</item>
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+    </string-array>
+    <string-array name="efp__size_units">
+        <item>B</item>
+        <item>kB</item>
+        <item>mB</item>
+        <item>gB</item>
+        <item>tB</item>
+        <item>pB</item>
+    </string-array>
+    <string-array name="efp__sorting_types">
+        <item>名前で、上昇</item>
+        <item>名前で、下行</item>
+        <item>サイズによって、上昇</item>
+        <item>サイズによって、下行</item>
+        <item>日付順、上昇</item>
+        <item>日付順、下行</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>メインメールアドレス</item>
+        <item>全メールアドレス</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>既定または最初の携帯電話番号</item>
+        <item>全携帯電話</item>
+        <item>全電話</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>所属</item>
+        <item>アドレス</item>
+        <item>電話番号</item>
+        <item>メール</item>
+        <item>メモ</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>毎日</item>
+        <item>隔日毎</item>
+        <item>3日毎</item>
+        <item>4日毎</item>
+        <item>5日毎</item>
+        <item>6日毎</item>
+        <item>毎週</item>
+        <item>毎月</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>全ての項目を検索</item>
+        <item>全ての連絡先を検索</item>
+        <item>全 アドレスリストから検索</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>中央</item>
+        <item>一辺のみ収まるよう等倍縮小</item>
+        <item>両辺とも収まるよう等倍縮小</item>
+        <item>画像中央で縮小</item>
+        <item>各辺が収まるよう非等倍縮小</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>プッシュ音</item>
+        <item>発信音</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>ダイヤル/入力ボックス/削除</item>
+        <item>削除/入力ボックス/ダイヤル</item>
+        <item>入力ボックス/削除/ダイヤル</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>On</item>
+        <item>Off</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>名</item>
+        <item>姓</item>
+        <item>ミドルネーム</item>
+        <item>敬語の接頭辞</item>
+        <item>敬語接尾辞</item>
+        <item>名の読み</item>
+        <item>姓の読み</item>
+        <item>ミドルネームの読み</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 分</item>
+        <item>5 分</item>
+        <item>10 分</item>
+        <item>15 分</item>
+        <item>20 分</item>
+        <item>25 分</item>
+        <item>30 分</item>
+        <item>45 分</item>
+        <item>1 時間</item>
+        <item>2 時間</item>
+        <item>3 時間</item>
+        <item>12 時間</item>
+        <item>24 時間</item>
+        <item>二日</item>
+        <item>一週間</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>上</item>
+        <item>中央</item>
+        <item>下</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Bcc</item>
+        <item>Cc</item>
+        <item>TO</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>電話番号</item>
+        <item>所属</item>
+        <item>役職</item>
+        <item>グループ</item>
+        <item>アカウントのアイコン</item>
+        <item>連絡先画像</item>
+        <item>電子メールボタン</item>
+        <item>SMSボタン</item>
+        <item>ダイヤルボタン</item>
+        <item>メモ</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>グループ</item>
+        <item>所属</item>
+        <item>役職</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPalまたはクレジットカード</item>
+        <item>友達に薦める</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>このソフトウェアをgoogle アカウントに登録します。（Pro版を Google Playで購入してインストール）Pro版をインストールした後、フリー版をアンインストールしてください。</item>
+        <item>デバイスのシリアル番号を登録してください: %s。支払後にレジストレーションコードを含めた確認のメールが届きます。その後 [オンライン登録チェック] をクリックし、登録を確認します。</item>
+        <item>無料登録コードの取得</item>
+    </string-array>
+</resources>

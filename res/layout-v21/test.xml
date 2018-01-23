@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:weightSum="1.0">
+        <TextView n1:id="@id/out" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        <Button n1:id="@id/button_andorid_hz2py" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="HZ2PY Android" />
+        <Button n1:id="@id/button_dw_hz2py" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="HZ2PY DW" />
+        <Button n1:id="@id/btn_sql" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="Sql Test" />
+        <com.dw.android.widget.CSFrameLayout n1:scrollX="40.0dip" n1:scrollY="40.0dip" n1:layout_width="40.0dip" n1:layout_height="80.0dip" n1:layout_margin="6.0dip" n2:sink="12.0dip" n2:sinkGravity="bottom|left|right|top" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.dw.android.widget.CSFrameLayout n1:id="@id/out1" n1:background="@color/c_200" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:foreground="@drawable/ic_contact_picture_light" n1:measureAllChildren="false" n1:foregroundTint="@color/c_200" n1:foregroundTintMode="multiply" />
+        <com.dw.android.widget.TintImageView n1:id="@id/tintImageView1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="10.0dip" n3:srcCompat="@drawable/ic_tab_message" n3:tint="?toolboxIconTint" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.dw.widget.QuickContactBadge n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n4:cornerRadius="60.0dip" n4:rising="0.0dip" n4:srcCompat="@drawable/ic_contact_picture_light" style="@style/QuickContactBadge" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <com.dw.widget.QuickContactBadge n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n5:cornerRadius="60.0dip" n5:rising="0.0dip" n5:srcCompat="@drawable/ic_contact_picture_light" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.dw.widget.QuickContactBadge n1:background="#aaeecc44" n1:clickable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n6:cornerRadius="60.0dip" n6:rising="0.0dip" n6:srcCompat="@drawable/ic_contact_picture_light" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <ImageView n1:id="@id/imageView1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <ImageView n1:id="@id/imageView2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <ImageView n1:id="@id/imageView3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <ImageView n1:id="@id/imageView4" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            <ImageView n1:id="@id/imageView5" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

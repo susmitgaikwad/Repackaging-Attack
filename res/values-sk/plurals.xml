@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s položiek bolo označených ako odbavených</item>
+        <item quantity="one">%s položka bola označená ako odbavená</item>
+        <item quantity="few">%s položky boli označené ako odbavené</item>
+        <item quantity="many">%s položiek bolo označených ako odbavených</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s odstránených položiek</item>
+        <item quantity="one">%1$s odstránená položka</item>
+        <item quantity="few">%1$s odstránené položky</item>
+        <item quantity="many">Niekoľko (%1$s) odstránených položiek</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Počet kontaktov: %d</item>
+        <item quantity="one">Počet kontaktov: 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Našlo sa %d kontaktov</item>
+        <item quantity="one">Našiel sa 1 kontakt</item>
+        <item quantity="few">Našli sa %d kontakty</item>
+        <item quantity="many">Našlo sa %d kontaktu</item>
+    </plurals>
+</resources>

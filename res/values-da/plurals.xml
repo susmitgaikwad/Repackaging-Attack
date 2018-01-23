@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s blev markeret som udført</item>
+        <item quantity="one">%s blev markeret som udført</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">Der blev slettet %1$s elementer</item>
+        <item quantity="one">Der blev slettet %1$s element</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">Ét minut</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">Ét sekund</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kontaktpersoner</item>
+        <item quantity="one">1 kontaktperson</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Der blev fundet %d</item>
+        <item quantity="one">Der blev fundet %d</item>
+    </plurals>
+</resources>

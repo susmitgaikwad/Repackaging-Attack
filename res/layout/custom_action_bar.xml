@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.dw.widget.ActionButton n1:id="@id/action_up" n1:layout_width="?actionBarSize" n1:layout_height="fill_parent" n1:tint="#ffffffff" n1:contentDescription="@string/abc_action_bar_up_description" n2:srcCompat="?homeAsUpIndicator" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:id="@id/titles" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+        <TextView n1:textAppearance="?titleTextAppearance" n1:textSize="@dimen/action_bar_title_text_size" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/title" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:lines="1" style="?titleTextStyle" />
+        <TextView n1:textAppearance="?subtitleTextAppearance" n1:textSize="@dimen/action_bar_subtitle_text_size" n1:textColor="#ffffffff" n1:ellipsize="end" n1:id="@id/subtitle" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:lines="1" style="?subtitleTextStyle" />
+    </LinearLayout>
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n3:contentInsetStart="0.0px" n3:theme="?actionBarTheme" style="?actionBarStyle" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

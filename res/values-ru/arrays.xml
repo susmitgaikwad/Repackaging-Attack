@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Перехватить</item>
+        <item>Разрешить</item>
+        <item>Без звука</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Фильтр групп</item>
+        <item>Фильтр номеров</item>
+        <item>Последние набранные номера</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Выбор групп для фильтра</item>
+        <item>Ввод номера для фильтра</item>
+        <item>Укажите, за какой период отображать</item>
+    </string-array>
+    <string-array name="days">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="efp__size_units">
+        <item>Б</item>
+        <item>кБ</item>
+        <item>мБ</item>
+        <item>гБ</item>
+        <item>тБ</item>
+        <item>пБ</item>
+    </string-array>
+    <string-array name="efp__sorting_types">
+        <item>По имени, по возрастанию</item>
+        <item>По имени, по убыванию</item>
+        <item>По размеру, по возрастанию</item>
+        <item>По размеру, по убыванию</item>
+        <item>По дате, по возрастанию</item>
+        <item>По дате, по убыванию</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Основной Email</item>
+        <item>Все Email</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Основной или первый мобильный номер</item>
+        <item>Все мобильные номера</item>
+        <item>Все номера</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Организация</item>
+        <item>Адрес</item>
+        <item>Телефон</item>
+        <item>Эл. Почта</item>
+        <item>Заметки</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>Каждый день</item>
+        <item>Раз в два дня</item>
+        <item>Раз в три дня</item>
+        <item>Раз в четыре дня</item>
+        <item>Раз в пять дней</item>
+        <item>Раз в шесть дней</item>
+        <item>Еженедельно</item>
+        <item>Ежемесячно</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Искать по всем полям</item>
+        <item>Поиск всех контактов</item>
+        <item>Поиск в глобальном списке адресов</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Не масштабировать</item>
+        <item>Масштабировать, обрезав под квадрат</item>
+        <item>Масштабир., если меньше ориг. размера</item>
+        <item>Масштабировать, сохраняя пропорции</item>
+        <item>Масштабировать, вписав в квадрат</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF тоны</item>
+        <item>Звук клавиш</item>
+        <item>Выкл.</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Набор/Ввод/Удаление</item>
+        <item>Удаление/Ввод/Набор</item>
+        <item>Ввод/Удаление/Набор</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Вкл.</item>
+        <item>Выкл.</item>
+        <item>Авто</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Имя</item>
+        <item>Фамилия</item>
+        <item>Отчество</item>
+        <item>префикс</item>
+        <item>суффикс</item>
+        <item>Имя (транскрипция)</item>
+        <item>Фамилия (транскрипция)</item>
+        <item>Отчество (транскрипция)</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 минута</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>25 минут</item>
+        <item>30 минут</item>
+        <item>45 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>12 часов</item>
+        <item>24 часа</item>
+        <item>2 дня</item>
+        <item>1 неделя</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Сверху</item>
+        <item>По-центру</item>
+        <item>Снизу</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Скрытая копия:</item>
+        <item>Копия:</item>
+        <item>Кому:</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Номера</item>
+        <item>Организация</item>
+        <item>Должность</item>
+        <item>Группы</item>
+        <item>Иконка учетной записи</item>
+        <item>Иконка контакта</item>
+        <item>Кнопка Email</item>
+        <item>Кнопка SMS</item>
+        <item>Кнопка вызова</item>
+        <item>Заметки</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Группы</item>
+        <item>Организации</item>
+        <item>Должности</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal или кредитная карта</item>
+        <item>Рекомендовать друзьям</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Зарегистрируйте это приложение в аккаунте google (купите и установите версию Pro через Google Play). После установки версии Pro, пожалуйста, удалите Free версию.</item>
+        <item>Зарегистрируйте это приложение на серийный номер устройства: %s. После оплаты Вы получите подтверждение по эл.почте с регистрационным кодом. Потом проверьте регистрацию одним кликом, нажав [Проверка регистрации онлайн].</item>
+        <item>Получить бесплатный регистрационный код</item>
+    </string-array>
+</resources>

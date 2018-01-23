@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="pref_def_matchingFirstLetter">true</bool>
+    <bool name="pref_def_matchingPart">false</bool>
+    <bool name="pref_def_matchingSkipWord">false</bool>
+    <bool name="pref_def_showMatchFirstLetterFirst">true</bool>
+    <bool name="pref_def_usingMoreDetailedFastScroller">false</bool>
+    <bool name="pref_def_usingMoreDetailedListSection">false</bool>
+    <bool name="support_lunar">true</bool>
+</resources>

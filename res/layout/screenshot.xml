@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:id="@id/src" n1:padding="@dimen/widget_margin" n1:layout_width="200.0dip" n1:layout_height="240.0dip">
+        <TextView n1:textSize="18.0sp" n1:textStyle="bold" n1:textColor="@color/appwidget_agenda_separator_text_color" n1:id="@id/title" n1:background="#aa333333" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="Mon, May 26" n1:maxLines="1" />
+        <FrameLayout n1:background="#aa000000" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/content" n1:background="#66000000" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <LinearLayout n1:orientation="vertical" n1:id="@id/item_1" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:enabled="false" n1:textSize="12.0sp" n1:textColor="@color/appwidget_agenda_separator_text_color" n1:id="@id/header_text_1" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/today" n1:lines="1" n1:textAllCaps="true" />
+                <LinearLayout n1:orientation="vertical" n1:id="@id/div_1" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="3.0dip" />
+                <LinearLayout n1:orientation="vertical" n1:background="#ffffffff" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <TextView n1:id="@id/title_1" n1:text="Google" style="@style/AppWidget.Agenda.Item.Text.Title" />
+                    <TextView n1:id="@id/description_1" n1:text="Google I/O" style="@style/AppWidget.Agenda.Item.Text.Description" />
+                    <TextView n1:id="@id/time_1" n1:text="9:00 am" style="@style/AppWidget.Agenda.Item.Text.Time" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/item_2" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <TextView n1:enabled="false" n1:textSize="12.0sp" n1:textColor="@color/appwidget_agenda_separator_text_color" n1:id="@id/header_text_2" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="Mon, June 5" n1:lines="1" n1:textAllCaps="true" />
+                <LinearLayout n1:orientation="vertical" n1:id="@id/div_2" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="3.0dip" />
+                <LinearLayout n1:orientation="vertical" n1:background="#ffffffff" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <TextView n1:id="@id/title_2" n1:text="Macy" style="@style/AppWidget.Agenda.Item.Text.Title" />
+                    <TextView n1:id="@id/description_2" n1:text="Birthday" style="@style/AppWidget.Agenda.Item.Text.Description" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout n1:orientation="vertical" n1:id="@id/item_3" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <LinearLayout n1:orientation="vertical" n1:id="@id/div_3" n1:layout_width="fill_parent" n1:layout_height="3.0dip" />
+                <LinearLayout n1:orientation="vertical" n1:background="#ffffffff" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <TextView n1:id="@id/title_3" n1:text="Harlan's Cake Shop" style="@style/AppWidget.Agenda.Item.Text.Title" />
+                    <TextView n1:id="@id/description_3" n1:text="Take the cake" style="@style/AppWidget.Agenda.Item.Text.Description" />
+                    <TextView n1:id="@id/time_3" n1:text="9:30 am" style="@style/AppWidget.Agenda.Item.Text.Time" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button n1:id="@id/save" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/save" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/content" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.dw.android.widget.CSFrameLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:rising="12.0dip" n2:risingGravity="bottom|top" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/sheet_content" n1:background="#ffffffff" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <include n1:layout_width="fill_parent" n1:layout_height="fill_parent" layout="@layout/action_sheet_content" />
+        </LinearLayout>
+    </com.dw.android.widget.CSFrameLayout>
+    <View n1:id="@id/foot" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+</LinearLayout>

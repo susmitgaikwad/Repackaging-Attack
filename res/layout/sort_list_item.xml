@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dw.widget.CheckableLinearLayout n1:gravity="center_vertical" n1:id="@id/checkable" n1:background="?android:colorBackground" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="3.0dip" n1:layout_alignParentBottom="true"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <include n1:id="@id/data" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="1.0dip" n1:minHeight="?listPreferredItemHeightSmall" n1:layout_weight="1.0" layout="@layout/simple_list_item_2" />
+    <ImageView n1:id="@id/icon" n1:padding="8.0dip" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n2:srcCompat="@drawable/ic_reorder_24dp" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</com.dw.widget.CheckableLinearLayout>

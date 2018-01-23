@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_text" n1:id="@id/send_sms_to_selected_contacts" n1:title="@string/menu_sendMessage"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:icon="?ic_action_email" n2:id="@id/send_email_to_selected_contacts" n2:title="@string/menu_sendEmail"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:icon="?ic_action_share" n3:id="@id/share_selected_contacts" n3:title="@string/menu_shareContacts"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:icon="?ic_action_import_export" n4:id="@id/export_selected_contacts_to_sdcard" n4:visible="false" n4:title="@string/export_to_sdcard"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:icon="?ic_action_save" n5:id="@id/export_selected_contact_pictures" n5:title="@string/menu_exportContactPicture"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:icon="@drawable/ic_tab_recent" n6:id="@id/view_historys" n6:title="@string/menu_showHistory"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:enabled="false" n7:id="@id/menu_section" n7:title=""
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:icon="@drawable/ic_action_join" n8:id="@id/join_selected_contacts" n8:title="@string/menu_joinAggregate"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:icon="@drawable/ic_action_split" n9:id="@id/split_selected_contacts" n9:title="@string/menu_splitAggregate"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:icon="@drawable/ic_action_copy" n10:id="@id/duplicate_selected_contacts" n10:title="@string/duplicateSelectedContacts"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:icon="?ic_action_delete" n11:id="@id/delete_selected_contacts" n11:title="@string/deleteSelectedContacts"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <item n12:enabled="false" n12:id="@id/menu_section" n12:title=""
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+    <item n13:icon="?ic_action_new_person_group" n13:id="@id/set_group_for_selected_contacts" n13:title="@string/setGroupForSelectedContacts"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+    <item n14:icon="@drawable/ic_arrow_forward_24dp" n14:id="@id/move_contact_to_group" n14:visible="false" n14:title="@string/menu_move_to_group"
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+    <item n15:icon="?ic_action_delete" n15:id="@id/remove_contact_from_group" n15:visible="false" n15:title="@string/menu_remove_contact_from_group"
+      xmlns:n15="http://schemas.android.com/apk/res/android" />
+    <item n16:icon="@drawable/ic_action_music_note" n16:id="@id/set_ringtone_for_selected_contacts" n16:title="@string/menu_setRingtone"
+      xmlns:n16="http://schemas.android.com/apk/res/android" />
+    <item n17:icon="@drawable/ic_action_set_photo" n17:id="@id/set_contact_photo" n17:title="@string/menu_setContactPhoto"
+      xmlns:n17="http://schemas.android.com/apk/res/android" />
+    <item n18:icon="?ic_action_star_on" n18:id="@id/add_selected_to_favorites" n18:title="@string/addSelectedContactsToFavorites"
+      xmlns:n18="http://schemas.android.com/apk/res/android" />
+    <item n19:icon="?ic_action_star_off" n19:id="@id/remove_selected_from_favorites" n19:title="@string/removeSelectedContactsFormFavorites"
+      xmlns:n19="http://schemas.android.com/apk/res/android" />
+    <group n20:id="@id/bind_to_sim" n20:visible="false"
+      xmlns:n20="http://schemas.android.com/apk/res/android">
+        <item n20:enabled="false" n20:id="@id/sim_menu_section" n20:title="" n20:alphabeticShortcut="s" />
+        <item n20:id="@id/bind_to_sim_1" n20:title="" />
+        <item n20:id="@id/bind_to_sim_2" n20:title="" />
+        <item n20:icon="@drawable/ic_action_cut" n20:id="@id/clear_bind" n20:title="@string/menu_clearBind" />
+    </group>
+    <group n21:id="@id/other" n21:visible="false"
+      xmlns:n21="http://schemas.android.com/apk/res/android">
+        <item n21:enabled="false" n21:id="@id/menu_section" n21:title="" />
+        <item n21:icon="?ic_action_select_all" n21:id="@id/select_all" n21:title="@string/selectAll" />
+        <item n21:icon="?ic_action_unselect_all" n21:id="@id/unselect_all" n21:title="@string/menu_unselectAll" />
+        <item n21:icon="?ic_action_inverse_select" n21:id="@id/inverse_select" n21:title="@string/menu_inverse_select" />
+        <item n21:enabled="false" n21:id="@id/menu_section" n21:title="" />
+        <item n21:icon="?ic_action_sort" n21:id="@id/sort" n21:title="@string/menu_sort" />
+        <item n21:icon="?ic_action_search" n21:id="@id/search" n21:title="@string/search" />
+        <item n21:icon="@drawable/ic_action_personal" n21:id="@id/view_selected_contacts" n21:title="@string/menu_viewSelectedContacts" />
+    </group>
+</menu>

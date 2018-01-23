@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days">
+        <item>रविवार</item>
+        <item>सोमवार</item>
+        <item>मंगलवार</item>
+        <item>बुधवार</item>
+        <item>गुरुवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>रविवार</item>
+        <item>सोम</item>
+        <item>मंगल</item>
+        <item>बुध</item>
+        <item>गुरू</item>
+        <item>शुक्र</item>
+        <item>शनि</item>
+    </string-array>
+    <string-array name="efp__size_units">
+        <item>बी</item>
+        <item>केबी</item>
+        <item>एमबी</item>
+        <item>जीबी</item>
+        <item>टीबी</item>
+        <item>पीबी</item>
+    </string-array>
+    <string-array name="efp__sorting_types">
+        <item>नाम तक, आरोही</item>
+        <item>नाम तक, घटते</item>
+        <item>आकार तक, आरोही</item>
+        <item>आकार तक, घटत</item>
+        <item>तारीख तक, आरोही</item>
+        <item>तारीख तक, घटत</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF Tone</item>
+        <item>Click Tone</item>
+        <item>बंद</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 मिनट</item>
+        <item>5 मिनट</item>
+        <item>10 मिनट</item>
+        <item>15 मिनट</item>
+        <item>20 मिनट</item>
+        <item>25 मिनट</item>
+        <item>30 मिनट</item>
+        <item>45 मिनट</item>
+        <item>1 hour</item>
+        <item>2 घंटे</item>
+        <item>3 घंटे</item>
+        <item>12 घंटे</item>
+        <item>24 घंटे</item>
+        <item>2 दिन</item>
+        <item>1 सप्ताह</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>गुप्त प्रतिलिपि</item>
+        <item>प्रतिलिपि</item>
+        <item>To</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>संख्या</item>
+        <item>Company</item>
+        <item>Title</item>
+        <item>Groups</item>
+        <item>Account icon</item>
+        <item>संपर्क चित्र</item>
+        <item>Email button</item>
+        <item>SMS button</item>
+        <item>Dial button</item>
+        <item>Notes</item>
+    </string-array>
+</resources>

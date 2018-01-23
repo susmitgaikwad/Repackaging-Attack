@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Interceptar</item>
+        <item>Permite</item>
+        <item>Silencio</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Filtro de grupo</item>
+        <item>Filtro de número</item>
+        <item>Números de teléfono contactados recientemente</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Seleccionar grupos de filtro</item>
+        <item>Indicar número a filtrar</item>
+        <item>Seleccione la duración válida</item>
+    </string-array>
+    <string-array name="days">
+        <item>Domingo</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Dom</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mié</item>
+        <item>Jue</item>
+        <item>Vie</item>
+        <item>Sáb</item>
+    </string-array>
+    <string-array name="efp__size_units">
+        <item>B</item>
+        <item>kB</item>
+        <item>mB</item>
+        <item>gB</item>
+        <item>tB</item>
+        <item>pB</item>
+    </string-array>
+    <string-array name="efp__sorting_types">
+        <item>Por nombre, ascendente</item>
+        <item>Por nombre, descendente</item>
+        <item>Por tamaño, ascendente</item>
+        <item>Por tamaño, descendente</item>
+        <item>Por fecha, ascendente</item>
+        <item>Por fecha, descendente</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>E-mail Principal</item>
+        <item>Todos los E-mail</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Móvil principal o primer móvil</item>
+        <item>Todos los números de móvil</item>
+        <item>Todos los números</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Organización</item>
+        <item>Dirección</item>
+        <item>Teléfono</item>
+        <item>email</item>
+        <item>Notas</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Buscar en todos los campos</item>
+        <item>Buscar todos los contactos</item>
+        <item>Buscar en la lista Global de direcciones</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Centrar</item>
+        <item>Center crop</item>
+        <item>Center inside</item>
+        <item>Fit center</item>
+        <item>Ajuste XY</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>Tono DTMF</item>
+        <item>Tono clicar</item>
+        <item>APAGADO</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Marcar / Entrada / Eliminar</item>
+        <item>Eliminar / Entrada / Marcar</item>
+        <item>Entrada / Eliminar / Marcar</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Encendido</item>
+        <item>Apagado</item>
+        <item>Automático</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Nombre</item>
+        <item>Apellido</item>
+        <item>Segundo nombre</item>
+        <item>Prefijo honorífico</item>
+        <item>Sufijo honorífico</item>
+        <item>Nombre fonético</item>
+        <item>Apellido fonético</item>
+        <item>Segundo nombre fonético</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 minuto</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>25 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
+        <item>12 horas</item>
+        <item>24 horas</item>
+        <item>2 días</item>
+        <item>1 semana</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Principio</item>
+        <item>Centro</item>
+        <item>Final</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Cco</item>
+        <item>Cc</item>
+        <item>Para</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Números</item>
+        <item>Organización</item>
+        <item>Título</item>
+        <item>Grupos</item>
+        <item>Icono de cuenta</item>
+        <item>Imágenes de contacto</item>
+        <item>Botón Email</item>
+        <item>Botón SMS</item>
+        <item>Botón Dial</item>
+        <item>Notas</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Grupos</item>
+        <item>Organizaciones</item>
+        <item>Cargos</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal o tarjeta de crédito</item>
+        <item>Recomendar a amigos</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Registre este software en la cuenta de google (comprar e instalar la versión Pro via Google Play). Después de instalar la versión Pro, desinstale la versión gratuita.</item>
+        <item>Registrar este software al dispositivo con número de serie: %s. Tras el proceso de pago, usted recibirá un email de confirmación con su código de registro. Después compruebe el registro haciendo clic en [verificación de registro en línea].</item>
+        <item>Obtener un código de registro gratuito</item>
+    </string-array>
+</resources>

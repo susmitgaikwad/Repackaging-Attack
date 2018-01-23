@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:paddingLeft="10.0dip" n1:paddingRight="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="14.0sp" n1:paddingBottom="12.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/login_dialog_intro" />
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:baselineAligned="false">
+        <LinearLayout n1:orientation="vertical" n1:paddingRight="10.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <TextView n1:textSize="15.0sp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/login_dialog_emailAddress" />
+            <EditText n1:id="@id/editEmailAddress" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:scrollHorizontally="true" n1:inputType="textEmailAddress" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+            <TextView n1:textSize="15.0sp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/login_dialog_password" />
+            <EditText n1:id="@id/editPassword" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:scrollHorizontally="true" n1:inputType="textPassword" />
+        </LinearLayout>
+    </LinearLayout>
+    <CheckBox n1:textSize="15.0sp" n1:id="@id/checkBoxRemember" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/login_dialog_remember" />
+</LinearLayout>

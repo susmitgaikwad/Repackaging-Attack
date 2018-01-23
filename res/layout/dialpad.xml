@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/dialpad" n1:paddingLeft="0.0dip" n1:paddingTop="0.0dip" n1:paddingRight="0.0dip" n1:paddingBottom="0.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/left_pad" n1:background="?bg_dp_button" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.0" />
+    <LinearLayout n1:orientation="vertical" n1:paddingLeft="0.0dip" n1:paddingTop="0.0dip" n1:paddingRight="0.0dip" n1:paddingBottom="0.0dip" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+            <include n1:id="@id/one" layout="@layout/dial_button" />
+            <View n1:id="@id/d2" n1:background="#20888888" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <View n1:layout_width="0.0px" n1:layout_height="fill_parent" />
+            <include n1:id="@id/two" layout="@layout/dial_button" />
+            <View n1:id="@id/d3" n1:background="#20888888" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <include n1:id="@id/three" layout="@layout/dial_button" />
+        </LinearLayout>
+        <View n1:id="@id/d4" n1:background="#20888888" n1:layout_width="fill_parent" n1:layout_height="1.0px" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+            <include n1:id="@id/four" layout="@layout/dial_button" />
+            <View n1:id="@id/d5" n1:background="#20888888" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <include n1:id="@id/five" layout="@layout/dial_button" />
+            <View n1:id="@id/d6" n1:background="#20888888" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <include n1:id="@id/six" layout="@layout/dial_button" />
+        </LinearLayout>
+        <View n1:id="@id/d7" n1:background="#20888888" n1:layout_width="fill_parent" n1:layout_height="1.0px" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+            <include n1:id="@id/seven" layout="@layout/dial_button" />
+            <View n1:id="@id/d8" n1:background="#20888888" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <include n1:id="@id/eight" layout="@layout/dial_button" />
+            <View n1:id="@id/d9" n1:background="#20888888" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <include n1:id="@id/nine" layout="@layout/dial_button" />
+        </LinearLayout>
+        <View n1:id="@id/d10" n1:background="#20888888" n1:layout_width="fill_parent" n1:layout_height="1.0px" />
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+            <include n1:id="@id/star" layout="@layout/dial_button" />
+            <View n1:id="@id/d11" n1:background="#20888888" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <include n1:id="@id/zero" layout="@layout/dial_button" />
+            <View n1:id="@id/d12" n1:background="#20888888" n1:layout_width="1.0px" n1:layout_height="fill_parent" />
+            <include n1:id="@id/pound" layout="@layout/dial_button" />
+        </LinearLayout>
+        <View n1:id="@id/d13" n1:background="?dividerVertical" n1:layout_width="fill_parent" n1:layout_height="1.0px" />
+        <LinearLayout n1:id="@id/bottom_bar" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_weight="1.0">
+            <com.dw.android.widget.TintImageView n1:id="@id/btn_dial_1" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="center" n1:layout_weight="1.0" n1:contentDescription="@string/description_dial_button" n2:srcCompat="?ic_dp_call" style="@style/DialButton" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+            <com.dw.android.widget.TintImageView n1:id="@id/btn_dial_2" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="center" n1:layout_weight="1.0" n1:contentDescription="@string/description_dial_button" n3:srcCompat="?ic_dp_call_2" style="@style/DialButton" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+            <com.dw.android.widget.TintImageView n1:id="@id/btn_menu" n1:layout_width="60.0dip" n1:layout_height="fill_parent" n1:scaleType="center" n1:layout_weight="0.0" n1:contentDescription="@string/abc_action_menu_overflow_description" n4:srcCompat="?ic_action_overflow" style="@style/DialButton.Tint" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+    <View n1:id="@id/right_pad" n1:background="?bg_dp_button" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_weight="0.0" />
+</LinearLayout>

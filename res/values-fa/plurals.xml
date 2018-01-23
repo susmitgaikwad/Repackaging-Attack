@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">۱ دقیقه</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d ثانیه</item>
+        <item quantity="one">۱ ثانیه</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d مخاطب</item>
+        <item quantity="one">۱ مخاطب</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d مورد پیدا شد</item>
+        <item quantity="one">%d مورد پیدا شد</item>
+    </plurals>
+</resources>

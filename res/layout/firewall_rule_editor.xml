@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dw.android.widget.CSScrollView n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:sink="?sinkSizePrimary" n2:sinkGravity="top"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.LinearLayoutCompat n1:orientation="vertical" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:divider="?dividerHorizontal" n2:showDividers="middle">
+        <EditText n1:id="@id/label" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/preferred_item_margin_left" n1:layout_marginRight="@dimen/preferred_item_margin_left" n1:hint="@string/label">
+            <requestFocus />
+        </EditText>
+        <com.dw.android.widget.SwitchPreferenceView n1:id="@id/enable" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:title="@string/enable" style="@style/Preferred.Entry" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:paddingLeft="14.0dip" n1:paddingRight="?android:scrollbarSize" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="?android:listPreferredItemHeight">
+            <TextView n1:textAppearance="?android:textAppearanceMedium" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/callFilterAction" n1:layout_weight="1.0" />
+            <Spinner n1:id="@id/action" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="2.0" />
+        </LinearLayout>
+        <EditText n1:textSize="16.0sp" n1:id="@id/message" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/preferred_item_margin_left" n1:layout_marginRight="@dimen/preferred_item_margin_left" n1:minHeight="@dimen/input_text_height" n1:hint="@string/type_to_compose_text_enter_to_send" n1:maxLines="10" n1:maxLength="2000" n1:capitalize="sentences" n1:autoText="true" n1:inputType="textAutoCorrect|textCapSentences|textMultiLine|textShortMessage" n1:imeOptions="actionSend|flagNoEnterAction" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:paddingLeft="14.0dip" n1:paddingRight="?android:scrollbarSize" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="?android:listPreferredItemHeight">
+            <TextView n1:textAppearance="?android:textAppearanceMedium" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/callFilterType" n1:layout_weight="1.0" />
+            <Spinner n1:id="@id/type" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="2.0" />
+        </LinearLayout>
+        <com.dw.android.widget.TowLineTextView n1:id="@id/rule" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="@style/Preferred.Entry" />
+        <com.dw.android.widget.TowLineTextView n1:id="@id/week" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:title="@string/lable_week" style="@style/Preferred.Entry" />
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textAppearance="?android:textAppearanceMedium" n1:paddingTop="6.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/preferred_item_margin_left" n1:text="@string/time" />
+            <LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/preferred_item_margin_left">
+                <TextView n1:textAppearance="?android:textAppearanceSmall" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/from" />
+                <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="3.0dip" n1:layout_marginRight="3.0dip">
+                    <com.dw.widget.TimeButton n1:textSize="16.0sp" n1:textColor="?android:colorForeground" n1:id="@id/time_from" n1:background="?selectableItemBackground" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="@dimen/min_touch_area_size" n1:minHeight="@dimen/min_touch_area_size" />
+                    <View n1:background="?android:colorForeground" n1:layout_width="fill_parent" n1:layout_height="1.0dip" n1:alpha="0.6" />
+                </LinearLayout>
+                <TextView n1:textAppearance="?android:textAppearanceSmall" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/to" />
+                <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="3.0dip" n1:layout_marginRight="3.0dip">
+                    <com.dw.widget.TimeButton n1:textSize="16.0sp" n1:textColor="?android:colorForeground" n1:id="@id/time_to" n1:background="?selectableItemBackground" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="@dimen/min_touch_area_size" n1:minHeight="@dimen/min_touch_area_size" />
+                    <View n1:background="?android:colorForeground" n1:layout_width="fill_parent" n1:layout_height="1.0dip" n1:alpha="0.6" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.LinearLayoutCompat>
+</com.dw.android.widget.CSScrollView>

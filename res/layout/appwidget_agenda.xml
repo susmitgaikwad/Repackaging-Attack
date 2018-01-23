@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:padding="@dimen/widget_margin" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="18.0sp" n1:textStyle="bold" n1:textColor="@color/appwidget_agenda_separator_text_color" n1:id="@id/title" n1:background="#aa333333" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/loading" n1:maxLines="1" />
+    <FrameLayout n1:background="#aa000000" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+    <ListView n1:id="@id/list" n1:background="#66000000" n1:fadingEdge="none" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:listSelector="#00000000" n1:divider="@null" n1:layout_weight="1.0" />
+</LinearLayout>

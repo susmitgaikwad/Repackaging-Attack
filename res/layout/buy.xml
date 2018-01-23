@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dw.widget.LinearLayoutEx n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:sink="?sinkSizePrimary" n2:sinkGravity="top"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <ScrollView n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+        <android.support.v7.widget.LinearLayoutCompat n1:orientation="vertical" n1:id="@id/content" n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:divider="?dividerHorizontal" n2:showDividers="end|middle">
+            <LinearLayout n1:gravity="center" n1:id="@id/loading" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                <ProgressBar n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+                <TextView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/loading" />
+            </LinearLayout>
+            <TextView n1:id="@id/text1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/buying_tips" />
+        </android.support.v7.widget.LinearLayoutCompat>
+    </ScrollView>
+    <Button n1:id="@id/copy" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/pref_title_copySerialNum" />
+    <Button n1:id="@id/cancel" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@android:string/cancel" />
+</com.dw.widget.LinearLayoutEx>

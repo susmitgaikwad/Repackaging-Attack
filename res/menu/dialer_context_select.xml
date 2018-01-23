@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_text" n1:id="@id/send_sms_to_selected" n1:title="@string/menu_sendMessage" n2:showAsAction="ifRoom"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?ic_action_delete" n3:id="@id/delete_call_log" n3:title="@string/recentCalls_removeFromRecentList" n4:showAsAction="ifRoom"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <group n5:id="@id/other" n5:visible="false"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <item n5:icon="?ic_action_select_all" n5:id="@id/select_all" n5:title="@string/selectAll" />
+        <item n5:icon="?ic_action_unselect_all" n5:id="@id/unselect_all" n5:title="@string/menu_unselectAll" />
+        <item n5:icon="?ic_action_inverse_select" n5:id="@id/inverse_select" n5:title="@string/menu_inverse_select" />
+    </group>
+</menu>

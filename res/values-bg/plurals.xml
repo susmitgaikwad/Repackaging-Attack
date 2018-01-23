@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s бяха означени като готови</item>
+        <item quantity="one">%s бе означено като готово</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s изтрито</item>
+        <item quantity="one">%1$s изтрито</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">1 минута</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">1 секунда</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d контакта</item>
+        <item quantity="one">1 контакт</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Намерени са %d</item>
+        <item quantity="one">Намерен е 1</item>
+    </plurals>
+</resources>

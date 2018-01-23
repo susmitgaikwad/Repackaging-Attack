@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/accessibility_settings" n1:key="accessibility"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference n1:title="@string/pref_title_useListMenu" n1:key="accessibility.list_menu" n1:defaultValue="false" />
+    <PreferenceCategory n1:title="@string/pref_title_dialpadThemeSettings">
+        <CheckBoxPreference n1:title="@string/pref_title_doubleClickEnterNumber" n1:key="***046" n1:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/pref_title_backupRestore" n1:key="backupRestore"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <Preference n1:title="@string/menu_backupManager" n1:key="backupManager" />
+    <Preference n1:title="@string/pref_title_restoreDefaultSettings" n1:key="restoreDefaultSettings" />
+    <PreferenceCategory n1:title="@string/pref_title_contactsBackup" n1:key="backup.automatic">
+        <CheckBoxPreference n1:title="@string/pref_title_automaticBackup" n1:key="backup.automatic.en" />
+        <com.dw.preference.MyListPreference n1:entries="@array/pref_entries_backupCycle" n1:title="@string/pref_title_backupCycle" n1:key="backup.automatic.cycle" n1:summary="%s" n1:dependency="backup.automatic.en" n1:defaultValue="604800000" n1:entryValues="@array/pref_values_backupCycle" />
+        <com.dw.preference.TimePreference n1:title="@string/pref_title_backupTime" n1:key="backup.automatic.time" n1:summary="%s" n1:dependency="backup.automatic.en" n1:defaultValue="23:00:00" />
+        <com.dw.preference.ContactGroupsPreference n1:title="@string/pref_title_contactsBackup" n1:key="backup.contact_groups" n1:summary="@string/pref_summary_contactsBackup" />
+        <CheckBoxPreference n1:title="@string/export_to_multiple_vcard_files" n1:key="backup.contact_to_multiple_files" />
+        <Preference n1:title="@string/pref_title_backupNow" n1:key="backup.backup_now" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/call_statistics" n1:key="call_statistics"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference n1:title="@string/pref_title_costWarning" n1:key="call_statistics.costWarning" n1:summary="@string/pref_summary_costWarning" n1:defaultValue="false" />
+    <CheckBoxPreference n1:title="@string/pref_title_freeIncomingCalls" n1:key="call_statistics.freeIncomingCalls" n1:defaultValue="false" />
+    <Preference n1:title="@string/freeNumbersManager" n1:key="call_statistics.free_numbers" />
+    <com.dw.preference.NumberPreference n1:title="@string/pref_title_freeMonthlyTalkTime" n1:key="call_statistics.freeMonthlyTalkTime" n1:defaultValue="-1" n2:quantitySummary="@plurals/duration_minutes" n2:rightText="@string/minutes" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <com.dw.preference.NumberPreference n1:title="@string/pref_title_startDayOfBillingCycle" n1:key="call_statistics.startDayOfBillingCycle" n1:summary="%s" n1:defaultValue="1" n3:maxValue="31" n3:minValue="1" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.dw.preference.NumberPreference n1:title="@string/pref_title_minimumBillableTime" n1:key="call_statistics.minimumBillableTime" n1:summary="@string/pref_summary_minimumBillableTime" n1:defaultValue="60" n4:maxValue="3600" n4:minValue="1" n4:rightText="@string/seconds" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</PreferenceScreen>

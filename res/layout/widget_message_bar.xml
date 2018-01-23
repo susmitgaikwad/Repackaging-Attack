@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:gravity="center_vertical" n1:orientation="horizontal" n1:background="?bg_message_bar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/recommended_touch_area_size" n2:divider="?dividerVertical" n2:dividerPadding="8.0dip" n2:showDividers="middle"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <com.dw.android.widget.TintImageView n1:id="@id/hide" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:minWidth="@dimen/recommended_touch_area_size" n1:minHeight="@dimen/recommended_touch_area_size" n2:srcCompat="?ic_action_cancel" style="@style/Widget.MessageBar.HideButton" />
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:gravity="center_vertical" n1:id="@id/message" n1:background="?selectableItemBackground" n1:padding="3.0dip" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:minHeight="@dimen/recommended_touch_area_size" n1:maxLines="3" n1:layout_weight="1.0" />
+</merge>

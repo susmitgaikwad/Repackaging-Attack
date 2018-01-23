@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dw.android.widget.CSFrameLayout n1:background="?android:colorBackground" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:cornerRadius="3.0dip" n2:rising="24.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="fill_parent">
+        <RelativeLayout n1:id="@id/title" n1:background="?colorPrimary" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="400.0dip">
+            <com.dw.widget.ActionButton n1:id="@id/btn_cancel" n1:layout_width="36.0dip" n1:contentDescription="@android:string/cancel" n2:srcCompat="@drawable/ic_action_cancel" style="@style/Widget.FlatButton.NoteEditor" />
+            <com.dw.android.widget.ActionBar n1:id="@id/actionbar" n1:layout_width="wrap_content" n1:layout_height="42.0dip" n1:layout_marginLeft="36.0dip" n1:layout_toLeftOf="@id/btn_save" n2:itemSize="39.0dip" />
+            <com.dw.widget.ActionButton n1:id="@id/btn_save" n1:layout_width="36.0dip" n1:layout_alignParentRight="true" n1:contentDescription="@string/save" n2:srcCompat="@drawable/ic_action_save" style="@style/Widget.FlatButton.NoteEditor" />
+        </RelativeLayout>
+        <com.dw.widget.LinearLayoutEx n1:orientation="vertical" n1:id="@id/content" n1:padding="3.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n2:sink="@dimen/sinkSizePrimary" n2:sinkGravity="top">
+            <EditText n1:id="@id/title_edit" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:lines="1" n1:ems="10" n1:capitalize="sentences" n1:autoText="true" n1:inputType="textAutoCorrect|textCapSentences" />
+            <ScrollView n1:id="@id/scrollView1" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+                <EditText n1:id="@id/note_edit" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:ems="10" n1:capitalize="sentences" n1:autoText="true" n1:inputType="textAutoCorrect|textCapSentences|textMultiLine">
+                    <requestFocus />
+                </EditText>
+            </ScrollView>
+            <ViewStub n1:id="@id/reminder_bar" n1:layout="@layout/reminder_item" n1:inflatedId="@id/reminder_bar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+            <ViewStub n1:id="@id/recorder_bar" n1:layout="@layout/audio_recorder_bar" n1:inflatedId="@id/recorder_bar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+            <ViewStub n1:id="@id/audio_play_bar" n1:layout="@layout/audio_play_bar" n1:inflatedId="@id/audio_play_bar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+        </com.dw.widget.LinearLayoutEx>
+    </LinearLayout>
+</com.dw.android.widget.CSFrameLayout>

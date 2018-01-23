@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TableLayout n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:stretchColumns="1">
+        <TableRow n1:id="@id/tableRow1" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <TextView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/startingNumber" />
+            <EditText n1:id="@id/editText1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:inputType="phone">
+                <requestFocus />
+            </EditText>
+        </TableRow>
+        <TableRow n1:id="@id/tableRow2" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+            <TextView n1:id="@id/textView2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/endingNumber" />
+            <EditText n1:id="@id/editText2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:inputType="phone" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

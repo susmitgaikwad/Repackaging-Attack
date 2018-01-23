@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:minHeight="64.0dip" n1:layout_weight="1.0">
+            <ScrollView n1:clipToPadding="false" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+                <TextView n1:id="@id/message" n1:paddingLeft="16.0dip" n1:paddingTop="8.0dip" n1:paddingRight="16.0dip" n1:paddingBottom="8.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="?android:textAppearanceMedium" />
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout n1:orientation="vertical" n1:id="@id/actions" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="64.0dip">
+            <View n1:background="?android:listDivider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <include n1:id="@id/action_bar1" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/action_buttons" />
+            <View n1:id="@id/action_bar_div" n1:background="?android:listDivider" n1:layout_width="fill_parent" n1:layout_height="1.0dip" />
+            <include n1:id="@id/action_bar2" n1:layout_width="fill_parent" n1:layout_height="wrap_content" layout="@layout/action_buttons" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.android.deskclock.widget.multiwaveview.GlowPadView n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/glow_pad_view" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/glowpadview_margin_bottom" n1:layout_alignParentBottom="true" n1:layout_centerHorizontal="true" n2:directionDescriptions="@array/snooze_dismiss_direction_descriptions" n2:feedbackCount="1" n2:glowRadius="@dimen/glowpadview_glow_radius" n2:handleDrawable="@drawable/ic_alarm_alert_touch_handle" n2:innerRadius="@dimen/glowpadview_inner_radius" n2:outerRadius="@dimen/glowpadview_target_placement_radius" n2:outerRingDrawable="@drawable/ic_alarm_alert_outerring" n2:pointDrawable="@drawable/ic_lockscreen_glowdot" n2:snapMargin="@dimen/glowpadview_snap_margin" n2:targetDescriptions="@array/snooze_dismiss_descriptions" n2:targetDrawables="@array/snooze_dismiss_drawables" n2:vibrationDuration="20" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

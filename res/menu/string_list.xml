@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_delete" n1:id="@id/delete_all" n1:title="@string/menu_delete_all" n2:showAsAction="ifRoom|withText"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?ic_action_import_export" n3:id="@id/import_export" n3:visible="false" n3:title="@string/menu_import_export" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <menu>
+            <item n3:id="@id/_import" n3:title="@string/import_from_sdcard" />
+            <item n3:id="@id/export" n3:title="@string/export_to_sdcard" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?efp__ic_action_sort" n1:id="@id/sort" n1:title="@string/efp__sort" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?efp__ic_action_new_folder" n3:id="@id/new_folder" n3:title="@string/efp__new_folder" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="?efp__ic_action_grid" n5:id="@id/change_view" n5:title="@string/efp__action_grid" n6:showAsAction="always"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="?efp__ic_action_ok" n7:id="@id/ok" n7:title="@android:string/ok" n8:showAsAction="always"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+</menu>

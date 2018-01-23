@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm_delete_all_conversations">Tut ils fils da discussiun vegnan stizzads.</string>
+    <string name="confirm_delete_message">Il messadi vegn stizzà.</string>
+    <string name="delete_unlocked">Stizzar ils messadis bloccads</string>
+    <string name="from_label">"Da: "</string>
+    <string name="hours">Uras</string>
+    <string name="message_details_title">Detagls dal messadi</string>
+    <string name="message_options">Opziuns dal messadi</string>
+    <string name="message_type_label">"Tip: "</string>
+    <string name="minutes">minutas</string>
+    <string name="received_label">"Retschavì: "</string>
+    <string name="recording">Registraziun</string>
+    <string name="ringtone_default">Tun da scalin predefinì</string>
+    <string name="saved_label">"Memorisà: "</string>
+    <string name="seconds">s</string>
+    <string name="sent_label">"Tramess: "</string>
+    <string name="text_message">Messadi SMS</string>
+    <string name="to_address_label">"A: "</string>
+    <string name="to_hint">A</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_SAPPS_BODY_WAITING_ING">۔۔۔۔انتظار کریں</string>
+    <string name="IDS_SAPPS_HEADER_ITEM_PURCHASED">خریدا گیا آئٹم</string>
+    <string name="IDS_SAPPS_POP_ALREADY_PURCHASED">پہلے ہی خریدا جاچکا ہے</string>
+    <string name="IDS_SAPPS_POP_AN_ERROR_OCCURRED_WHILE_RESETTING_SAMSUNG_IN_APP_PURCHASE">Samsung In-App خریداری پھر سیٹ کرنے کے دوران ایک غلطی واقع ہوگئی</string>
+    <string name="IDS_SAPPS_POP_AN_INVALID_VALUE_HAS_BEEN_PROVIDED_FOR_SAMSUNG_IN_APP_PURCHASE">Samsung In-App خریداری کے لئے ایک غیرمجاز قیمت فراہم کی گئی ہے</string>
+    <string name="IDS_SAPPS_POP_AN_UNEXPECTED_ERROR_HAS_OCCURRED_SAMSUNG_ACCOUNT_AUTHENTICATION_HAS_BEEN_CANCELLED">ایک غیر متوقع غلطی واقع ہوگئی۔ Samsung account توثیق کاری منسوخ کی جا چکی ہے۔</string>
+    <string name="IDS_SAPPS_POP_A_NEW_VERSION_OF_SAMSUNG_IN_APP_PURCHASE_IS_AVAILABLE_UPDATE_Q">Samsung In-App خریداری کا ایک نیا ورژن دستیاب ہے۔ تازہ کاری کریں؟</string>
+    <string name="IDS_SAPPS_POP_NETWORK_UNAVAILABLE">نیٹورک عدم دستیاب ہے</string>
+    <string name="IDS_SAPPS_POP_PAYMENT_CANCELLED">ادائیگی منسوخ ہوگئی</string>
+    <string name="IDS_SAPPS_POP_PRODUCT_DOES_NOT_EXIST_IN_THIS_STORE">اس اسٹور میں مصنوعہ موجود نہیں ہے</string>
+    <string name="IDS_SAPPS_POP_SAMSUNG_IN_APP_PURCHASE">Samsung In-App خریداری</string>
+    <string name="IDS_SAPPS_POP_SAMSUNG_IN_APP_PURCHASE_NEEDS_TO_BE_UPDATED">Samsung In-App خریداری کو تازہ کاری کی ضرورت ہے</string>
+    <string name="IDS_SAPPS_POP_TO_PURCHASE_ITEMS_YOU_NEED_TO_INSTALL_SAMSUNG_IN_APP_PURCHASE_INSTALL_Q">اشیا خریداری کرنے کے لئے، آپ کو Samsung In-App خریداری نصب کرنے کی ضرورت ہے۔ نصب کریں؟</string>
+    <string name="IDS_SAPPS_POP_UNKNOWN_ERROR_OCCURRED">نامعلوم غلطی واقع ہوگئی</string>
+    <string name="IDS_SAPPS_POP_YOUR_PURCHASE_VIA_SAMSUNG_IN_APP_PURCHASE_IS_INVALID_A_FAKE_APPLICATION_HAS_BEEN_DETECTED_CHECK_THE_APP_MSG">آپ کی خریداری براستہ Samsung In-App خریداری غیرمجاز ہے۔ ایک نقلی ایپلیکیشن کا پتہ چلایا گیا ہے۔ اس ایپلیکیشن کی پڑتال کریں جو آپ خریدنے کی کوشش کررہے ہیں اور دوبارہ کوشش کریں۔</string>
+    <string name="abc_action_bar_home_description">ہوم پر نیویگیٹ کریں</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">اوپر نیویگیٹ کریں</string>
+    <string name="abc_action_menu_overflow_description">مزید اختیارات</string>
+    <string name="abc_action_mode_done">ہو گیا</string>
+    <string name="abc_activity_chooser_view_see_all">سبھی دیکھیں</string>
+    <string name="abc_activitychooserview_choose_application">ایک ایپ منتخب کریں</string>
+    <string name="abc_capital_off">آف</string>
+    <string name="abc_capital_on">آن</string>
+    <string name="abc_search_hint">تلاش کریں…</string>
+    <string name="abc_searchview_description_clear">استفسار صاف کریں</string>
+    <string name="abc_searchview_description_query">استفسار تلاش کریں</string>
+    <string name="abc_searchview_description_search">تلاش کریں</string>
+    <string name="abc_searchview_description_submit">استفسار جمع کرائیں</string>
+    <string name="abc_searchview_description_voice">صوتی تلاش</string>
+    <string name="abc_shareactionprovider_share_with">اشتراک کریں مع</string>
+    <string name="abc_shareactionprovider_share_with_application">‏%s کے ساتھ اشتراک کریں</string>
+    <string name="abc_toolbar_collapse_description">سکیڑیں</string>
+    <string name="common_google_play_services_unknown_issue">‏%1$s کو Google Play سروسز کے ساتھ مسئلہ پیش آ رہا ہے۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="s1">تصویر محفوظ کریں</string>
+    <string name="s2">اشتہار کو تصویری گیلری میں تصویر محفوظ کرنے کی اجازت دیں؟</string>
+    <string name="s3">قبول کریں</string>
+    <string name="s4">مسترد کریں</string>
+    <string name="s5">کیلنڈر ایونٹ بنائیں</string>
+    <string name="s6">اشتہار کو ایک کیلنڈر ایونٹ بنانے کی اجازت دیں؟</string>
+    <string name="search_menu_title">تلاش</string>
+    <string name="status_bar_notification_info_overflow">‎999+‎</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_alphabet" n1:id="@id/quick_Jump" n1:title="@string/menu_quickJump" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?ic_action_sort" n3:id="@id/sort" n3:title="@string/menu_sort" n4:showAsAction="ifRoom"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="?ic_action_search" n5:id="@id/search" n5:title="@string/search" n6:showAsAction="always"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="?ic_action_select" n7:id="@id/select_mode" n7:title="@string/menu_select_mode"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:icon="?ic_action_select_all" n8:id="@id/select_all" n8:title="@string/selectAll"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:icon="?ic_action_unselect_all" n9:id="@id/unselect_all" n9:title="@string/menu_unselectAll"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:icon="?ic_action_inverse_select" n10:id="@id/inverse_select" n10:title="@string/menu_inverse_select"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:icon="@android:drawable/ic_menu_set_as" n11:id="@id/move_contact_to_group" n11:title="@string/menu_move_to_group"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <item n12:icon="@android:drawable/ic_menu_delete" n12:id="@id/remove_contact_from_group" n12:title="@string/menu_remove_contact_from_group"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+</menu>

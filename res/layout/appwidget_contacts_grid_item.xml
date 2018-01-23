@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:paddingLeft="1.0dip" n1:paddingRight="1.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:id="@id/item" n1:background="@drawable/bg_aw_avatar" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" style="@style/QuickContactBadge">
+        <ImageView n1:id="@id/photo" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:scaleType="center" n1:adjustViewBounds="false" />
+    </LinearLayout>
+    <TextView n1:textColor="#ffffffff" n1:ellipsize="end" n1:gravity="center_horizontal" n1:id="@id/text1" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:lines="1" n1:shadowColor="#ff000000" n1:shadowDx="1.0" n1:shadowDy="1.0" n1:shadowRadius="1.0" n1:layout_below="@id/item" />
+</RelativeLayout>

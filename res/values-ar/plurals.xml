@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">تم وضع علامة \"تم الاطلاع عليه\" على %s من العناصر</item>
+        <item quantity="zero">تم وضع علامة \"تم الاطلاع عليه\" على %s من العناصر</item>
+        <item quantity="one">تم وضع علامة \"تم الاطلاع عليه\" على عنصر %s</item>
+        <item quantity="two">تم وضع علامة \"تم الاطلاع عليه\" على عنصرين (%s)</item>
+        <item quantity="few">تم وضع علامة \"تم الاطلاع عليه\" على %s عناصر</item>
+        <item quantity="many">تم وضع علامة \"تم الاطلاع عليه\" على %s عنصرًا</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">تم حذف %1$s عنصر</item>
+        <item quantity="zero">تم حذف %1$s عنصر</item>
+        <item quantity="one">تم حذف عنصر واحد (%1$s)</item>
+        <item quantity="two">تم حذف عنصريْن (%1$s)</item>
+        <item quantity="few">تم حذف %1$s عناصر</item>
+        <item quantity="many">تم حذف %1$s عنصرًا</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d من الدقائق</item>
+        <item quantity="one">دقيقة واحدة</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d من الثواني</item>
+        <item quantity="one">ثانية واحدة</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d من جهات الاتصال</item>
+        <item quantity="one">جهة اتصال واحدة</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">توجد %d من جهات الاتصال</item>
+        <item quantity="zero">لا توجد أية جهة اتصال (%d)</item>
+        <item quantity="one">توجد جهة اتصال واحدة</item>
+        <item quantity="two">توجد جهتا اتصال (%d)</item>
+        <item quantity="few">توجد %d جهات اتصال</item>
+        <item quantity="many">توجد %d جهة اتصال</item>
+    </plurals>
+</resources>

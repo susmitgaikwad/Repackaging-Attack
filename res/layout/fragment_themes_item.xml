@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FrameLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="6.0dip" n2:cardBackgroundColor="#ffffffff" n2:cardCornerRadius="3.0dip" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:textColor="#ff222222" n1:ellipsize="marquee" n1:id="@id/name" n1:padding="3.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:maxLines="1" n1:layout_below="@id/preview" />
+            <com.dw.android.widget.OverlayImageView n1:id="@id/preview" n1:paddingBottom="6.0dip" n1:layout_width="120.0dip" n1:layout_height="214.0dip" n1:scaleType="fitXY" n1:adjustViewBounds="true" n2:srcCompat="@drawable/preview_tb" />
+        </LinearLayout>
+        <android.support.v7.widget.CardView n1:layout_gravity="center" n1:id="@id/select" n1:layout_width="40.0dip" n1:layout_height="40.0dip" n1:layout_margin="16.0dip" n2:cardBackgroundColor="?colorAccent" n2:cardCornerRadius="20.0dip">
+            <ImageView n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n2:srcCompat="@drawable/ic_action_select" />
+        </android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>
+</android.support.v7.widget.FrameLayout>

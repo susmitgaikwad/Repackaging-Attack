@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="action_sheet_item_background">@drawable/item_background_borderless_material_light</item>
+    <item type="drawable" name="aw_arrow_left">@drawable/arrow_left</item>
+    <item type="drawable" name="aw_arrow_right">@drawable/arrow_right</item>
+    <item type="drawable" name="aw_ic_dialpad_backspace">@drawable/ic_backspace_black_24dp</item>
+    <item type="drawable" name="aw_ic_personal">@drawable/ic_tab_personal</item>
+    <item type="drawable" name="aw_ic_search">@drawable/ic_action_search</item>
+    <item type="drawable" name="aw_ic_starred">@drawable/ic_tab_starrd</item>
+    <item type="drawable" name="stat_notify_blocked">@drawable/ic_call_type_blocked</item>
+</resources>

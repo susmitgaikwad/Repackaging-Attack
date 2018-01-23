@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s件に完了マークを付けました</item>
+        <item quantity="one">%s件に完了マークを付けました</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s 個のアイテムを削除しました</item>
+        <item quantity="one">%1$s 個のアイテムを削除しました</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">連絡先%d件</item>
+        <item quantity="one">連絡先1件</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d件見つかりました</item>
+        <item quantity="one">1件見つかりました</item>
+    </plurals>
+</resources>

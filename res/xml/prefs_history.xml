@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/historyList" n1:key="history"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.dw.preference.NumberPreference n1:title="@string/pref_title_deleteOldCallLogs" n1:key="history.limit_to_number" n1:summary="@string/pref_summary_deleteOldCallLogs" n1:defaultValue="1000" n2:maxValue="1000000" n2:minValue="0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <CheckBoxPreference n1:title="@string/pref_title_showMessageLog" n1:key="history.show_message_log" n1:defaultValue="true" />
+    <com.dw.preference.TextNumberPreference n1:title="@string/pref_title_limitCallLogOnXDays" n1:key="historyLimitCallLogOnXDays" n1:summary="@string/pref_summary_limitCallLogOnXDays" n1:defaultValue="0" n3:maxValue="30000" n3:message="@string/pref_message_0toShowAllDays" n3:minValue="0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <CheckBoxPreference n1:title="@string/pref_title_groupCallLogByDate" n1:key="historyGroupCallLogByDate" n1:summary="@string/pref_summary_groupCallLogByDate" n1:defaultValue="true" />
+    <com.dw.preference.MyListPreference n1:entries="@array/pref_entries_mergeCallLogBy" n1:title="@string/pref_title_mergeCallLog" n1:key="history.merge_call_log_by" n1:summary="%s" n1:defaultValue="BY_CONTACT" n1:entryValues="@array/pref_values_mergeCallLogBy" />
+    <CheckBoxPreference n1:title="@string/pref_title_showCounterOnMergedCallLog" n1:key="historyShowCounterOnMergedCallLog" n1:summary="@string/pref_summary_showCounterOnMergedCallLog" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_calllogFilterAtTop" n1:key="calllogFilterAtTop" n1:summary="@string/pref_title_calllogFilterAtTop" />
+</PreferenceScreen>

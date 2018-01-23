@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dw.widget.LinearLayoutEx n1:orientation="vertical" n1:id="@id/root" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n2:theme="?actionBarTheme" style="?actionBarStyle" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ViewStub n1:id="@id/search_bar" n1:layout="@layout/search_bar_stub" n1:inflatedId="@id/search_bar" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <android.support.v4.view.CSViewPager n1:id="@id/pager" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" n3:sink="?sinkSizePrimary" n3:sinkGravity="bottom|top" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <com.dw.contacts.ui.widget.ScrollingTabContainerView n1:id="@id/tabs" n1:layout_width="fill_parent" n1:layout_height="wrap_content" style="?bottomScrollingTabBarStyle" />
+</com.dw.widget.LinearLayoutEx>

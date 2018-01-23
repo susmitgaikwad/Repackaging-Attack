@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:id="@id/background" n1:background="@drawable/bg_aw_hide_title" n1:paddingLeft="8.0dip" n1:paddingRight="8.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="64.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageButton n1:id="@id/btn_dial" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@drawable/ic_action_call" n1:scaleType="center" n1:layout_weight="1.0" n1:contentDescription="@string/description_dial_button" style="@style/appwidget_dialer.Button" />
+    <ImageButton n1:id="@id/btn_contact" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@drawable/aw_ic_personal" n1:scaleType="center" n1:layout_weight="1.0" n1:contentDescription="@string/contactsList" style="@style/appwidget_dialer.Button" />
+    <ImageButton n1:id="@id/btn_starred" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@drawable/aw_ic_starred" n1:scaleType="center" n1:layout_weight="1.0" n1:contentDescription="@string/contactsList" style="@style/appwidget_dialer.Button" />
+    <ImageButton n1:id="@id/btn_search" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@drawable/aw_ic_search" n1:scaleType="center" n1:layout_weight="1.0" n1:contentDescription="@string/description_dial_button" style="@style/appwidget_dialer.Button" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/contactsList" n1:key="contacts"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ListPreference n1:entries="@array/pref_entries_contact_sort_order" n1:title="@string/pref_contact_sort_order_title" n1:key="contact_sort_order" n1:summary="@string/pref_contact_sort_order_summary" n1:defaultValue="0" n1:dialogTitle="@string/pref_contact_sort_order_title" n1:entryValues="@array/pref_values_contact_sort_order" />
+    <CheckBoxPreference n1:title="@string/showStarredAtTheTop" n1:key="contacts.starred_at_top" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_enableSlidingAction" n1:key="contacts_view.enableSlidingAction" n1:summary="@string/pref_summary_enableSlidingAction" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_showAlwaysAddIcon" n1:key="showAlwaysAddIconInContactsList" n1:summary="@string/pref_summary_showAlwaysAddIcon" n1:defaultValue="false" />
+    <CheckBoxPreference n1:title="@string/pref_title_openQuickJumpOnStartup" n1:key="contacts_view.openQuickJumpOnStartup" n1:defaultValue="false" />
+    <com.dw.preference.MultiSelectListPreference n1:entries="@array/pref_entries_showInTheSidebar" n1:title="@string/pref_title_showInTheSidebar" n1:key="contacts_view.showInTheSidebar" n1:summary="@string/pref_summary_showInTheSidebar" n1:defaultValue="@string/pref_def_showInTheSidebar" n1:entryValues="@array/pref_values_mark" />
+</PreferenceScreen>

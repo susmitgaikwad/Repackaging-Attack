@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="vertical" n1:layout_width="270.0dip" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <CheckBox n1:textAppearance="?android:textAppearanceLarge" n1:layout_gravity="center_horizontal" n1:id="@id/yearToggle" n1:paddingTop="5.0dip" n1:paddingBottom="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/date_year_toggle" />
+    <LinearLayout n1:layout_gravity="center_horizontal" n1:orientation="horizontal" n1:id="@id/parent" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <com.dw.widget.NumberPicker n1:id="@id/month" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="80.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="1.0dip" n1:layout_marginRight="1.0dip" />
+        <com.dw.widget.NumberPicker n1:id="@id/day" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="80.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="1.0dip" n1:layout_marginRight="1.0dip" />
+        <com.dw.widget.NumberPicker n1:id="@id/year" n1:focusable="true" n1:focusableInTouchMode="true" n1:layout_width="95.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="1.0dip" n1:layout_marginRight="1.0dip" />
+    </LinearLayout>
+</LinearLayout>

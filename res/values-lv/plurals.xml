@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s vienumi atzīmēti kā gatavi</item>
+        <item quantity="zero">%s vienumi atzīmēti kā gatavi</item>
+        <item quantity="one">%s vienums atzīmēts kā gatavs</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">Dzēsti %1$s vienumi</item>
+        <item quantity="zero">Dzēsti %1$s vienumi</item>
+        <item quantity="one">Dzēsts %1$s vienums</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kontaktpersonas</item>
+        <item quantity="one">1 kontaktpersona</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Atrastas %d kontaktpersonas</item>
+        <item quantity="zero">Atrastas %d kontaktpersonas</item>
+        <item quantity="one">Atrasta %d kontaktpersona</item>
+    </plurals>
+</resources>

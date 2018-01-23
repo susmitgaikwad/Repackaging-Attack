@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_alphabet" n1:id="@id/quick_Jump" n1:title="@string/menu_quickJump" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="?ic_action_new_person" n3:id="@id/new_contact" n3:title="@string/menu_newContact" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="?ic_action_sort" n5:id="@id/sort" n5:title="@string/menu_sort" n6:showAsAction="ifRoom"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="?ic_action_search" n7:id="@id/search" n7:title="@string/search" n8:showAsAction="always"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:icon="?ic_action_select" n9:id="@id/select_mode" n9:title="@string/menu_select_mode"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:icon="@android:drawable/ic_menu_send" n10:id="@id/send_message" n10:title="@string/sendSMStoShownContacts"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:icon="@android:drawable/ic_menu_send" n11:id="@id/send_mail" n11:title="@string/sendEmailtoShownContacts"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+    <item n12:id="@id/set_ringtone" n12:title="@string/setRingtoneForShownContacts"
+      xmlns:n12="http://schemas.android.com/apk/res/android" />
+    <item n13:id="@id/cancel_send_to_voicemail" n13:title="@string/menu_cancel_send_to_voicemail"
+      xmlns:n13="http://schemas.android.com/apk/res/android" />
+    <item n14:id="@id/grid_view" n14:title="@string/menu_gridView"
+      xmlns:n14="http://schemas.android.com/apk/res/android" />
+    <item n15:id="@id/list_view" n15:title="@string/menu_listView"
+      xmlns:n15="http://schemas.android.com/apk/res/android" />
+    <item n16:id="@id/clear_frequents" n16:visible="false" n16:title="@string/menu_clear_frequents"
+      xmlns:n16="http://schemas.android.com/apk/res/android" />
+    <item n17:id="@id/show_field" n17:visible="false" n17:title="@string/pref_title_showInContactList"
+      xmlns:n17="http://schemas.android.com/apk/res/android" />
+    <item n18:id="@id/contacts_filter" n18:title="@string/menu_contacts_filter"
+      xmlns:n18="http://schemas.android.com/apk/res/android" />
+    <item n19:id="@id/settings" n19:menuCategory="system" n19:orderInCategory="100" n19:title="@string/menu_preferences"
+      xmlns:n19="http://schemas.android.com/apk/res/android" />
+</menu>

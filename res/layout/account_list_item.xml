@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:paddingTop="2.0dip" n1:paddingBottom="2.0dip" n1:layout_width="fill_parent" n1:layout_height="?android:listPreferredItemHeight"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/accountIcon" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_marginRight="6.0dip" n1:layout_alignParentTop="true" n1:layout_alignParentBottom="true" />
+    <TextView n1:textAppearance="@style/alertDialogTextAppearanceLarge" n1:ellipsize="marquee" n1:id="@id/firstAccountLine" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="6.0dip" n1:layout_marginTop="6.0dip" n1:maxLines="1" n1:layout_toRightOf="@id/accountIcon" />
+    <TextView n1:textAppearance="@style/alertDialogTextAppearanceSmall" n1:ellipsize="marquee" n1:id="@id/secondAccountLine" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_below="@id/firstAccountLine" n1:layout_alignLeft="@id/firstAccountLine" />
+</RelativeLayout>

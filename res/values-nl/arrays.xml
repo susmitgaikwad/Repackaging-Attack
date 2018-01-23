@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Onderscheppen</item>
+        <item>toestaan</item>
+        <item>Stilte</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Groep filter</item>
+        <item>nummer filter</item>
+        <item>recent gebeld nummer</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Selecteer groepen voor filter</item>
+        <item>geef nummer voor filter</item>
+        <item>Selecteer de geldige duur</item>
+    </string-array>
+    <string-array name="days">
+        <item>Zondag</item>
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrijdag</item>
+        <item>Zaterdag</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Zo</item>
+        <item>Ma</item>
+        <item>Di</item>
+        <item>Wo</item>
+        <item>Do</item>
+        <item>Vr</item>
+        <item>Za</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Standaard e-mailadres</item>
+        <item>Alle e-mailadressen</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Standaard of eerste mobiele nummer</item>
+        <item>Alle mobiele nummers</item>
+        <item>Alle nummers</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Organisatie</item>
+        <item>Adres</item>
+        <item>Telefoon</item>
+        <item>E-mail</item>
+        <item>Notities</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>Elke dag</item>
+        <item>Om de twee dagen</item>
+        <item>Om de drie dagen</item>
+        <item>Elke vier dagen</item>
+        <item>Om de vijf dagen</item>
+        <item>Om de zes dagen</item>
+        <item>Wekelijks</item>
+        <item>Maandelijks</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Zoeken in alle velden</item>
+        <item>In alle contactpersonen zoeken</item>
+        <item>Zoek in de algemene adreslijst</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Midden</item>
+        <item>Midden verkleinen</item>
+        <item>centreer binnen</item>
+        <item>passend in het midden</item>
+        <item>Fit XY</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF Toon</item>
+        <item>Toets toon</item>
+        <item>UIT</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Dial / Input / verwijderen</item>
+        <item>Verwijderen/Input/Dial</item>
+        <item>Invoer/Delete/Dial</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>aan</item>
+        <item>Uit</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Voornaam</item>
+        <item>Achternaam</item>
+        <item>tussenvoegsel</item>
+        <item>Eervol voorvoegsel</item>
+        <item>Eervol Achtervoegsel</item>
+        <item>voornaam / fonetisch</item>
+        <item>"Achternaam  fonetisch"</item>
+        <item>tussenvoegsel / fonetisch</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 minuut</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>20 minuten</item>
+        <item>25 minuten</item>
+        <item>30 minuten</item>
+        <item>45 minuten</item>
+        <item>1 uur</item>
+        <item>2 uur</item>
+        <item>3 uur</item>
+        <item>12 uur</item>
+        <item>24 uur</item>
+        <item>2 dagen</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Boven</item>
+        <item>in het midden</item>
+        <item>Onderkant</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Bcc</item>
+        <item>Cc</item>
+        <item>Aan</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Nummers</item>
+        <item>Organisatie</item>
+        <item>Titel</item>
+        <item>Groepen</item>
+        <item>Account icoon</item>
+        <item>Contact foto</item>
+        <item>E-mail-knop</item>
+        <item>SMS-toets</item>
+        <item>Bel toets</item>
+        <item>Notities</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Groepen</item>
+        <item>Organisaties</item>
+        <item>Titels</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal of Credit Card</item>
+        <item>Aanbevelen aan vrienden</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Registreer deze software met uw google-account (koop en installeer de proversie via Google Play). Verwijder na het installeren van de Pro-versie, de gratis versie.</item>
+        <item>Registreer deze software met u gsm serial nummer. %s. Na het betalingsproces, krijgt U een bevestigings mail met de registratie kode. Check naderhand de registratie via online registration check.</item>
+        <item>Krijg een vrije registratiecode</item>
+    </string-array>
+</resources>

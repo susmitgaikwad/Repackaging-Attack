@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ViewStub n1:id="@id/header" n1:layout="@layout/list_section" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <com.dw.contacts.ui.widget.ActionsViewContainer n1:orientation="horizontal" n1:id="@id/actions_view_container" n1:background="?selectableItemBackground" n1:focusable="true" n1:nextFocusRight="@id/secondary_action_view_container" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/detail_min_line_item_height">
+        <CheckBox n1:id="@id/checkbox" n1:focusable="false" n1:visibility="gone" n1:clickable="false" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_margin="5.0dip" />
+        <FrameLayout n1:id="@id/third_action_view_container" n1:background="?selectableItemBackground" n1:paddingLeft="@dimen/detail_item_icon_margin" n1:paddingRight="@dimen/detail_item_icon_margin" n1:focusable="true" n1:layout_width="wrap_content" n1:layout_height="fill_parent">
+            <com.dw.android.widget.TintImageView n1:layout_gravity="center_vertical" n1:id="@id/third_action_button" n1:duplicateParentState="false" n1:layout_width="32.0dip" n1:layout_height="32.0dip" n1:scaleType="center" n1:contentDescription="@string/abc_action_menu_overflow_description" n2:srcCompat="?ic_action_overflow" n2:tint="?listButtonTint" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        </FrameLayout>
+        <View n1:id="@id/vertical_divider" n1:background="?dividerVertical" n1:layout_width="1.0dip" n1:layout_height="fill_parent" n1:layout_marginTop="5.0dip" n1:layout_marginBottom="5.0dip" />
+        <com.dw.android.widget.ColorsFlagView n1:id="@id/colors_flag" n1:layout_width="1.5dip" n1:layout_height="fill_parent" />
+        <LinearLayout n1:gravity="center_vertical" n1:orientation="vertical" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:layout_marginLeft="3.0dip" n1:layout_marginRight="3.0dip" n1:layout_weight="0.0">
+            <ImageView n1:id="@id/call_type_icon" n1:layout_width="18.0dip" n1:layout_height="18.0dip" n1:layout_marginTop="1.0dip" n1:scaleType="fitCenter" />
+            <ImageView n1:id="@id/sim_card" n1:layout_width="18.0dip" n1:layout_height="18.0dip" n1:layout_marginTop="1.0dip" n1:scaleType="fitCenter" />
+        </LinearLayout>
+        <com.dw.contacts.ui.widget.ListItemView n1:layout_gravity="center" n1:id="@id/text_fields" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="3.0dip" n1:layout_marginRight="3.0dip" n1:layout_weight="1.0" />
+    </com.dw.contacts.ui.widget.ActionsViewContainer>
+</merge>

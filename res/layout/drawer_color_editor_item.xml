@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:id="@id/background" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/primary" n1:background="#fff44336" style="@style/Widget.Colors.Item" />
+    <View n1:id="@id/accent" n1:background="#ffff4081" style="@style/Widget.Colors.Item" />
+    <View n1:id="@id/bg_dialpad" n1:background="#ffff4081" style="@style/Widget.Colors.Item" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/ic_action_alphabetical" n1:id="@id/sort_alphabetically" n1:title="@string/menu_sort_alphabetically" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="@android:drawable/ic_menu_close_clear_cancel" n3:id="@id/cancel" n3:title="@android:string/cancel"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</menu>

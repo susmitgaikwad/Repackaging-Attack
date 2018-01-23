@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d တွေ့ခဲ့၏</item>
+        <item quantity="one">၁ ခု တွေခဲ့၏</item>
+    </plurals>
+</resources>

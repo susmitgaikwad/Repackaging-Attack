@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Tertahan</item>
+        <item>Ijinkan</item>
+        <item>Sunyi</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Penyaringan grup</item>
+        <item>Penyaringan angka</item>
+        <item>Nomor telepon yang terkini dihubungi</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Pilih grup untuk penyaringan</item>
+        <item>Masukkan nomor untuk penyaringan</item>
+        <item>Pilih durasi yang benar</item>
+    </string-array>
+    <string-array name="days">
+        <item>Minggu</item>
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>"Jum'at"</item>
+        <item>Sabtu</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Ming</item>
+        <item>Sen</item>
+        <item>Sel</item>
+        <item>Rab</item>
+        <item>Kam</item>
+        <item>Jum</item>
+        <item>Sab</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Alamat email utama</item>
+        <item>Semua alamat email</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Nomor Ponsel Utama</item>
+        <item>Semua nomor ponsel</item>
+        <item>Semua nomor</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Organisasi</item>
+        <item>Alamat</item>
+        <item>Telepon</item>
+        <item>Email</item>
+        <item>Catatan</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>Setiap hari</item>
+        <item>Setiap 2 hari</item>
+        <item>Setiap 3 hari</item>
+        <item>Setiap empat hari</item>
+        <item>Setiap lima hari</item>
+        <item>Setiap enam hari</item>
+        <item>Mingguan</item>
+        <item>Bulanan</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Pencarian semua kolom</item>
+        <item>Pencarian ke semua kontak</item>
+        <item>Pencarian di Daftar Alamat Umum</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Tengah</item>
+        <item>Potong ditengah</item>
+        <item>Pas tengah</item>
+        <item>Tengah sama besar</item>
+        <item>Sama besar XY</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>Nada DTMF</item>
+        <item>Klik nada</item>
+        <item>Mati</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Panggil/Masukkan/Hapus</item>
+        <item>Hapus/Input/Panggil</item>
+        <item>Input/Hapus/Panggil</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Hidup</item>
+        <item>Mati</item>
+        <item>Otomatis</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Nama Pemberian</item>
+        <item>Nama Keluarga</item>
+        <item>Nama Tengah</item>
+        <item>Nama Awalan</item>
+        <item>Nama Akhir</item>
+        <item>Ejaan nama pemberian</item>
+        <item>Ejaan nama keluarga</item>
+        <item>Ejaan nama tengah</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>15 menit</item>
+        <item>20 menit</item>
+        <item>25 menit</item>
+        <item>30 menit</item>
+        <item>45 menit</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>3 jam</item>
+        <item>12 jam</item>
+        <item>24 jam</item>
+        <item>2 hari</item>
+        <item>1 minggu</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Atas</item>
+        <item>Tengah</item>
+        <item>Bawah</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Bcc</item>
+        <item>Cc</item>
+        <item>Kepada</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Nomor-nomor</item>
+        <item>Perusahaan</item>
+        <item>Sebutan</item>
+        <item>Grup</item>
+        <item>Ikon akun</item>
+        <item>Gambar kontak</item>
+        <item>Tombol email</item>
+        <item>Tombol SMS</item>
+        <item>Tombol pemanggil</item>
+        <item>Catatan-catatan</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Grup</item>
+        <item>Perusahaan</item>
+        <item>Sebutan</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal atau Kartu Kredit</item>
+        <item>Rekomendasikan ke teman</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Daftarkan perangkat lunak ini untuk akun google anda (beli dan pasang versi Pro melalui Google Play). Setelah memasang versi Pro, mohon hapus versi gratis.</item>
+        <item>Daftarkan perangkat lunak ini ke nomor seri perangkat: %s. Setelah proses pembayaran, anda akan mendapatkan email konfirmasi beserta kode registrasi anda. Setelah itu periksa pendaftaran dengan mengklik [periksaan pendaftaran Online].</item>
+        <item>Dapatkan kode registrasi gratis</item>
+    </string-array>
+</resources>

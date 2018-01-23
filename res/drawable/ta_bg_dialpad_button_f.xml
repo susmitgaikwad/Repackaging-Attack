@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item n1:drawable="@drawable/ta_bg_dialpad_button_normal"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:drawable="@drawable/ta_bg_points_pressed"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+</layer-list>

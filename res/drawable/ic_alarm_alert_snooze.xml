@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n1:state_focused="false" n1:state_enabled="true" n1:state_active="false" n1:drawable="@drawable/ic_lockscreen_snooze_normal"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:state_focused="false" n2:state_enabled="true" n2:state_active="true" n2:drawable="@drawable/ic_lockscreen_snooze_activated"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:state_focused="true" n3:state_enabled="true" n3:state_active="false" n3:drawable="@drawable/ic_lockscreen_snooze_activated"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</selector>

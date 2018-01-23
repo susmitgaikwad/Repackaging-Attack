@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:id="@id/add_2sec_pause" n1:menuCategory="alternative" n1:title="@string/add_2sec_pause"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:id="@id/add_wait" n2:menuCategory="alternative" n2:title="@string/add_wait"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:id="@id/speed_dial" n3:menuCategory="alternative" n3:title="@string/menu_quickDial"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:icon="@android:drawable/ic_menu_sort_by_size" n4:id="@id/sort" n4:menuCategory="alternative" n4:title="@string/menu_sort"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <item n5:icon="@android:drawable/ic_menu_add" n5:id="@id/new_contact" n5:menuCategory="alternative" n5:title="@string/menu_newContact"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <item n6:id="@id/select_mode" n6:menuCategory="alternative" n6:title="@string/menu_select_mode"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:id="@id/show_call_log_filter" n7:menuCategory="alternative" n7:title="@string/show_call_log_filter"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+    <item n8:id="@id/hide_call_log_filter" n8:menuCategory="alternative" n8:title="@string/hide_call_log_filter"
+      xmlns:n8="http://schemas.android.com/apk/res/android" />
+    <item n9:id="@id/show_field" n9:menuCategory="alternative" n9:title="@string/pref_title_showInContactList"
+      xmlns:n9="http://schemas.android.com/apk/res/android" />
+    <item n10:id="@id/call_settings" n10:menuCategory="system" n10:orderInCategory="99" n10:title="@string/call_settings"
+      xmlns:n10="http://schemas.android.com/apk/res/android" />
+    <item n11:id="@id/settings" n11:menuCategory="system" n11:orderInCategory="100" n11:title="@string/menu_preferences"
+      xmlns:n11="http://schemas.android.com/apk/res/android" />
+</menu>

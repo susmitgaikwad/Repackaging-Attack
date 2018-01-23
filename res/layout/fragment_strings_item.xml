@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:gravity="center_vertical" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/text1" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:maxLines="2" n1:layout_weight="1.0" />
+    <View n1:background="?android:listDivider" n1:layout_width="1.0dip" n1:layout_height="fill_parent" n1:layout_marginTop="6.0dip" n1:layout_marginBottom="6.0dip" />
+    <com.dw.widget.DontPressWithParentImageView n1:id="@id/btn_del" n1:focusable="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="@dimen/recommended_touch_area_size" n1:minHeight="@dimen/recommended_touch_area_size" n1:contentDescription="@string/delete" n2:srcCompat="?ic_action_delete" style="@style/Widget.ListButton.Tint" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

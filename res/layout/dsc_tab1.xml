@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:id="@id/tab1" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ScrollView n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+        <android.support.v7.widget.LinearLayoutCompat n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:divider="?dividerHorizontal" n2:showDividers="middle" xmlns:n2="http://schemas.android.com/apk/res-auto">
+            <CheckBox n1:id="@id/checkBox_enable" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="@dimen/recommended_touch_area_size" n1:text="@string/pref_title_enableDualcardSuppout" />
+            <android.support.v7.widget.LinearLayoutCompat n1:orientation="vertical" n1:id="@id/content" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:divider="?dividerHorizontal" n2:showDividers="middle">
+                <CheckBox n1:id="@id/checkBox_swapSimCard" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="48.0dip" n1:text="@string/swapTheDialSIMcard" />
+                <CheckBox n1:id="@id/checkBox_twoDialOnDialpad" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="48.0dip" n1:text="@string/pref_title_twoDialOnTheDialpad" />
+                <CheckBox n1:id="@id/checkBox_twoDialOnList" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="48.0dip" n1:text="@string/pref_title_twoDialInTheContactList" />
+                <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <TextView n1:textAppearance="?android:textAppearanceSmall" n1:gravity="center_vertical" n1:padding="6.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="@dimen/recommended_touch_area_size" n1:text="@string/prompt_dualSIMDialTest" />
+                    <android.support.v7.widget.CardView n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/card_margin">
+                        <TableLayout n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:stretchColumns="1">
+                            <TableRow n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                                <TextView n1:layout_gravity="center|right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/lable_testNumber" />
+                                <EditText n1:id="@id/phone_number" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="12345" n1:ems="10" n1:inputType="phone" />
+                            </TableRow>
+                            <TableRow n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                                <TextView n1:layout_gravity="center|right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/lable_device" />
+                                <Spinner n1:id="@id/spinner_device" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="@dimen/recommended_touch_area_size" />
+                            </TableRow>
+                            <TableRow n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                                <ImageButton n1:id="@id/button_sim1" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:contentDescription="@string/SIMCard1" />
+                                <ImageButton n1:id="@id/button_sim2" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0" n1:contentDescription="@string/SIMCard2" />
+                            </TableRow>
+                        </TableLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/card_margin">
+                        <android.support.v7.widget.LinearLayoutCompat n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:divider="?android:listDivider" n2:showDividers="middle">
+                            <android.support.v7.widget.FrameLayout n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="32.0dip">
+                                <TextView n1:textAppearance="@style/TextAppearance.Card.Header" n1:layout_gravity="center_vertical" n1:id="@id/header_text" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/SIMCard1" />
+                            </android.support.v7.widget.FrameLayout>
+                            <TableLayout n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:stretchColumns="1">
+                                <TableRow n1:id="@id/tableRow3" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                                    <TextView n1:layout_gravity="center|right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/lable_sim_card_icon" />
+                                    <Spinner n1:id="@id/spinner_sim1_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="@dimen/recommended_touch_area_size" />
+                                </TableRow>
+                                <TableRow n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                                    <TextView n1:layout_gravity="center|right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/lable_sim_card_name" />
+                                    <EditText n1:id="@id/sim1_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:ems="10" n1:inputType="textAutoCorrect|textCapSentences" />
+                                </TableRow>
+                            </TableLayout>
+                        </android.support.v7.widget.LinearLayoutCompat>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="@dimen/card_margin">
+                        <android.support.v7.widget.LinearLayoutCompat n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n2:divider="?android:listDivider" n2:showDividers="middle">
+                            <android.support.v7.widget.FrameLayout n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="32.0dip">
+                                <TextView n1:textAppearance="@style/TextAppearance.Card.Header" n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/SIMCard2" />
+                            </android.support.v7.widget.FrameLayout>
+                            <TableLayout n1:padding="6.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:stretchColumns="1">
+                                <TableRow n1:id="@id/tableRow4" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                                    <TextView n1:layout_gravity="center|right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/lable_sim_card_icon" />
+                                    <Spinner n1:id="@id/spinner_sim2_icon" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minHeight="@dimen/recommended_touch_area_size" />
+                                </TableRow>
+                                <TableRow n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                                    <TextView n1:layout_gravity="center|right" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/lable_sim_card_name" />
+                                    <EditText n1:id="@id/sim2_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:ems="10" n1:inputType="textAutoCorrect|textCapSentences" />
+                                </TableRow>
+                            </TableLayout>
+                        </android.support.v7.widget.LinearLayoutCompat>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </android.support.v7.widget.LinearLayoutCompat>
+        </android.support.v7.widget.LinearLayoutCompat>
+    </ScrollView>
+    <LinearLayout n1:id="@id/call_buttons" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_weight="0.0" style="@style/ButtonBar">
+        <Button n1:id="@id/button_save" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="@string/save" n1:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

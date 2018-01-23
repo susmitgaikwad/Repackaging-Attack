@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/pref_title_registration" n1:key="register" n1:summary="@string/pref_summary_registration"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <Preference n1:title="@string/pref_title_registrationStates" n1:key="registrationStates" />
+    <Preference n1:title="@string/pref_title_copySerialNum" n1:key="copy_serial_num" />
+    <Preference n1:title="@string/pref_get_register_code_title" n1:key="get_register_code" n1:summary="@string/pref_get_register_code_summary" />
+    <Preference n1:title="@string/pref_title_onlineRegistrationCheck" n1:key="onlineRegistrationCheck" n1:summary="@string/pref_summary_onlineRegistrationCheck" />
+    <EditTextPreference n1:title="@string/pref_register_code_title" n1:key="register_code" n1:summary="@string/pref_register_code_summary" n1:positiveButtonText="@string/save" n1:negativeButtonText="@android:string/cancel" />
+</PreferenceScreen>

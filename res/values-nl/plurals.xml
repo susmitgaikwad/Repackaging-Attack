@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s gemarkeerd als klaar</item>
+        <item quantity="one">%s gemarkeerd als klaar</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s verwijderd</item>
+        <item quantity="one">%1$s verwijderd</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minuten</item>
+        <item quantity="one">1 minuut</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d seconden</item>
+        <item quantity="one">1 seconde</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d contacten</item>
+        <item quantity="one">1 contact</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d gevonden</item>
+        <item quantity="one">1 gevonden</item>
+    </plurals>
+</resources>

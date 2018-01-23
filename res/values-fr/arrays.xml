@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Intercepter</item>
+        <item>Autoriser</item>
+        <item>Silencieux</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Filtre de groupe</item>
+        <item>Filtre de numéro</item>
+        <item>Numéros contactés récemment</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Sélectionnez les groupes pour le filtre</item>
+        <item>"Nombre d'entrée pour le filtre"</item>
+        <item>Durée de validité</item>
+    </string-array>
+    <string-array name="days">
+        <item>Dimanche</item>
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Dim.</item>
+        <item>Lun.</item>
+        <item>Mar.</item>
+        <item>Mer.</item>
+        <item>Jeu.</item>
+        <item>Ven.</item>
+        <item>Sam.</item>
+    </string-array>
+    <string-array name="efp__size_units">
+        <item>o</item>
+        <item>Ko</item>
+        <item>Mo</item>
+        <item>Go</item>
+        <item>To</item>
+        <item>Po</item>
+    </string-array>
+    <string-array name="efp__sorting_types">
+        <item>Par nom, croissant</item>
+        <item>Par nom, décroissant</item>
+        <item>Par taille, croissant</item>
+        <item>Par taille, décroissant</item>
+        <item>Par date, croissant</item>
+        <item>Par date, décroissant</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Adresse de messagerie par défaut</item>
+        <item>Toutes les adresses</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Premier numéro de mobile ou par défaut</item>
+        <item>Tous les numéros de mobile</item>
+        <item>Tous les numéros</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Organisation</item>
+        <item>Adresse</item>
+        <item>Téléphone</item>
+        <item>E-mail</item>
+        <item>Notes</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>Tous les jours</item>
+        <item>Tous les 2 jours</item>
+        <item>Tous les 3 jours</item>
+        <item>Tous les 4 jours</item>
+        <item>Tous les 5 jours</item>
+        <item>Tous les 6 jours</item>
+        <item>Toutes les semaines</item>
+        <item>Tous les mois</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Rechercher dans tous les champs</item>
+        <item>Rechercher dans tous les contacts</item>
+        <item>"Rechercher dans la liste d'adresses globale (GAL)"</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Centrer</item>
+        <item>Centrer rogner</item>
+        <item>Centrer justifier</item>
+        <item>Centrer ajuster</item>
+        <item>Centrer remplir</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF</item>
+        <item>Clic</item>
+        <item>Aucune</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Clavier/Numéro/Supprimer</item>
+        <item>Supprimer/Numéro/Clavier</item>
+        <item>Numéro/Supprimer/Clavier</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Oui</item>
+        <item>Non</item>
+        <item>Automatique</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Prénom (affiché = Nom donné)</item>
+        <item>Nom de famille</item>
+        <item>Deuxième prénom</item>
+        <item>Préfixe du nom (affiché = Prénom)</item>
+        <item>Suffixe du nom (affiché = Nom)</item>
+        <item>Prénom phonétique</item>
+        <item>Nom de famille phonétique</item>
+        <item>Deuxième prénom phonétique</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>3 heures</item>
+        <item>12 heures</item>
+        <item>24 heures</item>
+        <item>2 jours</item>
+        <item>1 semaine</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Haut</item>
+        <item>Centre</item>
+        <item>Bas</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Cci</item>
+        <item>Cc</item>
+        <item>A</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Numéros</item>
+        <item>Organisation</item>
+        <item>Titre</item>
+        <item>Groupes</item>
+        <item>Icône du compte</item>
+        <item>Photos de contact</item>
+        <item>Bouton e-mail</item>
+        <item>Bouton SMS</item>
+        <item>"Bouton d'appel"</item>
+        <item>Notes</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Groupes</item>
+        <item>Organisations</item>
+        <item>Titres</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play Store</item>
+        <item>PayPal ou carte de crédit</item>
+        <item>Recommander à des amis</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Enregistrer ce logiciel à votre compte Google (acheter et installer la version Pro via Google Play Store). Après avoir installé la version *PRO*, veuillez désinstaller la version *FREE*.</item>
+        <item>"Enregistrer l'application avec ce numéro de série: %s. Après le paiement, vous recevrez un e-mail de confirmation avec votre code d'enregistrement. Ensuite, vérifier l'enregistrement en cliquant sur *Vérifier l'enregistrement*."</item>
+        <item>"Obtenir un code d'enregistrement gratuit"</item>
+    </string-array>
+</resources>

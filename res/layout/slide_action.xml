@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dw.android.widget.CSTextView n1:ellipsize="none" n1:gravity="center_vertical" n1:id="@id/slide_action" n1:background="?colorFA1" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:maxLines="1" n2:drawableLeft="?ic_list_action_call" n2:drawableRight="?ic_list_action_text" n2:sink="@dimen/sinkSizePrimary" n2:sinkGravity="bottom|left|right|top" n2:tint="?listIconTint"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />

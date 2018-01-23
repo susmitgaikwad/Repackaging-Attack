@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d хв.</item>
+        <item quantity="one">1 хвіліна</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d с</item>
+        <item quantity="one">1 секунда</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Кантактаў: %d</item>
+        <item quantity="one">1 кантакт</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatEditText n1:id="@id/name" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_margin="15.0dip" n1:hint="@string/efp__folder_name_hint" n1:maxLines="1" n1:ems="10" n1:inputType="text">
+        <requestFocus />
+    </android.support.v7.widget.AppCompatEditText>
+</FrameLayout>

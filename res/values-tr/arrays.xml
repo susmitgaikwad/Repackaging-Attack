@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Engelle</item>
+        <item>İzin ver</item>
+        <item>Sessiz</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Grup filtresi</item>
+        <item>Numara filtresi</item>
+        <item>Sık aranan telefon numaraları</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Filtrelenecek grupları seçin</item>
+        <item>Filtrelenecek numarayı girin</item>
+        <item>Geçerli süre seçin</item>
+    </string-array>
+    <string-array name="days">
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Paz</item>
+        <item>Pzt</item>
+        <item>Sal</item>
+        <item>Çrş</item>
+        <item>Prş</item>
+        <item>Cum</item>
+        <item>Cmt</item>
+    </string-array>
+    <string-array name="efp__size_units">
+        <item>B</item>
+        <item>kB</item>
+        <item>mB</item>
+        <item>gB</item>
+        <item>tB</item>
+        <item>pB</item>
+    </string-array>
+    <string-array name="efp__sorting_types">
+        <item>İsme göre, artan</item>
+        <item>isme göre, azalan</item>
+        <item>Boyuta göre, artan</item>
+        <item>Boyuta göre, azalan</item>
+        <item>Tarihe göre, artan</item>
+        <item>Tarihe göre, azalan</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Varsayılan E-posta Adresi</item>
+        <item>Tüm E-posta Adresleri</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Varsayılan veya İlk Cep Numarası</item>
+        <item>Tüm Cep Numaraları</item>
+        <item>Tüm Numaralar</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Kuruluş</item>
+        <item>Adres</item>
+        <item>Telefon</item>
+        <item>E-posta</item>
+        <item>Notlar</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>Her gün</item>
+        <item>İki günde bir</item>
+        <item>Üç günde bir</item>
+        <item>Dört günde bir</item>
+        <item>Beş günde bir</item>
+        <item>Altı günde bir</item>
+        <item>Haftada bir</item>
+        <item>Ayda bir</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Tüm alanlarda ara</item>
+        <item>Tüm kişileri ara</item>
+        <item>Genel Adres Defterinde Ara</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Merkez</item>
+        <item>Merkez kırpma</item>
+        <item>Merkez içinde</item>
+        <item>Merkeze sığdır</item>
+        <item>XY uygun</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF Sesi</item>
+        <item>Tıklama sesi</item>
+        <item>KAPALI</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Çevir/Gir/Sil</item>
+        <item>Sil/Gir/Çevir</item>
+        <item>Gir/Sil/Çevir</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Aç</item>
+        <item>Kapat</item>
+        <item>Otomatik</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Adı</item>
+        <item>Soyadı</item>
+        <item>İkinci adı</item>
+        <item>Kimlik öneki</item>
+        <item>Kimlik soneki</item>
+        <item>Adı-fonetik</item>
+        <item>Soyadı-fonetik</item>
+        <item>İkinci adı-fonetik</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 dakika</item>
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>20 dakika</item>
+        <item>25 dakika</item>
+        <item>30 dakika</item>
+        <item>45 dakika</item>
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>3 saat</item>
+        <item>12 saat</item>
+        <item>24 saat</item>
+        <item>2 gün</item>
+        <item>1 hafta</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Üst</item>
+        <item>Merkez</item>
+        <item>Alt</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Gizli</item>
+        <item>Bilgi</item>
+        <item>Kime</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Numaralar</item>
+        <item>Kuruluş</item>
+        <item>Ünvan</item>
+        <item>Gruplar</item>
+        <item>Hesap simgesi</item>
+        <item>Kişi resimleri</item>
+        <item>E-posta botunu</item>
+        <item>SMS butonu</item>
+        <item>Çevir butonu</item>
+        <item>Notlar</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Gruplar</item>
+        <item>Organizasyonlar</item>
+        <item>Başlıklar</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal veya Kredi Kartı</item>
+        <item>Arkadaşlara öner</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Bu yazılımı google hesabınıza kayıt edin (Google Play vasıtasıyla Pro sürümünü satın alın ve yükleyin). Pro sürümünü yükledikten sonra, lütfen ücretsiz sürümü kaldırın.</item>
+        <item>"Bu yazılımı aygıt seri numrasına kayıt edin: %s. Ödeme sürecinden sonra, kayıt kodunu içeren bir doğrulama epostası alacaksınız. Sonrasında, [Çevrimiçi kayıt kontrolü]'ne bir-tık ile, kaydı kontrol edebilirsiniz."</item>
+        <item>Bedava lisans kodu al</item>
+    </string-array>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_SAPPS_BODY_WAITING_ING">Чекање...</string>
+    <string name="IDS_SAPPS_HEADER_ITEM_PURCHASED">Записот е купен</string>
+    <string name="IDS_SAPPS_POP_ALREADY_PURCHASED">Веќе купено</string>
+    <string name="IDS_SAPPS_POP_AN_ERROR_OCCURRED_WHILE_RESETTING_SAMSUNG_IN_APP_PURCHASE">Дојде до грешка при ресетирањето на Samsung In-App Purchase</string>
+    <string name="IDS_SAPPS_POP_AN_INVALID_VALUE_HAS_BEEN_PROVIDED_FOR_SAMSUNG_IN_APP_PURCHASE">Дадена е неважечка вредност за Samsung In-App Purchase</string>
+    <string name="IDS_SAPPS_POP_AN_UNEXPECTED_ERROR_HAS_OCCURRED_SAMSUNG_ACCOUNT_AUTHENTICATION_HAS_BEEN_CANCELLED">Дојде до неочекувана грешка. Потврдувањето на сметката Samsung беше откажано.</string>
+    <string name="IDS_SAPPS_POP_A_NEW_VERSION_OF_SAMSUNG_IN_APP_PURCHASE_IS_AVAILABLE_UPDATE_Q">Достапна е нова верзија на Samsung купување во апликација. Да се ажурира?</string>
+    <string name="IDS_SAPPS_POP_NETWORK_UNAVAILABLE">Мрежата е недостапна</string>
+    <string name="IDS_SAPPS_POP_PAYMENT_CANCELLED">Плаќањето е одложено</string>
+    <string name="IDS_SAPPS_POP_PRODUCT_DOES_NOT_EXIST_IN_THIS_STORE">Производот не постои во оваа продавница</string>
+    <string name="IDS_SAPPS_POP_SAMSUNG_IN_APP_PURCHASE">Samsung In-App Purchase</string>
+    <string name="IDS_SAPPS_POP_SAMSUNG_IN_APP_PURCHASE_NEEDS_TO_BE_UPDATED">Samsung In-App Purchase треба да се ажурира</string>
+    <string name="IDS_SAPPS_POP_TO_PURCHASE_ITEMS_YOU_NEED_TO_INSTALL_SAMSUNG_IN_APP_PURCHASE_INSTALL_Q">За да купувате ставки, треба да го инсталирате Samsung купување во апликација. Да се инсталира?</string>
+    <string name="IDS_SAPPS_POP_UNKNOWN_ERROR_OCCURRED">Дојде до непозната грешка</string>
+    <string name="IDS_SAPPS_POP_YOUR_PURCHASE_VIA_SAMSUNG_IN_APP_PURCHASE_IS_INVALID_A_FAKE_APPLICATION_HAS_BEEN_DETECTED_CHECK_THE_APP_MSG">Купувањето преку Samsung In-App Purchase е неважечко. Откриена е лажна апликација. Проверете ја апликацијата што сакате да ја купите и обидете се повторно.</string>
+    <string name="abc_action_bar_home_description">Движи се кон дома</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Движи се нагоре</string>
+    <string name="abc_action_menu_overflow_description">Повеќе опции</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Види ги сите</string>
+    <string name="abc_activitychooserview_choose_application">Избери апликација</string>
+    <string name="abc_capital_off">ИСКЛУЧЕНО</string>
+    <string name="abc_capital_on">ВКЛУЧЕНО</string>
+    <string name="abc_search_hint">Пребарување…</string>
+    <string name="abc_searchview_description_clear">Исчисти барање</string>
+    <string name="abc_searchview_description_query">Пребарај барање</string>
+    <string name="abc_searchview_description_search">Пребарај</string>
+    <string name="abc_searchview_description_submit">Поднеси барање</string>
+    <string name="abc_searchview_description_voice">Гласовно пребарување</string>
+    <string name="abc_shareactionprovider_share_with">Сподели со</string>
+    <string name="abc_toolbar_collapse_description">Собери</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблеми со услугите на Google Play. Обидете се повторно.</string>
+    <string name="s1">Зачувај ја сликата</string>
+    <string name="s2">Дали дозволувате рекламата да ја зачува сликата во „Галеријата со слики“?</string>
+    <string name="s3">Прифати</string>
+    <string name="s4">Одбиј</string>
+    <string name="s5">Создај настан во календарот</string>
+    <string name="s6">Дали дозволувате рекламата да создаде настан во календарот?</string>
+    <string name="search_menu_title">Пребарај</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

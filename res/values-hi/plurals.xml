@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s पर हो गया की छाप लगाई गई</item>
+        <item quantity="one">%s पर हो गया की छाप लगाई गई</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s को हटाया गया</item>
+        <item quantity="one">%1$s को हटाया गया</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d मिनट</item>
+        <item quantity="one">1 मिनट</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d सेकंड</item>
+        <item quantity="one">1 सेकंड</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d संपर्क</item>
+        <item quantity="one">1 संपर्क</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d मिले</item>
+        <item quantity="one">%d मिले</item>
+    </plurals>
+</resources>

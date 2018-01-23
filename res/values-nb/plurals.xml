@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s er merket som ferdige</item>
+        <item quantity="one">%s er merket som ferdig</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s er slettet</item>
+        <item quantity="one">%1$s er slettet</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">Ett minutt</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">Ett sekund</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kontakter</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d er funnet</item>
+        <item quantity="one">1 er funnet</item>
+    </plurals>
+</resources>

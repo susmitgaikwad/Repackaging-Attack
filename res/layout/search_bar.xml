@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageButton n1:layout_gravity="center_vertical" n1:id="@id/search_app_icon" n1:background="?selectableItemBackground" n1:visibility="gone" n1:layout_width="36.0dip" n1:layout_height="36.0dip" n1:layout_marginLeft="7.0dip" n1:layout_marginRight="7.0dip"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <AutoCompleteTextView n2:id="@id/search_src_text" n2:layout_width="0.0dip" n2:layout_height="wrap_content" n2:hint="@string/search_hint" n2:layout_weight="1.0" style="?searchBarTextStyle"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <FrameLayout n3:id="@id/search_view" n3:visibility="gone" n3:layout_width="fill_parent" n3:layout_height="fill_parent" n3:layout_weight="1.0"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <ImageButton n4:id="@id/search_voice_btn" n4:visibility="gone" n4:contentDescription="@string/voice_input" style="?searchBarVoiceButtonStyle"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <ImageButton n5:id="@id/search_clear" n5:visibility="gone" n5:contentDescription="@string/clear" style="?searchBarClearButtonStyle"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+    <ImageButton n6:id="@id/search_go_btn" n6:contentDescription="@android:string/search_go" style="?searchBarGoButtonStyle"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+</merge>

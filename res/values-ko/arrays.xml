@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>INTERCEPT</item>
+        <item>허용</item>
+        <item>무음</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>그룹 필터</item>
+        <item>숫자 필터</item>
+        <item>최근 연락 전화 번호</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>필터할 그룹 선택</item>
+        <item>필터할 숫자 입력</item>
+        <item>기간 선택</item>
+    </string-array>
+    <string-array name="days">
+        <item>일요일</item>
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>일</item>
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>대표 이메일 주소</item>
+        <item>모든 이메일 주소</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>대표번호 또는 첫 번째 휴대폰번호</item>
+        <item>모든 휴대폰번호</item>
+        <item>모든 전화번호</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>조직</item>
+        <item>주소</item>
+        <item>전화</item>
+        <item>email</item>
+        <item>메모</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>모든 필드를 검색</item>
+        <item>모든 연락처를 검색</item>
+        <item>전체 주소 목록에서 검색</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>센터</item>
+        <item>연락처사진 중앙부위만 사용</item>
+        <item>센터 안으로</item>
+        <item>센터에 맞추어</item>
+        <item>XY에 맞추어</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF 톤</item>
+        <item>클릭 톤</item>
+        <item>끄기</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>다이얼/입력/삭제</item>
+        <item>삭제/입력/다이얼</item>
+        <item>입력/삭제/다이얼</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>켜기</item>
+        <item>끄기</item>
+        <item>자동</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>이름</item>
+        <item>성</item>
+        <item>중간 이름</item>
+        <item>경칭 접두사</item>
+        <item>경칭 접미사</item>
+        <item>"이름'의 발음"</item>
+        <item>"성' 발음"</item>
+        <item>중간 이름 발음</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 분</item>
+        <item>5 분</item>
+        <item>10 분</item>
+        <item>15 분</item>
+        <item>20 분</item>
+        <item>25 분</item>
+        <item>30 분</item>
+        <item>45 분</item>
+        <item>1 시간</item>
+        <item>2 시간</item>
+        <item>3 시간</item>
+        <item>12 시간</item>
+        <item>24 시간</item>
+        <item>2 일</item>
+        <item>1 주</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>맨 위로</item>
+        <item>가운데</item>
+        <item>맨 아래</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>비밀참조</item>
+        <item>참조</item>
+        <item>받는 사람</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>숫자</item>
+        <item>조직</item>
+        <item>타이틀</item>
+        <item>그룹</item>
+        <item>계정 아이콘</item>
+        <item>연락처 사진</item>
+        <item>이메일 버튼</item>
+        <item>SMS 버튼</item>
+        <item>다이얼 버튼</item>
+        <item>메모</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>그룹</item>
+        <item>조직</item>
+        <item>직위</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>구글 플레이</item>
+        <item>페이팔 또는 신용 카드</item>
+        <item>DW연락처 소문내기</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>이 소프트웨어를 당신의 구글 계정에 등록하세요(구글 플레이를 통해 Pro 버전을 구매하고 설치하세요). Pro 버전 설치후, 무료 버전을 삭제해주세요.</item>
+        <item>이 소프트웨어를 장치 시리얼 넘버:%s에 등록해주세요. 지불 과정 후, 당신의 등록 코드로 확인 이메일을 받을 것입니다. 그 후 [온라인 등록 확인]에서 원-클릭을 통해 등록을 확인하세요.</item>
+        <item>등록코드 무료로 얻기</item>
+    </string-array>
+</resources>

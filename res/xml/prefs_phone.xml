@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/pref_title_phoneSettings" n1:key="phone"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen n1:title="@string/quickDialManager" n1:key="phone.speed_dial" />
+    <com.dw.preference.TextNumberPreference n1:title="@string/pref_title_quickDialLimit" n1:key="phone.speed_dial_limit" n1:defaultValue="10000" n2:maxValue="10000" n2:minValue="0" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <ListPreference n1:entries="@array/pref_entries_contact_sort_order" n1:title="@string/pref_contact_sort_order_title" n1:key="contact_sort_order_in_dialer" n1:defaultValue="0" n1:dialogTitle="@string/pref_contact_sort_order_title" n1:entryValues="@array/pref_values_contact_sort_order" />
+    <CheckBoxPreference n1:title="@string/pref_title_reverseList" n1:key="phone.reverse_list" n1:defaultValue="false" />
+    <ListPreference n1:entries="@array/pref_entries_clickTheActions" n1:title="@string/pref_title_clickTheActions" n1:key="phone.clickAction" n1:summary="@string/pref_summary_clickTheActions" n1:defaultValue="VIEW_CONTACT" n1:entryValues="@array/pref_values_clickTheActions" />
+    <CheckBoxPreference n1:title="@string/pref_title_enableSlidingAction" n1:key="phone.enableSlidingAction" n1:summary="@string/pref_summary_enableSlidingAction" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/list_filter_phones" n1:key="phoneShowContactsWithNumber" n1:summary="@string/pref_summary_showContactsWithPhoneNumber" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_hideStatistics" n1:key="phone.hideStatistics" n1:defaultValue="false" />
+    <com.dw.preference.ReverseDependencyListPreference n1:entries="@array/pref_entries_hideTab" n1:title="@string/pref_title_autoHideTab" n1:key="phone.hideTab" n1:summary="@string/pref_summary_autoHideTab" n1:defaultValue="off" n1:entryValues="@array/pref_values_hideTab" />
+    <CheckBoxPreference n1:title="@string/pref_title_startDialerWithoutDialerPad" n1:key="startDialerWithoutDialerPad" n1:summary="@string/pref_title_startDialerWithoutDialerPad" n1:defaultValue="false" />
+    <com.dw.preference.MyListPreference n1:entries="@array/pref_entries_dialpadIconsArrangement" n1:title="@string/pref_title_dialpadIconsArrangement" n1:key="dialpadIconsArrangement" n1:summary="%s" n1:defaultValue="DIAL_INPUT_DELETE" n1:entryValues="@array/pref_values_dialpadIconsArrangement" />
+    <CheckBoxPreference n1:title="@string/pref_title_backKeyHideDailpad" n1:key="phone.back_key_hide_dailpad" n1:summary="@string/pref_summary_backKeyHideDailpad" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_showNumberKeyboardOnDialpad" n1:key="showNumberKeyboardOnDialpad" n1:summary="@string/pref_summary_showNumberKeyboardOnDialpad" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_dialpadToFullWidth" n1:key="dialpadToFullWidth" n1:summary="@string/pref_summary_dialpadToFullWidth" n1:defaultValue="false" />
+    <CheckBoxPreference n1:title="@string/pref_title_exitWhenCallEnds" n1:key="phone.exitWhenCallEnds" n1:defaultValue="false" />
+    <com.dw.preference.MyListPreference n1:entries="@array/pref_entries_dialerPadTone" n1:title="@string/pref_title_dialerPadTone" n1:key="dialerPadToneType" n1:summary="%s" n1:defaultValue="OFF" n1:entryValues="@array/pref_values_dialerPadTone" />
+    <CheckBoxPreference n1:title="@string/pref_title_hapticFeedbackVibration" n1:key="phone.haptic_feedback" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_showContactsOnPhoneStart" n1:key="showContactsOnPhoneStart" n1:summary="@string/pref_summary_showContactsOnPhoneStart" n1:defaultValue="false" />
+    <EditTextPreference n1:title="@string/pref_title_dialPrefix" n1:key="phone.dial_prefix" n1:summary="@string/pref_summary_dialPrefix" />
+    <EditTextPreference n1:title="@string/pref_title_dialSuffix" n1:key="phone.dial_suffix" n1:summary="@string/pref_summary_dialSuffix" />
+    <CheckBoxPreference n1:title="@string/pref_title_replaceMissedCallNotification" n1:key="phone.replaceMissedCallNotification" n1:summary="@string/pref_summary_replaceMissedCallNotification" n1:defaultValue="false" />
+    <PreferenceCategory n1:title="@string/historyList">
+        <CheckBoxPreference n1:title="@string/pref_title_showCallLogOnPhone" n1:key="showCallLogOnPhone" n1:summary="@string/pref_title_showCallLogOnPhone" n1:defaultValue="true" />
+        <CheckBoxPreference n1:title="@string/pref_title_showMessageLog" n1:key="phone.show_message_log" n1:dependency="showCallLogOnPhone" n1:defaultValue="true" />
+        <com.dw.preference.TextNumberPreference n1:title="@string/pref_title_limitCallLogOnXDays" n1:key="phone.limit_calllog_on_x_days" n1:summary="@string/pref_summary_limitCallLogOnXDays" n1:dependency="showCallLogOnPhone" n1:defaultValue="100" n3:maxValue="30000" n3:message="@string/pref_message_0toShowAllDays" n3:minValue="0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.dw.preference.TextNumberPreference n1:title="@string/pref_title_limitCallLogOnXitems" n1:key="phone.limit_calllog_on_x_items" n1:summary="@string/pref_summary_limitCallLogOnXitems" n1:dependency="showCallLogOnPhone" n1:defaultValue="0" n4:maxValue="30000" n4:message="@string/pref_message_0toShowAllItems" n4:minValue="0" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+        <CheckBoxPreference n1:title="@string/pref_title_groupCallLogByDate" n1:key="phoneGroupCallLogByDate" n1:summary="@string/pref_summary_groupCallLogByDate" n1:dependency="showCallLogOnPhone" n1:defaultValue="true" />
+        <com.dw.preference.MyListPreference n1:entries="@array/pref_entries_mergeCallLogBy" n1:title="@string/pref_title_mergeCallLog" n1:key="phone.merge_call_log_by" n1:summary="%s" n1:dependency="showCallLogOnPhone" n1:defaultValue="BY_CONTACT" n1:entryValues="@array/pref_values_mergeCallLogBy" />
+        <CheckBoxPreference n1:title="@string/pref_title_showCounterOnMergedCallLog" n1:key="phoneShowCounterOnMergedCallLog" n1:summary="@string/pref_summary_showCounterOnMergedCallLog" n1:dependency="showCallLogOnPhone" n1:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory n1:title="@string/callConfirm">
+        <CheckBoxPreference n1:title="@string/callConfirm" n1:key="phone.callConfirm" n1:summary="@string/pref_summary_callConfirm" n1:defaultValue="false" />
+        <com.dw.preference.NumberPreference n1:title="@string/pref_title_automaticConfirmationDelay" n1:key="phone.automatic_confirm_delay" n1:summary="@string/pref_summary_automaticConfirmationDelay" n1:dependency="phone.callConfirm" n1:defaultValue="0" n5:maxValue="30" n5:minDisplayedValue="@string/disable" n5:minValue="0" n5:rightText="@string/seconds" xmlns:n5="http://schemas.android.com/apk/res-auto" />
+        <com.dw.preference.NumberPreference n1:title="@string/pref_title_automaticCancelDelay" n1:key="phone.automatic_cancel_delay" n1:dependency="phone.callConfirm" n1:defaultValue="20" n6:maxValue="30" n6:minDisplayedValue="@string/disable" n6:minValue="0" n6:rightText="@string/seconds" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+        <CheckBoxPreference n1:title="@string/pref_title_disableInCarMode" n1:key="callConfirm.disableInCarMode" n1:summary="@string/pref_summary_disableInCarMode" n1:dependency="phone.callConfirm" n1:defaultValue="true" />
+        <Preference n1:title="@string/pref_title_excludeNumbers" n1:key="phone.callConfirm.exclude" n1:summary="@string/pref_summary_excludeNumbers" n1:dependency="phone.callConfirm" />
+    </PreferenceCategory>
+</PreferenceScreen>

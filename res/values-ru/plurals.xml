@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">Помечены как выполненные: %s</item>
+        <item quantity="one">Помечены как выполненные: %s</item>
+        <item quantity="few">Помечены как выполненные: %s</item>
+        <item quantity="many">Помечены как выполненные: %s</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">Удалено: %1$s</item>
+        <item quantity="one">Удалено: %1$s</item>
+        <item quantity="few">Удалено: %1$s</item>
+        <item quantity="many">Удалено: %1$s</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">1 мин.</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d сек.</item>
+        <item quantity="one">1 сек.</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Контактов: %d</item>
+        <item quantity="one">Контактов: 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Найдено %d контакта</item>
+        <item quantity="one">Найден %d контакт</item>
+        <item quantity="few">Найдено %d контакта</item>
+        <item quantity="many">Найдено %d контактов</item>
+    </plurals>
+</resources>

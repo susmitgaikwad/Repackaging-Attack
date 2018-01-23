@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen n1:title="@string/pref_title_globalSettings" n1:key="globalSettings"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <com.dw.preference.MyListPreference n1:entries="@array/pref_entries_language" n1:title="@string/pref_language_title" n1:key="language" n1:summary="%s" n1:defaultValue="default" n1:entryValues="@array/pref_values_language" />
+    <Preference n1:title="@string/menu_contacts_filter" n1:key="contactDisplayFiltering" />
+    <ListPreference n1:entries="@array/pref_entries_name_display_order" n1:title="@string/display_options_view_names_as" n1:key="name_display_order" n1:summary="@string/pref_name_display_order_summary" n1:defaultValue="@string/pref_name_display_order_default" n1:dialogTitle="@string/display_options_view_names_as" n1:entryValues="@array/pref_values_name_display_order" />
+    <com.dw.preference.MultiSelectListPreference n1:entries="@array/pref_entries_nameField" n1:title="@string/pref_title_nameFieldToShow" n1:key="nameFieldToShow" n1:summary="@string/pref_summary_nameFieldToShow" n1:defaultValue="@string/pref_def_nameFieldToShow" n1:entryValues="@array/pref_values_mark" />
+    <ListPreference n1:entries="@array/pref_entries_clickTheActions" n1:title="@string/pref_title_clickTheActions" n1:key="contactListClickAction" n1:summary="@string/pref_summary_clickTheActions" n1:defaultValue="VIEW_CONTACT" n1:entryValues="@array/pref_values_clickTheActions" />
+    <ListPreference n1:entries="@array/pref_entries_clickTheActions" n1:title="@string/pref_title_clickIconActions" n1:key="contactGridClickAction" n1:summary="@string/pref_summary_clickIconActions" n1:defaultValue="VIEW_QUICK_CONTACT_BADGE" n1:entryValues="@array/pref_values_clickTheActions" />
+    <ListPreference n1:entries="@array/pref_entries_clickTheActions" n1:title="@string/pref_title_clickIconActions" n1:key="contactListIconClickAction" n1:summary="@string/pref_summary_clickListIconActions" n1:defaultValue="VIEW_QUICK_CONTACT_BADGE" n1:entryValues="@array/pref_values_clickTheActions" />
+    <com.dw.preference.MyListPreference n1:entries="@array/pref_entries_contactPictureZoomMode" n1:title="@string/pref_title_contactPictureZoomMode" n1:key="contactPictureZoomMode" n1:summary="%s" n1:defaultValue="CENTER_CROP" n1:entryValues="@array/pref_values_contactPictureZoomMode" />
+    <CheckBoxPreference n1:title="@string/pref_title_usingHDContactPicture" n1:key="usingHDContactPicture" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_leftHandedOperation" n1:key="picturePositionOnRight" n1:summary="@string/pref_title_picturePositionOnRight" n1:defaultValue="true" />
+    <com.dw.preference.VibrationStrengthPreference n1:title="@string/pref_title_hapticFeedbackStrength" n1:key="haptic_feedback_strength" n1:defaultValue="50" n2:maxValue="100" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <CheckBoxPreference n1:title="@string/pref_title_showAlphabetListSection" n1:key="showAlphabetListSection" n1:defaultValue="false" />
+    <CheckBoxPreference n1:title="@string/pref_title_usingMoreDetailedListSection" n1:key="usingMoreDetailedListSection" n1:summary="@string/pref_summary_usingMoreDetailedListSection" n1:dependency="showAlphabetListSection" n1:defaultValue="@bool/pref_def_usingMoreDetailedListSection" />
+    <CheckBoxPreference n1:title="@string/pref_title_usingMoreDetailedFastScroller" n1:key="usingMoreDetailedFastScroller" n1:summary="@string/pref_summary_usingMoreDetailedListSection" n1:defaultValue="pref_def_usingMoreDetailedFastScroller" />
+    <com.dw.preference.TextNumberPreference n1:title="@string/pref_title_limitNumberTitleToXChar" n1:key="limitNumberTitleToXChar" n1:summary="@string/pref_summary_limitNumberTitleToXChar" n1:defaultValue="0" n3:maxValue="1000" n3:minValue="0" xmlns:n3="http://schemas.android.com/apk/res-auto" />
+    <CheckBoxPreference n1:title="@string/pref_title_formatPhoneNumber" n1:key="global.formatPhoneNumber" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_mergeSubgroup" n1:key="merge_subgroup" n1:summary="@string/pref_summary_mergeSubgroup" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_exit_prompt_title" n1:key="exit_prompt" n1:summary="@string/pref_exit_prompt_summary" n1:defaultValue="false" />
+    <CheckBoxPreference n1:title="@string/pref_title_residesInMemory" n1:key="residesInMemory" n1:summary="@string/pref_summary_residesInMemory" n1:defaultValue="false" />
+    <CheckBoxPreference n1:title="@string/pref_title_automaticRotation" n1:key="automaticRotation" n1:summary="@string/pref_summary_automaticRotation" n1:defaultValue="true" />
+    <CheckBoxPreference n1:title="@string/pref_title_hideTheStatusbar" n1:key="hideTheStatusbar" />
+    <CheckBoxPreference n1:title="@string/pref_title_hideTheTitle" n1:key="hideTheTitle" n1:summary="@string/pref_summary_hideMenuButton" />
+</PreferenceScreen>

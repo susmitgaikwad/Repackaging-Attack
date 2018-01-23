@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d फेला पर्यो</item>
+        <item quantity="one">1 फेला पर्यो</item>
+    </plurals>
+</resources>

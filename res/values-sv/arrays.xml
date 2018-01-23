@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Fånga</item>
+        <item>Tillåter</item>
+        <item>Tyst</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Gruppfilter</item>
+        <item>Nummer filter</item>
+        <item>Nyligen uppringda nummer</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Välj grupper för filter</item>
+        <item>Mata in nummer för filter</item>
+        <item>Välj varaktighet</item>
+    </string-array>
+    <string-array name="days">
+        <item>Söndag</item>
+        <item>Måndag</item>
+        <item>Tisdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lördag</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Sön</item>
+        <item>Mån</item>
+        <item>Tis</item>
+        <item>Ons</item>
+        <item>Tors</item>
+        <item>Fre</item>
+        <item>Lör</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Standard E-postadress</item>
+        <item>Alla e-postadresser</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Standard eller första mobilnummer</item>
+        <item>Alla mobilnummer</item>
+        <item>Alla nummer</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Organisation</item>
+        <item>Adress</item>
+        <item>Telefon</item>
+        <item>E-post</item>
+        <item>Anteckningar</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>Dagligen</item>
+        <item>Varannan dag</item>
+        <item>Var tredje dag</item>
+        <item>Var fjärde dag</item>
+        <item>Var femte dag</item>
+        <item>Var sjätte dag</item>
+        <item>Veckovis</item>
+        <item>Månadsvis</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Sök i alla fält</item>
+        <item>Sök i alla kontakter</item>
+        <item>Sök i Global adresslista</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Centrera</item>
+        <item>Centrerad beskärning</item>
+        <item>Centrera</item>
+        <item>Centrera</item>
+        <item>Anpassa höjd och bredd</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF-Ton</item>
+        <item>Klickljud</item>
+        <item>AV</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Ring-upp/Input/Sudda</item>
+        <item>Sudda/Input/Ring-upp</item>
+        <item>Input/Sudda/Ring-upp</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>På</item>
+        <item>Av</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Förnamn</item>
+        <item>Efternamn</item>
+        <item>Mellannamn</item>
+        <item>Namnprefix</item>
+        <item>Namnsuffix</item>
+        <item>Förnamn fontetiskt</item>
+        <item>Efternamn fontetiskt</item>
+        <item>Mellannamn fonetiskt</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 minut</item>
+        <item>5 minuter</item>
+        <item>10 minuter</item>
+        <item>15 minuter</item>
+        <item>20 minuter</item>
+        <item>25 minuter</item>
+        <item>30 minuter</item>
+        <item>45 minuter</item>
+        <item>1 timme</item>
+        <item>2 timmar</item>
+        <item>3 timmar</item>
+        <item>12 timmar</item>
+        <item>24 timmar</item>
+        <item>2 dagar</item>
+        <item>1 vecka</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Topp</item>
+        <item>Center</item>
+        <item>Nedre</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Hemlig kopia</item>
+        <item>Kopia</item>
+        <item>Till</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Nummer</item>
+        <item>Organisation</item>
+        <item>Titel</item>
+        <item>Grupper</item>
+        <item>Konto-ikon</item>
+        <item>Kontaktbilder</item>
+        <item>E-post-knapp</item>
+        <item>SMS-knapp</item>
+        <item>Ringknapp</item>
+        <item>Anteckningar</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Grupper</item>
+        <item>Företag</item>
+        <item>Rubriker</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal eller kreditkort</item>
+        <item>Rekommendera till vänner</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Registrera programmet på ditt Googlekonto (köp och installera Pro-verisonen via Googles Playbutik). Var snäll och installera gratisversion när du installerat Pro.</item>
+        <item>Registrera mjukvaran till enhetens serienr.: %s. Efter att betalningens genomförts kommer du att få ett mejl med din registreringskod. Kontrollera registreringen efteråt med ett enkeltryck på [Online registration check].</item>
+        <item>Skaffa en gratiskod</item>
+    </string-array>
+</resources>

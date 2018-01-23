@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Blokovať</item>
+        <item>Povoliť</item>
+        <item>Silence</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Filter skupiny</item>
+        <item>Filter čísla</item>
+        <item>Naposledy kontaktované telefónne číslo</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Vyberte skupiny pre filter</item>
+        <item>Vstupné číslo pre filter</item>
+        <item>Vyberte platnú dobu trvania</item>
+    </string-array>
+    <string-array name="days">
+        <item>Nedeľa</item>
+        <item>Pondelok</item>
+        <item>Utorok</item>
+        <item>Streda</item>
+        <item>Štvrtok</item>
+        <item>Piatok</item>
+        <item>Sobota</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Ne</item>
+        <item>Po</item>
+        <item>Ut</item>
+        <item>St</item>
+        <item>Št</item>
+        <item>Pi</item>
+        <item>So</item>
+    </string-array>
+    <string-array name="efp__sorting_types">
+        <item>Podľa názvu, vzostupne</item>
+        <item>Podľa názvu, zostupne</item>
+        <item>Podľa veľkosti, vzostupne</item>
+        <item>Podľa veľkosti, zostupne</item>
+        <item>Podľa dátumu, vzostupne</item>
+        <item>Podľa dátumu, zostupne</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Predvolená e-mailová adresa</item>
+        <item>Všetky e-mailové adresy</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Predvolené alebo prvé číslo mobilu</item>
+        <item>Všetky čísla mobilov</item>
+        <item>Všetky čísla</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Organizácia</item>
+        <item>Adresa</item>
+        <item>Telefón</item>
+        <item>E-mail</item>
+        <item>Poznámky</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Vyhľadávať vo všetkých poliach</item>
+        <item>Vyhľadávať vo všetkých kontaktoch</item>
+        <item>Hľadať v globálnom adresári</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>V strede</item>
+        <item>V strede s orezaním</item>
+        <item>V strede vnútri</item>
+        <item>Upraviť na stred</item>
+        <item>Upraviť presne</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF tón</item>
+        <item>Tón pri stlačení</item>
+        <item>VYP</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Vytočiť/Vložiť/Odstrániť</item>
+        <item>Odstrániť/Vložiť/Vytočiť</item>
+        <item>Vložiť/Odstrániť/Vytočiť</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Zapnúť</item>
+        <item>Vypnúť</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Krstné meno</item>
+        <item>Priezvisko</item>
+        <item>Druhé krstné meno</item>
+        <item>Titul pred menom</item>
+        <item>Titul za menom</item>
+        <item>Fonetika mena</item>
+        <item>Fonetika priezviska</item>
+        <item>Fonetika druhého mena</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 minúta</item>
+        <item>5 minút</item>
+        <item>10 minút</item>
+        <item>15 minút</item>
+        <item>20 minút</item>
+        <item>25 minút</item>
+        <item>30 minút</item>
+        <item>45 minút</item>
+        <item>1 hodina</item>
+        <item>2 hodiny</item>
+        <item>3 hodiny</item>
+        <item>12 hodín</item>
+        <item>24 hodín</item>
+        <item>2 dni</item>
+        <item>1 týždeň</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Hore</item>
+        <item>Na stred</item>
+        <item>Dole</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Skrytá kópia</item>
+        <item>Kópia</item>
+        <item>Komu</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Čísla</item>
+        <item>Organizácia</item>
+        <item>Titul</item>
+        <item>Skupiny</item>
+        <item>Obrázok účtu</item>
+        <item>Obrázky kontaktu</item>
+        <item>Tlačidlo e-mailu</item>
+        <item>Tlačidlo SMS</item>
+        <item>Tlačidlo vytáčania</item>
+        <item>Poznámky</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Skupiny</item>
+        <item>Organizácie</item>
+        <item>Tituly</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal alebo kreditná karta</item>
+        <item>Odporúčať známym</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Zaregistrujte si tento program k vášmu google účtu (zakúpte a nainštalujte Pro verziu prostredníctvom Google Play). Po nainštalovaní Pro verzie odinštalujte free verziu.</item>
+        <item>Zaregistrujte tento program k sériovému číslu zariadenia: %s. Po uhradení dostaneme potvrdzovací e-mail s registračným kódom. Následne skontrolujte registráciu kliknutím na [Online kontrola registrácie].</item>
+        <item>Získať registračný kód zadarmo</item>
+    </string-array>
+</resources>

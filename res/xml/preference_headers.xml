@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers>
+    <header n1:icon="@drawable/ic_public_24dp" n1:title="@string/pref_title_globalSettings" n1:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_global"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <extra n1:name="settings" n1:value="global" />
+    </header>
+    <header n2:icon="@drawable/ic_theme_24dp" n2:title="@string/pref_title_themeCustomize" n2:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_theme"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <extra n2:name="settings" n2:value="theme" />
+    </header>
+    <header n3:icon="@drawable/ic_dialpad_twelve_keyboard" n3:title="@string/pref_title_t9Search" n3:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_t9_search"
+      xmlns:n3="http://schemas.android.com/apk/res/android">
+        <extra n3:name="settings" n3:value="t9_search" />
+    </header>
+    <header n4:icon="@drawable/ic_action_call" n4:title="@string/launcherActivityLabel" n4:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_phone"
+      xmlns:n4="http://schemas.android.com/apk/res/android">
+        <extra n4:name="settings" n4:value="phone" />
+    </header>
+    <header n5:icon="@drawable/ic_tab_personal" n5:title="@string/contactsList" n5:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_contacts"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <extra n5:name="settings" n5:value="contacts" />
+    </header>
+    <header n6:icon="@drawable/ic_tab_detail" n6:title="@string/viewContactTitle" n6:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_contact_detail"
+      xmlns:n6="http://schemas.android.com/apk/res/android">
+        <extra n6:name="settings" n6:value="contact_detail" />
+    </header>
+    <header n7:icon="@drawable/ic_tab_recent" n7:title="@string/historyList" n7:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_history"
+      xmlns:n7="http://schemas.android.com/apk/res/android">
+        <extra n7:name="settings" n7:value="history" />
+    </header>
+    <header n8:icon="@drawable/ic_tab_contact_group" n8:title="@string/contact_group" n8:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_groups"
+      xmlns:n8="http://schemas.android.com/apk/res/android">
+        <extra n8:name="settings" n8:value="groups" />
+    </header>
+    <header n9:icon="@drawable/ic_action_search" n9:title="@string/search" n9:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_search"
+      xmlns:n9="http://schemas.android.com/apk/res/android">
+        <extra n9:name="settings" n9:value="search" />
+    </header>
+    <header n10:icon="@drawable/ic_tab_event" n10:title="@string/eventsList" n10:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_events"
+      xmlns:n10="http://schemas.android.com/apk/res/android">
+        <extra n10:name="settings" n10:value="events" />
+    </header>
+    <header n11:icon="@drawable/ic_phone_in_talk_24dp" n11:title="@string/pref_in_call_widget_title" n11:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_in_call"
+      xmlns:n11="http://schemas.android.com/apk/res/android">
+        <extra n11:name="settings" n11:value="in_call" />
+    </header>
+    <header n12:icon="@drawable/ic_tab_call_statistics" n12:title="@string/call_statistics" n12:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_call_statistics"
+      xmlns:n12="http://schemas.android.com/apk/res/android">
+        <extra n12:name="settings" n12:value="call_statistics" />
+    </header>
+    <header n13:icon="@drawable/ic_tab_24dp" n13:title="@string/pref_title_tabSettings" n13:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_tabs"
+      xmlns:n13="http://schemas.android.com/apk/res/android">
+        <extra n13:name="settings" n13:value="tabs" />
+    </header>
+    <header n14:icon="@drawable/ic_settings_services" n14:title="@string/pref_services_title" n14:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_services"
+      xmlns:n14="http://schemas.android.com/apk/res/android">
+        <extra n14:name="settings" n14:value="services" />
+    </header>
+    <header n15:icon="@drawable/ic_send_24dp" n15:title="@string/pref_send_title" n15:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_send"
+      xmlns:n15="http://schemas.android.com/apk/res/android">
+        <extra n15:name="settings" n15:value="send" />
+    </header>
+    <header n16:icon="@drawable/ic_accessibility_24dp" n16:title="@string/accessibility_settings" n16:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_accessibility"
+      xmlns:n16="http://schemas.android.com/apk/res/android">
+        <extra n16:name="settings" n16:value="accessibility" />
+    </header>
+    <header n17:icon="@drawable/ic_action_import_export" n17:title="@string/pref_title_backupRestore" n17:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_backup_restore"
+      xmlns:n17="http://schemas.android.com/apk/res/android">
+        <extra n17:name="settings" n17:value="backup_restore" />
+    </header>
+    <header n18:icon="@drawable/ic_key_24dp" n18:title="@string/pref_title_registration" n18:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_register"
+      xmlns:n18="http://schemas.android.com/apk/res/android">
+        <extra n18:name="settings" n18:value="register" />
+    </header>
+    <header n19:icon="@drawable/ic_info_24dp" n19:title="@string/other" n19:fragment="com.dw.contacts.fragments.SettingsFragment" res="@xml/prefs_other"
+      xmlns:n19="http://schemas.android.com/apk/res/android">
+        <extra n19:name="settings" n19:value="other" />
+    </header>
+</preference-headers>

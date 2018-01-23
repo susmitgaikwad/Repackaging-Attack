@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="?ic_action_add_alarm" n1:id="@id/regularly_sent" n1:title="@string/regularlySent" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:id="@id/insert" n3:title="@string/menu_insert" n4:showAsAction="ifRoom"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto">
+        <menu>
+            <item n3:id="@id/insert_full_name" n3:title="@string/full_name" />
+            <item n3:id="@id/insert_name_family" n3:title="@string/name_family" />
+            <item n3:id="@id/insert_name_given" n3:title="@string/name_given" />
+            <item n3:id="@id/insert_name_prefix" n3:title="@string/name_prefix" />
+            <item n3:id="@id/insert_name_middle" n3:title="@string/name_middle" />
+            <item n3:id="@id/insert_name_suffix" n3:title="@string/name_suffix" />
+            <item n3:id="@id/insert_nickname" n3:title="@string/nicknameLabelsGroup" />
+        </menu>
+    </item>
+    <item n5:id="@id/using_system_sms_program" n5:title="@string/using_system_sms_program"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+</menu>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="dialer_not_match_action">@layout/dialer_not_match_action_horizontal</item>
+</resources>

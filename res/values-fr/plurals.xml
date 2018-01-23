@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s éléments marqués comme terminés</item>
+        <item quantity="one">%s élément marqué comme terminé</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s éléments supprimés</item>
+        <item quantity="one">%1$s élément supprimé</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d secondes</item>
+        <item quantity="one">1 seconde</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d contacts</item>
+        <item quantity="one">1 contact</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d contacts trouvés.</item>
+        <item quantity="one">%d contact trouvé.</item>
+    </plurals>
+</resources>

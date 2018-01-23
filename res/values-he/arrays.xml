@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>תפוס את השיחה</item>
+        <item>מאפשר</item>
+        <item>השתק</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>סינון קבוצה</item>
+        <item>סינון מספר</item>
+        <item>מספרים שהתקשרת להם לאחרונה</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>בחר קבוצות לסינון</item>
+        <item>הכנס מספר לסינון</item>
+        <item>בחר את משך זמן חוקי</item>
+    </string-array>
+    <string-array name="days">
+        <item>יום ראשון</item>
+        <item>יום שני</item>
+        <item>יום שלישי</item>
+        <item>יום רביעי</item>
+        <item>יום חמישי</item>
+        <item>יום שישי</item>
+        <item>שבת</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>ראשון</item>
+        <item>שני</item>
+        <item>יום שלישי</item>
+        <item>רביעי</item>
+        <item>ה</item>
+        <item>שישי</item>
+        <item>שבת</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>כתובת דואל ברירת מחדל</item>
+        <item>כל כתובות דואל</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>ברירת מחדל או מספר טלפון נייד ראשון</item>
+        <item>כל מספרי טלפון נייד</item>
+        <item>כל המספרים</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>ארגון</item>
+        <item>כתובת</item>
+        <item>"מס' טלפון"</item>
+        <item>דואל</item>
+        <item>הערות</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>כל יום</item>
+        <item>בכל יומיים</item>
+        <item>כל שלושה ימים</item>
+        <item>כל ארבעה ימים</item>
+        <item>כל חמישה ימים</item>
+        <item>כל שישה ימים</item>
+        <item>שבועית</item>
+        <item>חודשית</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>לחפש בכל השדות</item>
+        <item>חפש בכל אנשי הקשר</item>
+        <item>חפש ב רשימת הכתובות הכללית</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>מרכז</item>
+        <item>מרכז וחתוך</item>
+        <item>מרכז מבפנים</item>
+        <item>התאם למרכז</item>
+        <item>XY התאם ל</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF צליל</item>
+        <item>צליל הקליק</item>
+        <item>כבוי</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>חיוג/הקלדה/מחיקה</item>
+        <item>מחיקה/הקלדה/חיוג</item>
+        <item>הקלדה/מחיקה/חיוג</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>דלוק</item>
+        <item>כבוי</item>
+        <item>אוטומטי</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>שם פרטי</item>
+        <item>שם משפחה</item>
+        <item>שם פרטי שני</item>
+        <item>קידומת תואר</item>
+        <item>סיומת תואר</item>
+        <item>שם פרטי פונטי</item>
+        <item>שם משפחה פונטי</item>
+        <item>שם אמצעי פונטי</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>דקה</item>
+        <item>חמש דקות</item>
+        <item>עשר דקות</item>
+        <item>15 דקות</item>
+        <item>20 דקות</item>
+        <item>25 דקות</item>
+        <item>30 דקות</item>
+        <item>45 דקות</item>
+        <item>שעה אחת</item>
+        <item>שעתיים</item>
+        <item>שלוש שעות</item>
+        <item>12 שעות</item>
+        <item>יממה</item>
+        <item>יומיים</item>
+        <item>שבוע אחד</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>עליון</item>
+        <item>מרכז</item>
+        <item>תחתון</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>BCC עותק מוסתר</item>
+        <item>CC עותק</item>
+        <item>אל</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>מספרים</item>
+        <item>ארגון</item>
+        <item>תואר</item>
+        <item>קבוצות</item>
+        <item>סמל חשבון</item>
+        <item>תמונת איש קשר</item>
+        <item>לחצן דואר אלקטרוני</item>
+        <item>SMS לחצן</item>
+        <item>לחצן חיוג</item>
+        <item>הערות</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>קבוצות</item>
+        <item>ארגונים</item>
+        <item>כותרות</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>חנות גוגל</item>
+        <item>PayPal או כרטיס אשראי</item>
+        <item>המלץ לחברים</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>רישום התוכנה לפי החשבון שלך בגוגל. יש לרכוש את גירסת הפרו בחנות של גוגל , להתקיה ולהסיר את הגרסה החינמית</item>
+        <item>%s : רשום את התוכנה למספר הסידורי שלל המכשיר לאחר התשלום יתקבל אצלך מייל עם קוד הרישום מיד אחרכך, בדוק את הרישום על ידי הקלקה בודדת על כפתור הרישום המקוון</item>
+        <item>לקבל קוד הרשמה חינם</item>
+    </string-array>
+</resources>

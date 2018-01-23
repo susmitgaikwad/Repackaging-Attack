@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group n1:id="@id/call_group" n1:visible="false" n1:menuCategory="container"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_using" n1:id="@id/call_using" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_prefix" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_prefix1" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_prefix2" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_suffix" n1:title="" />
+        <item n1:icon="@drawable/ic_action_call_s" n1:id="@id/call_with_infix" n1:title="" />
+        <item n1:icon="@drawable/ic_action_with_number" n1:id="@id/edit_number_before_call" n1:title="@string/recentCalls_editNumberBeforeCall" />
+    </group>
+    <group n2:id="@id/need_number" n2:visible="false" n2:menuCategory="container"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <item n2:icon="@drawable/ic_action_new_event" n2:id="@id/create_event" n2:title="@string/menu_createEvent" />
+        <item n2:icon="@drawable/ic_add_circle_outline_24dp" n2:id="@id/add_todo" n2:title="@string/menu_add_todo" />
+        <item n2:icon="@drawable/ic_action_text" n2:id="@id/send_message" n2:title="@string/send_message" />
+        <item n2:icon="@drawable/ic_action_share" n2:id="@id/share_number" n2:title="@string/menu_shareNumber" />
+        <item n2:icon="@drawable/ic_action_new_person" n2:id="@id/add_to_contact" n2:title="@string/recentCalls_addToContact" />
+        <item n2:icon="@drawable/ic_list_action_allow" n2:id="@id/remove_from_blocklist" n2:title="@string/menu_removeFromBlockList" />
+        <item n2:icon="@drawable/ic_list_call_type_blocked" n2:id="@id/add_to_blocklist" n2:title="@string/menu_addToBlockList" />
+        <item n2:icon="@drawable/ic_action_copy" n2:id="@id/copy" n2:title="@string/menu_copyToClipboard" />
+    </group>
+    <item n3:icon="@drawable/ic_action_note_add" n3:id="@id/edit_notes" n3:menuCategory="container" n3:title="@string/menu_editNotes"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:icon="@drawable/ic_action_discard" n4:id="@id/delete_call_log" n4:menuCategory="container" n4:title="@string/recentCalls_removeFromRecentList"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+</menu>

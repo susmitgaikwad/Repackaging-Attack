@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s megjelölve készként</item>
+        <item quantity="one">%s megjelölve készként</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s törölve</item>
+        <item quantity="one">%1$s törölve</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">1 perc</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d másodperc</item>
+        <item quantity="one">1 másodperc</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d névjegy</item>
+        <item quantity="one">1 névjegy</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d találat</item>
+        <item quantity="one">1 találat</item>
+    </plurals>
+</resources>

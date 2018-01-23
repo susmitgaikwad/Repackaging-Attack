@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="callFilterActions">
+        <item>Zachytit</item>
+        <item>Umožňuje</item>
+        <item>Ticho</item>
+    </string-array>
+    <string-array name="callFilterTypes">
+        <item>Filtr skupiny</item>
+        <item>Filtr čísel</item>
+        <item>Nedávno kontaktované telefonní číslo</item>
+    </string-array>
+    <string-array name="callFilterTypesHint">
+        <item>Zvolte skupiny pro filtr</item>
+        <item>Vložte číslo pro filtr</item>
+        <item>Vyberte platnou dobu trvání</item>
+    </string-array>
+    <string-array name="days">
+        <item>Neděle</item>
+        <item>Pondělí</item>
+        <item>Úterý</item>
+        <item>Středa</item>
+        <item>Čtvrtek</item>
+        <item>Pátek</item>
+        <item>Sobota</item>
+    </string-array>
+    <string-array name="days_short">
+        <item>Ne</item>
+        <item>Po</item>
+        <item>Út</item>
+        <item>St</item>
+        <item>Čt</item>
+        <item>Pá</item>
+        <item>So</item>
+    </string-array>
+    <string-array name="prefEntries_email_to">
+        <item>Výchozí e-mailová adresa</item>
+        <item>Všechny e-mailové adresy</item>
+    </string-array>
+    <string-array name="prefEntries_sms_mms_to">
+        <item>Výchozí nebo první mobilní číslo</item>
+        <item>Všechna mobilní čísla</item>
+        <item>Všechna čísla</item>
+    </string-array>
+    <string-array name="pref_entriesNeedSendToCalendar">
+        <item>Organizace</item>
+        <item>Adresa</item>
+        <item>Telefon</item>
+        <item>E-mail</item>
+        <item>Poznámky</item>
+    </string-array>
+    <string-array name="pref_entries_backupCycle">
+        <item>Každý den</item>
+        <item>Každé dva dny</item>
+        <item>Každé tři dny</item>
+        <item>Každé čtyři dny</item>
+        <item>Každých pět dní</item>
+        <item>Každých šest dní</item>
+        <item>Týdně</item>
+        <item>Měsíčně</item>
+    </string-array>
+    <string-array name="pref_entries_contactListSearchOptions">
+        <item>Hledat ve všech polích</item>
+        <item>Proledat všechny kontakty</item>
+        <item>Vyhledávání v globálním seznamu adres</item>
+    </string-array>
+    <string-array name="pref_entries_contactPictureZoomMode">
+        <item>Na střed</item>
+        <item>Na střed s oříznutím</item>
+        <item>Přizpůsobit</item>
+        <item>Na střed</item>
+        <item>Vyplnit</item>
+    </string-array>
+    <string-array name="pref_entries_dialerPadTone">
+        <item>DTMF tón</item>
+        <item>Tón kliknutí</item>
+        <item>VYPNUTO</item>
+    </string-array>
+    <string-array name="pref_entries_dialpadIconsArrangement">
+        <item>Vytočit/Vložit/Odstranit</item>
+        <item>Odstranit/Vložit/Vytočit</item>
+        <item>Vložit/Odstranit/Vytočit</item>
+    </string-array>
+    <string-array name="pref_entries_hideTab">
+        <item>Zapnout</item>
+        <item>Vypnout</item>
+        <item>Automaticky</item>
+    </string-array>
+    <string-array name="pref_entries_nameField">
+        <item>Křestní jméno</item>
+        <item>Příjmení</item>
+        <item>Druhé křestní jméno</item>
+        <item>Titul před jménem</item>
+        <item>Titul za jménem</item>
+        <item>Fonetika jména</item>
+        <item>Fonetika příjmení</item>
+        <item>Fonetika druhého jména</item>
+    </string-array>
+    <string-array name="pref_entries_notificationTime">
+        <item>1 minuta</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>25 minut</item>
+        <item>30 minut</item>
+        <item>45 minut</item>
+        <item>1 hodina</item>
+        <item>2 hodiny</item>
+        <item>3 hodiny</item>
+        <item>12 hodin</item>
+        <item>24 hodin</item>
+        <item>2 dny</item>
+        <item>1 týden</item>
+    </string-array>
+    <string-array name="pref_entries_quickJumpAlignment">
+        <item>Nahoru</item>
+        <item>Na střed</item>
+        <item>Dole</item>
+    </string-array>
+    <string-array name="pref_entries_recipients_location">
+        <item>Skrytá kopie</item>
+        <item>Kopie</item>
+        <item>Komu</item>
+    </string-array>
+    <string-array name="pref_entries_showInContactList">
+        <item>Čísla</item>
+        <item>Organizace</item>
+        <item>Titulek</item>
+        <item>Skupiny</item>
+        <item>Ikona účtu</item>
+        <item>Obrázky kontaktů</item>
+        <item>Tlačítko E-mail</item>
+        <item>SMS tlačítko</item>
+        <item>Tlačítko vytáčení</item>
+        <item>Poznámky</item>
+    </string-array>
+    <string-array name="pref_entries_showInTheSidebar">
+        <item>Skupiny</item>
+        <item>Organizace</item>
+        <item>Tituly</item>
+    </string-array>
+    <string-array name="purchase_channels">
+        <item>Google Play</item>
+        <item>PayPal nebo kreditní karta</item>
+        <item>Doporučit přátelům</item>
+    </string-array>
+    <string-array name="purchase_channels_summary">
+        <item>Zaregistrujte si tento software k vašemu účtu google (koupit a nainstalovat verzi Pro přes Google Play). Po instalaci verze Pro, odinstalujte verzi zdarma.</item>
+        <item>Registrujte software na sériové číslo zařízení: %s. Po zaplacení dostanete potvrzovací e-mail s registračním kódem. Poté zkontrolujte registraci pomocí klepnutí na [Kontrola registrace online].</item>
+        <item>Získejte zdarma registrační kód</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset n1:insetLeft="16.0dip"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <shape n1:shape="rectangle">
+        <corners n1:topLeftRadius="44.0dip" n1:topRightRadius="44.0dip" n1:bottomRightRadius="44.0dip" />
+        <padding n1:left="@dimen/fastscroll_label_padding" n1:right="@dimen/fastscroll_label_padding" />
+        <solid n1:color="?colorControlActivated" />
+    </shape>
+</inset>

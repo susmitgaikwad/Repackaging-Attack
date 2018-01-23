@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bt_items_archived_count">
+        <item quantity="other">%s ang minarkahang tapos na</item>
+        <item quantity="one">%s ang minarkahang tapos na</item>
+    </plurals>
+    <plurals name="bt_items_deleted">
+        <item quantity="other">%1$s ang na-delete</item>
+        <item quantity="one">%1$s ang na-delete</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d (na) minuto</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d (na) segundo</item>
+        <item quantity="one">1 segundo</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d (na) contact</item>
+        <item quantity="one">1 contact</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ang nahanap</item>
+        <item quantity="one">%d ang nahanap</item>
+    </plurals>
+</resources>

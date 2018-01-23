@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/ic_tab_recent" n1:id="@id/view_history" n1:title="@string/menu_showHistory"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:icon="@drawable/ic_action_text" n2:id="@id/send_sms" n2:title="@string/menu_sendMessage"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:icon="@drawable/ic_action_email" n3:id="@id/send_email" n3:title="@string/menu_sendMail"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <item n4:icon="@drawable/ic_action_edit" n4:id="@id/edit" n4:title="@string/menu_edit"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <group n5:id="@id/for_edit_content"
+      xmlns:n5="http://schemas.android.com/apk/res/android">
+        <item n5:icon="@drawable/ic_action_discard" n5:id="@id/delete" n5:orderInCategory="2" n5:title="@string/delete" />
+        <item n5:icon="@drawable/ic_action_add_field" n5:id="@id/add" n5:title="" />
+        <item n5:icon="@drawable/ic_remove_circle_outline_24dp" n5:id="@id/remove" n5:title="" />
+    </group>
+    <item n6:icon="@drawable/ic_action_music_note" n6:id="@id/set_ringtone" n6:title="@string/menu_setRingtone"
+      xmlns:n6="http://schemas.android.com/apk/res/android" />
+    <item n7:icon="@drawable/ic_action_launch" n7:id="@id/create_shortcut" n7:title="@string/create_shortcut"
+      xmlns:n7="http://schemas.android.com/apk/res/android" />
+</menu>
